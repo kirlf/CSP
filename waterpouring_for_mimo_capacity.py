@@ -12,7 +12,6 @@ def waterporing(Mt, SNR_dB, H_chan):
 	H_sq = np.dot(H_chan,np.matrix(H_chan).H)
 	lambdas = LA.eigvals(H_sq) 
 	lambdas = np.sort(lambdas)[::-1]
-	print(lambdas) 
 	p = 1;
 	gammas = np.zeros((r,1))
 	flag = True
