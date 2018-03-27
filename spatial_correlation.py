@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
-Developed by 
+Developed according to 
 Paulraj, Arogyaswami, Rohit Nabar, and Dhananjay Gore. 
 Introduction to space-time wireless communications. Cambridge university press, 2003. - p.40
 '''
