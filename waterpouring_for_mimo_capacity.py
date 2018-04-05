@@ -1,5 +1,5 @@
 '''
-By Paulraj, Arogyaswami, Rohit Nabar, and Dhananjay Gore. 
+According to Paulraj, Arogyaswami, Rohit Nabar, and Dhananjay Gore. 
 Introduction to space-time wireless communications. Cambridge university press, 2003. – p. 68-69
 '''
 
