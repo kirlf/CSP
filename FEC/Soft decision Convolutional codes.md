@@ -11,6 +11,8 @@ The main structural boxes for the simulation:
 6) Soft decision Viterbi decoder;
 7) BER calculation.
 
+Theoretical values are generated via the **bertool** GUI.
+
 ``` octave
 clear; close all; clc
 rng default
