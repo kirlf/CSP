@@ -28,7 +28,8 @@ trellis = poly2trellis(7,[171 133]);
 tbl = 32;
 rate = 1/2;
 
-decoders = comm.ViterbiDecoder(trellis,'TracebackDepth',tbl,'TerminationMethod','Continuous','InputFormat','Unquantized');
+decoders = comm.ViterbiDecoder(trellis,'TracebackDepth',tbl,...
+'TerminationMethod','Continuous','InputFormat','Unquantized');
 
 
 for n = 1:length(EbNoVec)
