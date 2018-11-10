@@ -16,12 +16,13 @@ clear; close all; clc
 rng default
 M = 4;                      % Modulation order
 k = log2(M);                % Bits per symbol
-EbNoVec = (0:15)';          % Eb/No values (dB)
 numSymPerFrame = 100000;    % Number of QAM symbols per frame
 
 modul = comm.RectangularQAMModulator(M, 'BitInput', true);
 berEstSoft = zeros(size(EbNoVec)); 
-soft_bertool = [0.500000000000000   0.0783896324670213  0.00710474393540032 0.000428949195656827    1.74024834281753e-05 ...    4.40336640596542e-07    5.60804795434027e-09    2.70206257989620e-11    3.57916979368945e-14    8.99739068685192e-18 ...  2.74381467584029e-22    5.84276962481868e-28    4.35508062487951e-35    4.76970915173631e-44    2.57382887992327e-55    1.72927075040153e-69];
+soft_bertool = [0.500000000000000   0.0783896324670213...
+    0.00710474393540032 0.000428949195656827 1.74024834281753e-05];
+EbNoVec = (0:length(soft_bertool)-1)';  % Eb/No values (dB)
 
 trellis = poly2trellis(7,[171 133]);
 tbl = 32;
@@ -81,3 +82,4 @@ end
 
 ![Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)](https://raw.githubusercontent.com/kirlf/communication_stuff/master/FEC/assets/Soft%20conv.png
 ).
+<center>Fig. 1. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)</center>
