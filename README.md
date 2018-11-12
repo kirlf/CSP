@@ -1,1 +1,3 @@
-# communication_stuff
+# Communication and Signal Processing 
+
+Different topics and materials. 
