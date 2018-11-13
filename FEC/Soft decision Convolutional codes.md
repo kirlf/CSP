@@ -2,11 +2,9 @@
 # Soft decision Convolutional codes 
 
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
-<div class="alert alert-info">
 
-**Note:** Corrections is done for **MatLab 2014a**.
+>**NOTE:** Corrections is done for **MatLab 2014a**.
 
-</div>
 
 The main structural blocks for the simulation:
 1) Message sourse;
