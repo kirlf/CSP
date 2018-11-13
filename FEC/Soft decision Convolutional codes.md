@@ -2,6 +2,11 @@
 
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. Corrections is done for **MatLab 2014a**.
 
+<div class="isa_info">
+    <i class="fa fa-info-circle"></i>
+    Replace this text with your own text.
+</div>
+
 The main structural blocks for the simulation:
 1) Message sourse;
 2) M-QAM modulator (*M* is ajustible);
