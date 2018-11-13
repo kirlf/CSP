@@ -1,47 +1,29 @@
-div {
-    margin-bottom: 15px;
-    padding: 4px 12px;
-}
+div { margin-bottom: 15px; padding: 4px 12px; } .danger { background-color: #ffdddd; border-left: 6px solid #f44336; } .success { background-color: #ddffdd; border-left: 6px solid #4CAF50; } .info { background-color: #e7f3fe; border-left: 6px solid #2196F3; } .warning { background-color: #ffffcc; border-left: 6px solid #ffeb3b; }
 
-.danger {
-    background-color: #ffdddd;
-    border-left: 6px solid #f44336;
-}
+## Notes
 
-.success {
-    background-color: #ddffdd;
-    border-left: 6px solid #4CAF50;
-}
-
-.info {
-    background-color: #e7f3fe;
-    border-left: 6px solid #2196F3;
-}
-
-
-.warning {
-    background-color: #ffffcc;
-    border-left: 6px solid #ffeb3b;
-}
-</style>
-</head>
-<body>
-
-<h2>Notes</h2>
 <div class="danger">
-  <p><strong>Danger!</strong> Some text...</p>
+
+**Danger!** Some text...
+
 </div>
 
 <div class="success">
-  <p><strong>Success!</strong> Some text...</p>
+
+**Success!** Some text...
+
 </div>
 
 <div class="info">
-  <p><strong>Info!</strong> Some text...</p>
+
+**Info!** Some text...
+
 </div>
 
 <div class="warning">
-  <p><strong>Warning!</strong> Some text...</p>
+
+**Warning!** Some text...
+
 </div>
 
 # Soft decision Convolutional codes 
