@@ -1,38 +1,11 @@
-div { margin-bottom: 15px; padding: 4px 12px; } .danger { background-color: #ffdddd; border-left: 6px solid #f44336; } .success { background-color: #ddffdd; border-left: 6px solid #4CAF50; } .info { background-color: #e7f3fe; border-left: 6px solid #2196F3; } .warning { background-color: #ffffcc; border-left: 6px solid #ffeb3b; }
-
-## Notes
-
-<div class="danger">
-
-**Danger!** Some text...
-
-</div>
-
-<div class="success">
-
-**Success!** Some text...
-
-</div>
-
-<div class="info">
-
-**Info!** Some text...
-
-</div>
-
-<div class="warning">
-
-**Warning!** Some text...
-
-</div>
 
 # Soft decision Convolutional codes 
 
-This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. Corrections is done for **MatLab 2014a**.
+This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
+<div class="alert alert-info">
 
-<div class="isa_info">
-    <i class="fa fa-info-circle"></i>
-    Replace this text with your own text.
+**Note:** Corrections is done for **MatLab 2014a**.
+
 </div>
 
 The main structural blocks for the simulation:
