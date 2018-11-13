@@ -2,7 +2,7 @@
 
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. Corrections is done for **MatLab 2014a**.
 
-The main structural boxes for the simulation:
+The main structural blocks for the simulation:
 1) Message sourse;
 2) M-QAM modulator (*M* is ajustible);
 3) Convolutional encoder;
