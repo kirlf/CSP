@@ -1,4 +1,48 @@
-<div @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); .isa_info, .isa_success, .isa_warning, .isa_error { margin: 10px 0px; padding:12px; } .isa_info { color: #00529B; background-color: #BDE5F8; } .isa_success { color: #4F8A10; background-color: #DFF2BF; } .isa_warning { color: #9F6000; background-color: #FEEFB3; } .isa_error { color: #D8000C; background-color: #FFD2D2; } .isa_info i, .isa_success i, .isa_warning i, .isa_error i { margin:10px 22px; font-size:2em; vertical-align:middle; }</div>
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+.success {
+    background-color: #ddffdd;
+    border-left: 6px solid #4CAF50;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+}
+</style>
+</head>
+<body>
+
+<h2>Notes</h2>
+<div class="danger">
+  <p><strong>Danger!</strong> Some text...</p>
+</div>
+
+<div class="success">
+  <p><strong>Success!</strong> Some text...</p>
+</div>
+
+<div class="info">
+  <p><strong>Info!</strong> Some text...</p>
+</div>
+
+<div class="warning">
+  <p><strong>Warning!</strong> Some text...</p>
+</div>
 
 # Soft decision Convolutional codes 
 
