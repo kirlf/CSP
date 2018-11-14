@@ -121,7 +121,8 @@ spect = distspec(trellis);
 encoders = comm.ConvolutionalEncoder(trellis,...
     'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
 decoders = comm.ViterbiDecoder(trellis,'TracebackDepth',tbl,...
-    'TerminationMethod','Continuous','InputFormat','Unquantized', 'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
+    'TerminationMethod','Continuous','InputFormat','Unquantized',...
+    'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
 
 
 for n = 1:length(EbNoVec)
