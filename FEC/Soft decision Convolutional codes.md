@@ -130,7 +130,6 @@ tbl = 32;
 rate = 2/3;
 
 spect = distspec(trellis);
-%soft_bertool = bercoding(EbNoVec,'conv','soft',rate,spect); % BER bound
 encoders = comm.ConvolutionalEncoder(trellis,...
     'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
 decoders = comm.ViterbiDecoder(trellis,'TracebackDepth',tbl,...
@@ -151,12 +150,10 @@ for n = 1:length(EbNoVec)
         dataIn = randi([0 1], numSymPerFrame*k, 1);
         
         % Convolutionally encode the data
-        %dataEnc = convenc(dataIn, trellis, [1; 1; 0; 1; 0; 1]);
         dataEnc = step(encoders, dataIn);
         reset(encoders);
 
         % QAM modulate
-        %txSig = qammod(dataEnc,M);%'InputType','bit','UnitAveragePower',true);
         txSig = step(modul, dataEnc);
 
         % Pass through AWGN channel
