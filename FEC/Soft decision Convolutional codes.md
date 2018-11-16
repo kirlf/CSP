@@ -100,7 +100,11 @@ ylabel('Bit Error Rate')
 
 # Punctured convolutional codes
 
+Usually, to obtain needed code rate convolutional encoded message should be punctured, e.g.:
+
 ![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
+
+Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
 
 Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb).
 
