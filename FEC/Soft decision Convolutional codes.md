@@ -100,6 +100,10 @@ ylabel('Bit Error Rate')
 
 # Punctured convolutional codes
 
+![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
+
+Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb).
+
 ``` octave
 clear; close all; clc
 rng default
