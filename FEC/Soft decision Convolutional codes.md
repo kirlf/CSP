@@ -110,6 +110,7 @@ Usually, to obtain needed code rate convolutional encoded message should be punc
 Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
 
 Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb).
+MATLAB simulation:
 
 ``` octave
 clear; close all; clc
