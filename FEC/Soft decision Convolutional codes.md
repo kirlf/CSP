@@ -98,6 +98,8 @@ ylabel('Bit Error Rate')
 ).
 <center>Fig. 1. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)</center>
 
+So, the curves are sufficiently matched. 
+
 # Punctured convolutional codes
 
 Usually, to obtain needed code rate convolutional encoded message should be punctured, e.g.:
