@@ -127,7 +127,7 @@ berEstSoft = zeros(size(EbNoVec));
 
 trellis = poly2trellis(7,[171 133]);
 tbl = 32;
-rate = 2/3;
+rate = 3/4;
 
 spect = distspec(trellis);
 encoders = comm.ConvolutionalEncoder(trellis,...
@@ -200,8 +200,10 @@ figure(1)
 semilogy(EbNoVec, soft_bertool.','-o',EbNoVec,berEstSoft(1:9).','-o', 'LineWidth', 1.5)
 grid on
 hold on
-legend('1/2 (theory)','2/3 (simulation)','location','best')
+legend('1/2 (theory)','3/4 (simulation)','location','best')
 grid on
 xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate')
 ```
+![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png).
+>Fig. 2. Convolutional codes with 1/2 and 3/4 code rates (and constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
