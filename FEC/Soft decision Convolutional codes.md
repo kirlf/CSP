@@ -20,15 +20,14 @@ Theoretical values are generated via the **bertool** GUI.
 ``` octave
 clear; close all; clc
 rng default
-M = 4;                      % Modulation order
-k = log2(M);                % Bits per symbol
-numSymPerFrame = 100000;    % Number of QAM symbols per frame
+M = 4;                 % Modulation order
+k = log2(M);            % Bits per symbol
+EbNoVec = (0:4)';       % Eb/No values (dB)
+numSymPerFrame = 100000;   % Number of QAM symbols per frame
 
 modul = comm.RectangularQAMModulator(M, 'BitInput', true);
 berEstSoft = zeros(size(EbNoVec)); 
-soft_bertool = [0.500000000000000   0.0783896324670213...
-    0.00710474393540032 0.000428949195656827 1.74024834281753e-05];
-EbNoVec = (0:length(soft_bertool)-1)';  % Eb/No values (dB)
+
 
 trellis = poly2trellis(7,[171 133]);
 tbl = 32;
@@ -85,6 +84,11 @@ for n = 1:length(EbNoVec)
     % Estimate the BER for both methods
     berEstSoft(n) = numErrsSoft/numBits;
 end
+
+%% Theoretical curves
+trellis = poly2trellis(7,[171 133]);
+spect = distspec(trellis, 7);
+soft_bertool = bercoding(EbNoVec,'conv','soft',1/2,spect); % BER bound
 
 semilogy(EbNoVec, berEstSoft,'-*',EbNoVec, soft_bertool.','-o','LineWidth', 1.5)
 hold on
@@ -187,12 +191,9 @@ for n = 1:length(EbNoVec)
     berEstSoft(n) = numErrsSoft/numBits;
 end
 
+%% Theoretical curves
 EbNoVec = (0:8)';
-
 trellis = poly2trellis(7,[171 133]);
-tbl = 32;
-rate = 1/2;
-
 spect = distspec(trellis, 7);
 soft_bertool = bercoding(EbNoVec,'conv','soft',1/2,spect); % BER bound
 
