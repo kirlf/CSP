@@ -207,3 +207,7 @@ ylabel('Bit Error Rate')
 ```
 ![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
 >Fig. 2. Convolutional codes with 1/2 and 3/4 code rates (and constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
+
+The 2 dB difference can be noted. Actually, it is the price for the higher data rate.
+
+
