@@ -205,5 +205,5 @@ grid on
 xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate')
 ```
-![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png).
+![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
 >Fig. 2. Convolutional codes with 1/2 and 3/4 code rates (and constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
