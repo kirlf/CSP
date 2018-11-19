@@ -105,7 +105,7 @@ ylabel('Bit Error Rate')
 
 So, the curves are sufficiently matched. Let us continue to use considered model.
 
-# Punctured convolutional codes
+## Punctured convolutional codes
 
 Usually, to obtain needed code rate convolutional encoded message should be punctured, e.g.:
 
@@ -211,4 +211,4 @@ ylabel('Bit Error Rate')
 
 The 2 dB difference can be noted. Actually, it is the price for the higher data rate.
 
-
+## Flat fading channel
