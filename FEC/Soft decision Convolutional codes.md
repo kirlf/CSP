@@ -218,8 +218,8 @@ The 2 dB difference can be noted. Actually, it is the price for the higher data 
 ## Flat fading channel
 
 More realistic case is the case of the [fading channel](https://github.com/kirlf/CSP/blob/master/Channels/RicianFlatFading.ipynb). Let us test capabilities of the soft decison  convolutional codes in two fadiing states:
-1. Rician factor $K = 4.0$ (relatively light Rician flat fading);
-2. Rician factor $K = 0$ (Rayleigh (no line-of-sight component) flat fading).
+1. Rician factor *K = 4.0* (relatively light Rician flat fading);
+2. Rician factor *K = 0* (Rayleigh (no line-of-sight component) flat fading).
 Additionally, we are plotting the AWGN curve from the previous simulation as the no fading case.
 
 ``` octave
@@ -305,4 +305,7 @@ for n = 1:length(EbNoVec)
     berEstSoft(n) = numErrsSoft/numBits;
 end
 ```
+
+![fading](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/34SoftFading.png)
+
 To sum up, we are noting that convolutional codes require more amount of redundacy to satisfy quality requirements, especially in real fading channels.
