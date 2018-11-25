@@ -216,3 +216,93 @@ ylabel('Bit Error Rate')
 The 2 dB difference can be noted. Actually, it is the price for the higher data rate.
 
 ## Flat fading channel
+
+More realistic case is the case of the [fading channel](https://github.com/kirlf/CSP/blob/master/Channels/RicianFlatFading.ipynb). Let us test capabilities of the soft decison  convolutional codes in two fadiing states:
+1. Rician factor $K = 4.0$ (relatively light Rician flat fading);
+2. Rician factor $K = 0$ (Rayleigh (no line-of-sight component) flat fading).
+Additionally, we are plotting the AWGN curve from the previous simulation as the no fading case.
+
+``` octave
+clear; close all; clc
+rng default
+M = 4;                 % Modulation order
+k = log2(M);            % Bits per symbol
+EbNoVec = (0:15)';       % Eb/No values (dB)
+numSymPerFrame = 300000;   % Number of QAM symbols per frame
+K = 4; %K=0 means Rayleigh fading;
+
+modul = comm.RectangularQAMModulator(M, 'BitInput', true);
+berEstSoft = zeros(size(EbNoVec)); 
+
+
+trellis = poly2trellis(7,[171 133]);
+tbl = 32;
+rate = 3/4;
+
+spect = distspec(trellis);
+encoders = comm.ConvolutionalEncoder(trellis,...
+    'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
+decoders = comm.ViterbiDecoder(trellis,'TracebackDepth',tbl,...
+    'TerminationMethod','Continuous','InputFormat','Unquantized',...
+    'PuncturePatternSource', 'Property', 'PuncturePattern', [1; 1; 0; 1; 0; 1]);
+
+
+for n = 1:length(EbNoVec)
+    % Convert Eb/No to SNR
+    snrdB = EbNoVec(n) + 10*log10(k*rate);
+    % Noise variance calculation for unity average signal power.
+    noiseVar = 10.^(-snrdB/10);
+    % Reset the error and bit counters
+    [numErrsSoft, numErrsHard, numBits] = deal(0);
+    
+    while numErrsSoft < 100 && numBits < 1e7
+        % Generate binary data and convert to symbols
+        dataIn = randi([0 1], numSymPerFrame*k, 1);
+        
+        % Convolutionally encode the data
+        dataEnc = step(encoders, dataIn);
+        reset(encoders);
+
+        % QAM modulate
+        txSig = step(modul, dataEnc);
+
+        % Fading
+        r = sqrt( K/(K+1))...
+            + sqrt( 1/(K+1))*(1/sqrt(2))*(randn(size(txSig)) + 1j*randn(size(txSig)));
+        ric_msg = txSig.*r; % Rician flat fading
+
+
+        % Pass through AWGN channel
+        rxSig = awgn(ric_msg, snrdB, 'measured');
+
+        % Zero-forcing equalization
+        noisy_mod = rxSig ./ r; %
+
+        % Demodulate the noisy signal using hard decision (bit) and
+        % soft decision (approximate LLR) approaches.
+        demods = comm.RectangularQAMDemodulator(M, 'BitOutput', true, ...
+        'DecisionMethod', 'Approximate log-likelihood ratio', 'VarianceSource', 'Property', 'Variance', noiseVar);
+        rxDataSoft = step(demods, noisy_mod);
+        reset(demods);
+    
+        % Viterbi decode the demodulated data
+        dataSoft = step(decoders, rxDataSoft);
+        
+        %reset(decoderh);
+        reset(decoders);
+        
+        % Calculate the number of bit errors in the frame. Adjust for the
+        % decoding delay, which is equal to the traceback depth.
+        numErrsInFrameSoft = biterr(dataIn(1:end-tbl), dataSoft(tbl+1:end));
+        
+        % Increment the error and bit counters
+        numErrsSoft = numErrsSoft + numErrsInFrameSoft;
+        numBits = numBits + numSymPerFrame*k;
+
+    end
+    
+    % Estimate the BER for both methods
+    berEstSoft(n) = numErrsSoft/numBits;
+end
+```
+To sum up, we are noting that convolutional codes require more amount of redundacy to satisfy quality requirements, especially in real fading channels.
