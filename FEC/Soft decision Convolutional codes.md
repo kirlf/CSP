@@ -65,7 +65,8 @@ for n = 1:length(EbNoVec)
         % Demodulate the noisy signal using hard decision (bit) and
         % soft decision (approximate LLR) approaches.       
         demods = comm.RectangularQAMDemodulator(M, 'BitOutput', true, ...
-        'DecisionMethod', 'Approximate log-likelihood ratio', 'VarianceSource', 'Property', 'Variance', noiseVar);
+        'DecisionMethod', 'Approximate log-likelihood ratio',...
+        'VarianceSource', 'Property', 'Variance', noiseVar);
         rxDataSoft = step(demods, rxSig);
         reset(demods);
     
