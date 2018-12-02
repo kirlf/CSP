@@ -3,6 +3,30 @@
 
 ## Introduction
 
+``` octave
+clear all
+close all
+clc
+
+EbNo = 0:7;
+lens = 5:9;
+gens = [[35 23]; [51 73]; [171 133]; [371 247]; [753 561]];
+
+for g = 1: length(gens)
+   spect =  distspec(poly2trellis(lens(g), gens(g,:)), 7);
+   ber(:, g) = bercoding(EbNo,'conv','soft',1/2,spect);
+end
+
+semilogy(EbNo, ber,'LineWidth', 1.5)
+hold on
+legend('(5,[35 23])','(6,[51 73])','(7,[171 133])','(8,[371 247])','(9,[753 561])','location','best')
+grid on
+xlabel('Eb/No (dB)')
+ylabel('Bit Error Rate')
+```
+
+
+
 ![LLR](https://i2.wp.com/www.gaussianwaves.com/gaussianwaves/wp-content/uploads/2012/07/PDF_of_BPSK_symbols.png?ssl=1)
 
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
