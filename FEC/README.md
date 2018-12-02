@@ -1,3 +1,9 @@
+### Summary
+
+1. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Soft%20decision%20Convolutional%20codes.md)
+
+### Preface
+
 The main idea of the channel codes can be formulated as following thesises:
 - We need to increase **noise immunity** of our signal;
 - We add **redundant bits** for error detection and error correction;
@@ -16,10 +22,6 @@ For the binary codes minimum distance between the all code words named **Hamming
 ![examp2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png)
 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
-
-### Summary
-
-1. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Soft%20decision%20Convolutional%20codes.md)
 
 ### Reference
 
