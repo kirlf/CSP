@@ -23,6 +23,14 @@ For the binary codes minimum distance between the all code words named **Hamming
 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
+Firstly, the channel codes can be classified by error detection and error correction capabolities:
+![class1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/harq.png)
+
+Secondly, they can be classified as block and continious codes:
+![class2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png)
+
+
+
 ### Reference
 
 [1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
