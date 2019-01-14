@@ -20,7 +20,7 @@ The name of convolutional codes directly relates to the convolution: encoding ca
 >
 > [Jupyter notebook](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
 >
-> [RISE slides]()
+> [RISE slides](https://www.dropbox.com/s/gt3bsjy7yw5fmse/Convolutional_codes.slides.html?dl=0)
 
 ``` octave
 clear all
