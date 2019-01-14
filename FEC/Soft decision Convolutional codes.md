@@ -1,7 +1,11 @@
 
-# Soft decision Convolutional codes 
+# Convolutional codes basics 
 
 ## Introduction
+
+[Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous error-correcting codes. They can be easily described via the polynomial structure, that can be also mapped into shift-registers representation:
+
+![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
 
 ![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
 
