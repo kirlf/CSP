@@ -3,6 +3,8 @@
 
 ## Introduction
 
+![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
+
 ``` octave
 clear all
 close all
