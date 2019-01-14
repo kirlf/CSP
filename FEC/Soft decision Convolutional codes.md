@@ -12,6 +12,14 @@ In practice, polynomial structures are selected from the reference books. Search
 Moreover, the following classification can be applied:
 ![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
 
+Non-systematic convolutional codes are more popular due to better noise immunity.
+
+The name of convolutional codes directly relates to the convolution: encoding can be done via this math routine.
+
+> See more in our Puthon tutorial:
+> [Jupyter notebook](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
+> [RISE slides]()
+
 ``` octave
 clear all
 close all
