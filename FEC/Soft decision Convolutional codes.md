@@ -48,10 +48,6 @@ xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate')
 ```
 
-
-
-![LLR](https://i2.wp.com/www.gaussianwaves.com/gaussianwaves/wp-content/uploads/2012/07/PDF_of_BPSK_symbols.png?ssl=1)
-
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
 
 >**NOTE:** Corrections is done for **MatLab 2014a**.
