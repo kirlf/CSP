@@ -1,6 +1,8 @@
 ### Summary
 
-1. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Soft%20decision%20Convolutional%20codes.md)
+1. Convolutional codes
+1.1 [Introduction](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
+1.2 [Modeling in MatLab](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md)
 
 ### Preface
 
