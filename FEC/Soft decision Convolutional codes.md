@@ -3,9 +3,12 @@
 
 ## Introduction
 
-[Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous error-correcting codes. They can be easily described via the polynomial structure, that can be also mapped into shift-registers representation:
+[Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous error-correcting codes. They can be easily described via the polynomial structure, that can be also mapped into shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
+
+In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code structure.  
+
 
 ![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
 
