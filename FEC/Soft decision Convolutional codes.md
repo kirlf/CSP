@@ -9,7 +9,7 @@
 
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code structure.  
 
-
+Moreover, the following classification can be applied:
 ![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
 
 ``` octave
