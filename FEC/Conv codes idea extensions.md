@@ -23,7 +23,7 @@ Syndrome decoding is used:
 
 Frequently are measured in symbols (bytes, blocks). Code rate can be calculated as:
 
-![RScoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png" alt="RScoderate" width="200"/>
 
 Can correct **t** symbols. The BER performance has the step-like character:
 
