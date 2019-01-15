@@ -67,6 +67,14 @@ Information in the input of the encoder is processed by blocks (chunks), the len
 
 > Very interesting research can be found also in [\[5\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
 
+Turbo covolutional decoders use **MAP** (maximum a posteriori probability) algorithms unlike convolutional codes. For example, classical  **BCJR** (Bahl, Cocke, Jelinek and Raviv)\[6\]. More simple implementations such as **Log-MAP**, **MAX-Log-MAP** or **SOVA** of Turbo convolutional decoder are also exist \[7\]. 
+
+> **See also**:
+>
+> [Turbo encoder MatLab object](https://www.mathworks.com/help/comm/ref/comm.turboencoder-system-object.html)
+> 
+> [Turbo decoder MatLab object](https://www.mathworks.com/help/comm/ref/comm.turbodecoder-system-object.html)
+
 
 ## References
 
@@ -79,3 +87,9 @@ Information in the input of the encoder is processed by blocks (chunks), the len
 \[4\] Balaji, Pavithra, et al. "Evaluation of decoding trade-offs of concatenated RS convolutional codes and turbo codes via trellis." Signal Processing and Integrated Networks (SPIN), 2015 2nd International Conference on. IEEE, 2015.
 
 \[5\] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
+
+\[6\] Bahl, Lalit, et al. "Optimal decoding of linear codes for minimizing symbol error rate (corresp.)." IEEE Transactions on information theory 20.2 (1974): 284-287.
+
+\[7\] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
+
+
