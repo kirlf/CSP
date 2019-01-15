@@ -24,8 +24,7 @@ Actually, encoding algorithms **separate** code words adding redundancy (kind of
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
 Minimum distance between all of the code words is named **Hamming distance** in case of binary codes .
-
-![examp2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png" alt="examp2" width="400"/>
 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
@@ -38,7 +37,7 @@ Secondly, they can be classified as block and continious codes:
 Redundancy of the channel coding schemes influences (decreases) bit rate. Actually, it is the cost for the noiseless increasing.
 **Net bit** rate concept is usually used:
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nebitrate.png" alt="net" width="300"/>
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nebitrate.png" alt="net" width="500"/>
 
 To change the code rate (k/n) of the block code dimensions of the Generator matrix can be changed:
 ![blockcoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png)
