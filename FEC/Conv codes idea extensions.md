@@ -25,10 +25,6 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 
 Can correct **t** symbols. The BER performance has the step-like character:
 
-### Little bit more about interleaving
-
-![interleaving](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png)
-
 
 > **Extra links**: 
 >
@@ -38,6 +34,22 @@ Can correct **t** symbols. The BER performance has the step-like character:
 >
 >[MatLab RS decoder](https://www.mathworks.com/help/comm/ref/comm.rsdecoder-system-object.html)
 
+
+### Little bit more about interleaving
+
+![interleaving](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png)
+
+
+### Outlooks of the RSCC
+
+Very old technique [2]. The part of the DVB-S standard, however was replaced in [DVB-S2](https://en.wikipedia.org/wiki/DVB-S2):
+
+![DVB-S2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/DVB_S2fec.png)
+
+Since 2000-s modern error correction schemes, such as Turbo codes, are used more widely in space communications \[3\].
+
+![TurboRSCC](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/turbovsrsBER.png)
+Fig. 1.3.2. Bit error rate curves for several codes with rates near 1/6: k ¼ 1784 and k¼ 8920 turbo codes and the (n ¼ 255, k¼ 223) Reed–Solomon code concatenated with a constraint length N ¼ 15, rate 1/6 convolutional code. \[3\]
 
 
 
@@ -49,3 +61,5 @@ Can correct **t** symbols. The BER performance has the step-like character:
 ## References
 
 \[1\] J. Hagenauer, E. Offer, and L. Papke, Reed Solomon Codes and Their Applications. New York IEEE Press, 1994
+\[2\] Ebert, P. M., and S. Y. Tong. "Convolutional Reed‐Solomon Codes." Bell Labs Technical Journal 48.3 (1969): 729-742.
+\[3\] Andrews, Kenneth S., et al. "The development of turbo and LDPC codes for deep-space applications." Proceedings of the IEEE 95.11 (2007): 2142-2156.
