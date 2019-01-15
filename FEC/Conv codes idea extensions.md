@@ -96,6 +96,7 @@ One of the most popular alternative of the Turbo convolutional codes is the clas
 
 ## Suggested literature
 
+### Turbo convolutional codes:
 \[1\] Battail, Gérard. "A conceptual framework for understanding turbo codes." IEEE Journal on Selected Areas in Communications 16.2 (1998): 245-254.
 
 \[2\] Brejza, Matthew F., et al. "20 years of turbo coding and energy-aware design guidelines for energy-constrained wireless applications." IEEE Communications Surveys & Tutorials 18.1 (2016): 8-28.
@@ -104,16 +105,18 @@ One of the most popular alternative of the Turbo convolutional codes is the clas
 
 \[4\] Garzón-Bohórquez, Ronald, Charbel Abdel Nour, and Catherine Douillard. "Improving Turbo codes for 5G with parity puncture-constrained interleavers." Turbo Codes and Iterative Information Processing (ISTC), 2016 9th International Symposium on. IEEE, 2016.
 
+### Quantum applications
+
 Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC
 
-\[5\] Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
+\[1\] Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
 
-\[6\] Lai, Ching-Yi, Min-Hsiu Hsieh, and Hsiao-feng Lu. "On the MacWilliams identity for classical and quantum convolutional codes." IEEE Transactions on Communications 64.8 (2016): 3148-3159.
+\[2\] Lai, Ching-Yi, Min-Hsiu Hsieh, and Hsiao-feng Lu. "On the MacWilliams identity for classical and quantum convolutional codes." IEEE Transactions on Communications 64.8 (2016): 3148-3159.
 
-\[7\] Poulin, David, Jean-Pierre Tillich, and Harold Ollivier. "Quantum serial turbo codes." IEEE Transactions on Information Theory 55.6 (2009): 2776-2798.
+\[3\] Poulin, David, Jean-Pierre Tillich, and Harold Ollivier. "Quantum serial turbo codes." IEEE Transactions on Information Theory 55.6 (2009): 2776-2798.
 
-\[8\] Wilde, Mark M., Min-Hsiu Hsieh, and Zunaira Babar. "Entanglement-assisted quantum turbo codes." IEEE Transactions on Information Theory 60.2 (2014): 1203-1222.
+\[4\] Wilde, Mark M., Min-Hsiu Hsieh, and Zunaira Babar. "Entanglement-assisted quantum turbo codes." IEEE Transactions on Information Theory 60.2 (2014): 1203-1222.
 
-\[9\] Djordjevic, Ivan. Quantum information processing and quantum error correction: an engineering approach. Academic press, 2012.
+\[5\] Djordjevic, Ivan. Quantum information processing and quantum error correction: an engineering approach. Academic press, 2012.
 
-\[10\] Lidar, Daniel A., and Todd A. Brun, eds. Quantum error correction. Cambridge University Press, 2013.
+\[6\] Lidar, Daniel A., and Todd A. Brun, eds. Quantum error correction. Cambridge University Press, 2013.
