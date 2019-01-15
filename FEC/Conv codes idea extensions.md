@@ -39,7 +39,7 @@ Can correct **t** symbols. The BER performance has the step-like character:
 
 ### Little bit more about interleaving
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="500"/>
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
 
 ### Outlooks of the RSCC
 
