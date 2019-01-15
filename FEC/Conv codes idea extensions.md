@@ -60,7 +60,7 @@ RSCC codes have the comparable complexity with Turbo codes \[4\], however worse 
 
 The structure of the encoder can be represented as:
 
-![TurboEncoder](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/TurboEncoder.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/TurboEncoder.png" alt="TurboEncoder" width="700"/>
 
 Information in the input of the encoder is processed by blocks (chunks), the length of the block directly influences BER performance.
 
