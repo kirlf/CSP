@@ -10,6 +10,8 @@ Fig. 1.3.1. Deep-space concatenated coding system. \[1, p. 433\]
 
 It relates to the [deep-space communication standard](https://ipnpr.jpl.nasa.gov/progress_report/42-63/63H.PDF) that allows to achieve sufficiently high BER performance.
 
+> You can read more about concatenated codes in [Scholarpedia](http://www.scholarpedia.org/article/Concatenated_codes#RS60), peer-reviewed open-access encyclopedia.
+
 ### Little bit more about Reed-Solomon codes
 
 Reed-Solomon (RS) codes is the type of [cyclic codes](https://en.wikipedia.org/wiki/Cyclic_code), i.e. a block codes, where the circular
