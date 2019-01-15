@@ -11,6 +11,8 @@
     
     1.4. [Python tutorial: Convolutional encoder](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
 
+# Extensions of the convolutional codes idea
+
 ## Reed-Solomon Convolutional concatenated (RSCC) codes
 
 Very popular option of the FEC in the satellite communication systems.
