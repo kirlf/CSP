@@ -21,6 +21,17 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 
 ![RScoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png)
 
+Can correct **t** symbols. 
+
+> ** Extra links**: 
+>
+> [MATLAB source code](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction#History)
+>
+> [MatLab RS encoder](https://www.mathworks.com/help/comm/ref/comm.rsencoder-system-object.html)
+>
+>[MatLab RS decoder](https://www.mathworks.com/help/comm/ref/comm.rsdecoder-system-object.html)
+
+
 
 
 
