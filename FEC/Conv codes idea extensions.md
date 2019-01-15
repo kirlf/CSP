@@ -75,6 +75,8 @@ Turbo covolutional decoders use **MAP** (maximum a posteriori probability) algor
 > 
 > [Turbo decoder MatLab object](https://www.mathworks.com/help/comm/ref/comm.turbodecoder-system-object.html)
 
+One of the most popular alternative of the Turbo convolutional codes is the class of the Low Density Parity Check (LDPC) codes.
+
 
 ## References
 
@@ -91,5 +93,16 @@ Turbo covolutional decoders use **MAP** (maximum a posteriori probability) algor
 \[6\] Bahl, Lalit, et al. "Optimal decoding of linear codes for minimizing symbol error rate (corresp.)." IEEE Transactions on information theory 20.2 (1974): 284-287.
 
 \[7\] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
+
+
+## Suggested literature
+
+\[1\] Battail, Gérard. "A conceptual framework for understanding turbo codes." IEEE Journal on Selected Areas in Communications 16.2 (1998): 245-254.
+
+\[2\] Brejza, Matthew F., et al. "20 years of turbo coding and energy-aware design guidelines for energy-constrained wireless applications." IEEE Communications Surveys & Tutorials 18.1 (2016): 8-28.
+
+\[3\] [3GPP LTE Turbo Reference Design](https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/an/an505.pdf)
+
+\[4\] Garzón-Bohórquez, Ronald, Charbel Abdel Nour, and Catherine Douillard. "Improving Turbo codes for 5G with parity puncture-constrained interleavers." Turbo Codes and Iterative Information Processing (ISTC), 2016 9th International Symposium on. IEEE, 2016.
 
 
