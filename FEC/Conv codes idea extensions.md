@@ -51,9 +51,7 @@ Since 2000-s modern error correction schemes, such as Turbo codes, are used more
 ![TurboRSCC](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/turbovsrsBER.png)
 Fig. 1.3.2. Bit error rate curves for several codes with rates near 1/6: k=1784 and k=8920 turbo codes and the (n=255, k=223) Reed–Solomon code concatenated with a constraint length N=15, rate 1/6 convolutional code. \[3\]
 
-
-
-
+RSCC codes have the comparable complexity with Turbo codes \[4\], however worse BER performance (fig. 1.3.2). 
 
 ## Turbo convolutional codes
 
@@ -65,3 +63,6 @@ Fig. 1.3.2. Bit error rate curves for several codes with rates near 1/6: k=1784 
 \[2\] Ebert, P. M., and S. Y. Tong. "Convolutional Reed‐Solomon Codes." Bell Labs Technical Journal 48.3 (1969): 729-742.
 
 \[3\] Andrews, Kenneth S., et al. "The development of turbo and LDPC codes for deep-space applications." Proceedings of the IEEE 95.11 (2007): 2142-2156.
+
+\[4\] Balaji, Pavithra, et al. "Evaluation of decoding trade-offs of concatenated RS convolutional codes and turbo codes via trellis." Signal Processing and Integrated Networks (SPIN), 2015 2nd International Conference on. IEEE, 2015.
+
