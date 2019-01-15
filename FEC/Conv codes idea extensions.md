@@ -21,7 +21,9 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 
 ![RScoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png)
 
-Can correct **t** symbols. 
+Can correct **t** symbols. The BER performance has the step-like character:
+
+
 
 > **Extra links**: 
 >
