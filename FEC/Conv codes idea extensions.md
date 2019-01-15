@@ -25,6 +25,9 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 
 Can correct **t** symbols. The BER performance has the step-like character:
 
+### Little bit more about interleaving
+
+![interleaving](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png)
 
 
 > **Extra links**: 
