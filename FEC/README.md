@@ -38,7 +38,7 @@ Secondly, they can be classified as block and continious codes:
 Redundancy of the channel coding schemes influences (decreases) bit rate. Actually, it is the cost for the noiseless increasing.
 **Net bit** rate concept is usually used:
 
-![net](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nebitrate.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nebitrate.png" alt="net" width="300"/>
 
 To change the code rate (k/n) of the block code dimensions of the Generator matrix can be changed:
 ![blockcoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png)
