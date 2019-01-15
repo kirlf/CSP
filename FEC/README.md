@@ -23,13 +23,13 @@ Actually, encoding algorithms **separate** code words adding redundancy (kind of
 
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
-For the binary codes minimum distance between the all code words named **Hamming distance**.
+Minimum distance between all of the code words is named **Hamming distance** in case of binary codes .
 
 ![examp2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png)
 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
-Firstly, the channel codes can be classified by error detection and error correction capabolities:
+Firstly, the channel codes can be classified by error detection and error correction capabilities:
 ![class1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/harq.png)
 
 Secondly, they can be classified as block and continious codes:
