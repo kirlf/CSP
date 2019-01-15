@@ -49,7 +49,7 @@ Very old technique [2]. The part of the DVB-S standard, however was replaced in 
 
 Since 2000-s modern error correction schemes, such as Turbo codes, are used more widely in space communications \[3\].
 
-![TurboRSCC](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/turbovsrsBER.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/turbovsrsBER.png" alt="TurboRSCC" width="700"/>
 Fig. 1.3.2. Bit error rate curves for several codes with rates near 1/6: k=1784 and k=8920 turbo codes and the (n=255, k=223) Reed–Solomon code concatenated with a constraint length N=15, rate 1/6 convolutional code. \[3\]
 
 RSCC codes have the comparable complexity with Turbo codes \[4\], however worse BER performance (fig. 1.3.2). 
