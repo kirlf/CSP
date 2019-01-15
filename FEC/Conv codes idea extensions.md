@@ -28,7 +28,7 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 Can correct **t** symbols. The BER performance has the step-like character:
 
 
-> **Extra links**: 
+> **See also**: 
 >
 > [MATLAB source code](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction#History)
 >
