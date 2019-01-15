@@ -57,6 +57,16 @@ RSCC codes have the comparable complexity with Turbo codes \[4\], however worse 
 
 ## Turbo convolutional codes
 
+[Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_code) are the part of the mobile communication (UMTS, CDMA2000, LTE), broadcast (DVB-RCS, DVB-RCT, DVB-SSP), deep space (CCSDS) and other standards.
+
+The structure of the encoder can be represented as:
+
+![TurboEncoder](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/TurboEncoder.png)
+
+Information in the input of the encoder is processed by blocks (chunks), the length of the block directly influences BER performance.
+
+> Very interesting research can be found also in [\[5\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
+
 
 ## References
 
@@ -68,3 +78,4 @@ RSCC codes have the comparable complexity with Turbo codes \[4\], however worse 
 
 \[4\] Balaji, Pavithra, et al. "Evaluation of decoding trade-offs of concatenated RS convolutional codes and turbo codes via trellis." Signal Processing and Integrated Networks (SPIN), 2015 2nd International Conference on. IEEE, 2015.
 
+\[5\] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
