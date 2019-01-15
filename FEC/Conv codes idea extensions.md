@@ -17,6 +17,9 @@ shifts of each code word gives another code word. Moreover, RS codes can be defi
 
 ![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
 
+Frequently are measured in symbols (bytes, blocks). 
+
+![RScoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png)
 
 
 
