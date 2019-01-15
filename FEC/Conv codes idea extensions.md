@@ -105,7 +105,7 @@ One of the most popular alternative of the Turbo convolutional codes is the clas
 
 \[4\] Garzón-Bohórquez, Ronald, Charbel Abdel Nour, and Catherine Douillard. "Improving Turbo codes for 5G with parity puncture-constrained interleavers." Turbo Codes and Iterative Information Processing (ISTC), 2016 9th International Symposium on. IEEE, 2016.
 
-### Quantum applications
+### Quantum applications:
 
 Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC
 
