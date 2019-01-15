@@ -12,7 +12,7 @@ It relates to the [deep-space communication standard](https://ipnpr.jpl.nasa.gov
 
 ### Little bit more about Reed-Solomon codes
 
-Reed-Solomon (RS) codes is the type of [cyclic codes](https://en.wikipedia.org/wiki/Cyclic_code), i.e. a block code, where the circular
+Reed-Solomon (RS) codes is the type of [cyclic codes](https://en.wikipedia.org/wiki/Cyclic_code), i.e. a block codes, where the circular
 shifts of each code word gives another code word. Moreover, RS codes can be defined as the specific, **non-binary** case of the [Bose–Chaudhuri–Hocquenghem (BCH)](https://en.wikipedia.org/wiki/BCH_code) codes. Syndrome decoding is used:
 
 ![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
