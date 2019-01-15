@@ -107,7 +107,7 @@ One of the most popular alternative of the Turbo convolutional codes is the clas
 
 ### Quantum applications:
 
-Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC
+Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC.
 
 \[1\] Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
 
