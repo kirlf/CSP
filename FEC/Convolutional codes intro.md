@@ -36,6 +36,29 @@ The name of convolutional codes directly relates to the convolution: encoding ca
 
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
 
+``` octave
+clear all 
+close all 
+clc 
+
+EbNo = 0:7; 
+spect = distspec(poly2trellis(7,[171 133]),7) 
+ber_h = bercoding(EbNo,'conv','hard',1/2,spect); 
+ber_s = bercoding(EbNo,'conv','soft',1/2,spect); 
+ber_u = berawgn(EbNo,'psk',4,'nondiff'); 
+
+figure(1) 
+semilogy(EbNo, ber_h, EbNo, ber_s,... 
+EbNo, ber_u, 'LineWidth', 1.5) 
+hold on 
+legend('Hard','Soft','Uncoded','location','best') 
+grid on 
+xlabel('Eb/No (dB)') 
+ylabel('Bit Error Rate') 
+```
+![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
+Fig. 1.1.1. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
+
 
 
 ``` octave
