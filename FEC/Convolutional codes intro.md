@@ -24,7 +24,7 @@ In practice, polynomial structures are selected from the reference books. Search
 Moreover, the following classification can be applied:
 ![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
 
-Non-systematic convolutional codes are more popular due to better noise immunity.
+Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[1, p. 508\].
 
 The name of convolutional codes directly relates to the convolution: encoding can be done via this math routine.
 
@@ -57,28 +57,52 @@ xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate') 
 ```
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
+
 Fig. 1.1.1. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
-
+If you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
 
 ``` octave
-clear all
-close all
-clc
+clear all 
+close all 
+clc 
 
-EbNo = 0:7;
-lens = 5:9;
-gens = [[35 23]; [51 73]; [171 133]; [371 247]; [753 561]];
+EbNo = 0:7; 
+lens = 5:9; 
+gens = [[35 23]; [51 73]; [171 133]; [371 247]; [753 561]]; 
 
-for g = 1: length(gens)
-   spect =  distspec(poly2trellis(lens(g), gens(g,:)), 7);
-   ber(:, g) = bercoding(EbNo,'conv','soft',1/2,spect);
-end
+for g = 1:length(gens) 
+    spect = distspec(poly2trellis(lens(g), gens(g,:)),lens(g)) 
+    ber_soft(:, g) = bercoding(EbNo,'conv','soft',1/2,spect); 
+    ber_hard(:, g) = bercoding(EbNo,'conv','hard',1/2,spect); 
+end 
+ber_u = berawgn(EbNo,'psk',4,'nondiff').'; 
 
-semilogy(EbNo, ber,'LineWidth', 1.5)
-hold on
-legend('(5,[35 23])','(6,[51 73])','(7,[171 133])','(8,[371 247])','(9,[753 561])','location','best')
-grid on
-xlabel('Eb/No (dB)')
-ylabel('Bit Error Rate')
+ber1 = [ber_soft ber_u]; 
+ber2 = [ber_hard ber_u]; 
+
+figure(1) 
+semilogy(EbNo, ber1,'LineWidth', 1.5) 
+hold on 
+legend('Soft (5,[35 23])',... 
+'Soft (6,[51 73])','Soft (7,[171 133])',... 
+'Soft (8,[371 247])','Soft (9,[753 561])',... 
+'Uncoded','location','best') 
+grid on 
+xlabel('Eb/No (dB)') 
+ylabel('Bit Error Rate') 
+
+figure(2) 
+semilogy(EbNo, ber2,'LineWidth', 1.5) 
+hold on 
+legend('Hard (5,[35 23])',... 
+'Hard (6,[51 73])','Hard (7,[171 133])',... 
+'Hard (8,[371 247])','Hard (9,[753 561])',... 
+'Uncoded','location','best') 
+grid on 
+xlabel('Eb/No (dB)') 
+ylabel('Bit Error Rate') 
 ```
+![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
+
+Fig. 1.1.2. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
