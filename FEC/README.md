@@ -10,9 +10,9 @@
     
     1.4. [Python tutorial: Convolutional encoder](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
 
-### Preface
+## Preface
 
-#### Main idea
+### Main idea
 The main idea of the channel codes can be formulated as following thesises:
 - We need to increase **noise immunity** of our signal;
 - We add **redundant bits** for error detection and error correction;
@@ -26,13 +26,13 @@ Actually, encoding algorithms **separate** code words adding redundancy (kind of
 
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
-#### Minimum distance
+### Minimum distance
 Minimum distance between all of the code words is named **Hamming distance** in case of binary codes .
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png" alt="examp2" width="400"/>
 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
-#### Classification
+### Classification
 Firstly, the channel codes can be classified by error detection and error correction capabilities:
 ![class1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/harq.png)
 
@@ -43,7 +43,7 @@ To decode block codes the syndrome decoding is frequently used:
 
 ![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
 
-#### Net bit rate
+### Net bit rate
 Redundancy of the channel coding schemes influences (decreases) bit rate. Actually, it is the cost for the noiseless increasing.
 **Net bit** rate concept is usually used:
 
@@ -60,7 +60,7 @@ Seems little bit tricky, however it really works in real systems. On the receive
 
 > Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
 
-#### Interleaving
+### Interleaving
 To increase separation in time domain and avoid bursty destortions **interleaving** procedure is also frequently used:
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
