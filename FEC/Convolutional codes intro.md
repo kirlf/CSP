@@ -15,6 +15,7 @@
 
 # Introduction
 
+## Encoding
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous error-correcting codes. They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
@@ -45,6 +46,7 @@ The name of convolutional codes directly relates to the convolution: encoding ca
 >
 > [RISE slides](https://www.dropbox.com/s/gt3bsjy7yw5fmse/Convolutional_codes.slides.html?dl=0)
 
+## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
