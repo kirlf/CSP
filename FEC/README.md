@@ -26,6 +26,12 @@ Actually, encoding algorithms **separate** code words adding redundancy (kind of
 
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
+To increase separation in time domain and avoid bursty destortions **interleaving** procedure is also frequently used:
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
+
+The most popular applications of the interleaving are concatenated codes (RSCC, Turbo codes etc.).
+
 ## Minimum distance
 Minimum distance between all of the code words is named **Hamming distance** in case of binary codes .
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png" alt="examp2" width="400"/>
@@ -59,13 +65,6 @@ To change the coderate of the continuous code, e.g. convolutional code, **punctu
 Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
 
 > Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
-
-## Interleaving
-To increase separation in time domain and avoid bursty destortions **interleaving** procedure is also frequently used:
-
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
-
-The most popular applications of the interleaving are concatenated codes (RSCC, Turbo codes etc.).
 
 ### Reference
 
