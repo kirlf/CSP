@@ -39,7 +39,8 @@ Frequently are measured in symbols (bytes, blocks). Code rate can be calculated 
 Can correct **t** symbols. The BER performance has the step-like character:
 
 ![RSBER](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/rs.png)
-Fig. 1.3.2. Theoretical BER performance of the Reed-Solomon code (N=255, K=233)
+
+Fig. 1.3.2. Theoretical BER performance of the Reed-Solomon code (N=255, K=233, QPSK, AWGN).
 
 > **See also**: 
 >
@@ -65,7 +66,7 @@ Since 2000-s modern error correction schemes, such as Turbo codes, are used more
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/turbovsrsBER.png" alt="TurboRSCC" width="700"/>
 Fig. 1.3.3. Bit error rate curves for several codes with rates near 1/6: k=1784 and k=8920 turbo codes and the (n=255, k=223) Reed–Solomon code concatenated with a constraint length N=15, rate 1/6 convolutional code. \[3\]
 
-RSCC codes have the comparable complexity with Turbo codes \[4\], however worse BER performance (fig. 1.3.2). 
+RSCC codes have the comparable complexity with Turbo codes \[4\], however worse BER performance (fig. 1.3.3). 
 
 ## Turbo convolutional codes
 
