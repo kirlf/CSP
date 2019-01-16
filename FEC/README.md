@@ -36,6 +36,10 @@ Firstly, the channel codes can be classified by error detection and error correc
 Secondly, they can be classified as block and continious codes:
 ![class2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png)
 
+To decode block codes the syndrome decoding is frequently used:
+
+![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
+
 Redundancy of the channel coding schemes influences (decreases) bit rate. Actually, it is the cost for the noiseless increasing.
 **Net bit** rate concept is usually used:
 
