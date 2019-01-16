@@ -19,7 +19,7 @@ The main idea of the channel codes can be formulated as following thesises:
 - We use some algorithms (coding schemes) for this;
 - Coding schemes can be simple or complicated and are used for different purposes, e.g. error detection, error correction in small SNR, error correction in large SNR  etc.
 
-![mainidea](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECmainidea.png)
+![mainidea]()
 
 Actually, encoding algorithms **separate** code words adding redundancy (kind of **diversity** in time domain). 
 ![examp1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp1.png)
