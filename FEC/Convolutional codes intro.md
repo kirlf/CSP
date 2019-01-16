@@ -27,6 +27,16 @@ Moreover, the following classification can be applied:
 
 Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[1, p. 508\].
 
+Additionally, convolutional codes can be devided into two groups: recursive and non-recursive:
+
+![recnonrec](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrec.png)
+
+> Fig. 1.1.2. Two state recurcive (a) and nonrecursive (b) encoder \[2\].
+
+Not so much different in BER performance:
+
+However, this type of CC is implemented in Turbo convolutional codes due to interleaving properties.
+
 The name of convolutional codes directly relates to the convolution: encoding can be done via this math routine.
 
 > See more in our Puthon tutorial:
@@ -61,7 +71,7 @@ ylabel('Bit Error Rate')
 ```
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
 
->Fig. 1.1.2. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
+>Fig. 1.1.3. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
 Moreover, if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
 
@@ -108,17 +118,7 @@ ylabel('Bit Error Rate')
 ```
 ![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
 
->Fig. 1.1.3. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
-
-Additionally, convolutional codes can be devided into two groups: recursive and non-recursive:
-
-![recnonrec](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrec.png)
-
-> Fig. 1.1.4. Two state recurcive (a) and nonrecursive (b) encoder \[2\].
-
-Not so much different in BER performance:
-
-However, this type of CC is implemented in Turbo convolutional codes due to interleaving properties.
+>Fig. 1.1.4. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
 
 The MATLAB modeling of the transmission of the encoded message is presented below. 
 
