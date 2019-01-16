@@ -28,11 +28,7 @@ It relates to the [deep-space communication standard](https://ipnpr.jpl.nasa.gov
 Reed-Solomon (RS) codes is the type of [cyclic codes](https://en.wikipedia.org/wiki/Cyclic_code), i.e. a block codes, where the circular
 shifts of each code word gives another code word. Moreover, RS codes can be defined as the specific, **non-binary** case of the [Bose–Chaudhuri–Hocquenghem (BCH)](https://en.wikipedia.org/wiki/BCH_code) codes. 
 
-Syndrome decoding is used:
-
-![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
-
-Frequently are measured in symbols (bytes, blocks). Code rate can be calculated as:
+Syndrome decoding is used. Frequently are measured in symbols (bytes, blocks). Code rate can be calculated as:
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/RScoderate.png" alt="RScoderate" width="500"/>
 
@@ -49,11 +45,6 @@ Can correct **t** symbols. The BER performance has the step-like character:
 > [MatLab RS encoder](https://www.mathworks.com/help/comm/ref/comm.rsencoder-system-object.html)
 >
 >[MatLab RS decoder](https://www.mathworks.com/help/comm/ref/comm.rsdecoder-system-object.html)
-
-
-### Little bit more about interleaving
-
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
 
 ### Outlooks of the RSCC
 
