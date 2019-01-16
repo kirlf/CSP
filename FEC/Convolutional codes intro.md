@@ -18,8 +18,8 @@
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous error-correcting codes. They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
+>Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)).
 
-Where m1 and m2 are the constrain lengths (memory length).
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
 
 Moreover, the following classification can be applied:
@@ -61,7 +61,7 @@ ylabel('Bit Error Rate')
 ```
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
 
-Fig. 1.1.1. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
+>Fig. 1.1.2. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
 Moreover, if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
 
@@ -108,7 +108,7 @@ ylabel('Bit Error Rate')
 ```
 ![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
 
-Fig. 1.1.2. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
+>Fig. 1.1.3. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
 
 The MATLAB modeling of the transmission of the encoded message is presented below. 
 
