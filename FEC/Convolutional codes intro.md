@@ -22,7 +22,7 @@
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
 
 Moreover, the following classification can be applied:
-![SysNonSys](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png" alt="SysNonSys" width="400"/>
 
 Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[1, p. 508\].
 
@@ -34,7 +34,9 @@ The name of convolutional codes directly relates to the convolution: encoding ca
 >
 > [RISE slides](https://www.dropbox.com/s/gt3bsjy7yw5fmse/Convolutional_codes.slides.html?dl=0)
 
-[Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
+[Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
+
+Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
 
 ``` octave
 clear all 
@@ -106,3 +108,9 @@ ylabel('Bit Error Rate')
 ![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
 
 Fig. 1.1.2. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
+
+The MATLAB modeling of the transmission of the encoded message is presented below. 
+
+### Reference
+
+[1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
