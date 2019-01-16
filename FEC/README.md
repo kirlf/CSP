@@ -46,6 +46,10 @@ To change the code rate (k/n) of the block code dimensions of the Generator matr
 
 To change the coderate of the continuous code, e.g. convolutional code, **puncturing** procedure is frequently used. 
 
+To increase separation in time domain and avoid bursty destortions **interleaving** procedure is frequently used:
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
+
 ### Reference
 
 [1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
