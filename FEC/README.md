@@ -48,11 +48,19 @@ Redundancy of the channel coding schemes influences (decreases) bit rate. Actual
 To change the code rate (k/n) of the block code dimensions of the Generator matrix can be changed:
 ![blockcoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png)
 
-To change the coderate of the continuous code, e.g. convolutional code, **puncturing** procedure is frequently used. 
+To change the coderate of the continuous code, e.g. convolutional code, **puncturing** procedure is frequently used:
 
-To increase separation in time domain and avoid bursty destortions **interleaving** procedure is frequently used:
+![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
+
+Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
+
+> Implementation of the "puncturing" and "isert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
+
+To increase separation in time domain and avoid bursty destortions **interleaving** procedure is also frequently used:
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving.png" alt="interleaving" width="700"/>
+
+The most popular applications of the interleaving are concatenated codes (RSCC, Turbo codes etc.).
 
 ### Reference
 
