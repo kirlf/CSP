@@ -19,6 +19,7 @@
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
 
+Where m1 and m2 are the constrain lengths (memory length).
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
 
 Moreover, the following classification can be applied:
@@ -62,7 +63,7 @@ ylabel('Bit Error Rate')
 
 Fig. 1.1.1. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
-If you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
+Moreover, if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
 
 ``` octave
 clear all 
