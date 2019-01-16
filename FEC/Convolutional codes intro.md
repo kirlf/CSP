@@ -110,8 +110,21 @@ ylabel('Bit Error Rate')
 
 >Fig. 1.1.3. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
 
+Additionally, convolutional codes can be devided into two groups: recursive and non-recursive:
+
+![recnonrec](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrec.png)
+
+> Fig. 1.1.4. Two state recurcive (a) and nonrecursive (b) encoder \[2\].
+
+Not so much different in BER performance:
+
+However, this type of CC is implemented in Turbo convolutional codes due to interleaving properties.
+
 The MATLAB modeling of the transmission of the encoded message is presented below. 
 
 ### Reference
 
-[1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+\[1\] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+
+\[2\] Benedetto, Sergio, and Guido Montorsi. "Role of recursive convolutional codes in turbo codes." Electronics Letters 31.11 (1995): 858-859.
+
