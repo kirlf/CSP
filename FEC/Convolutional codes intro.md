@@ -61,10 +61,18 @@ Where *y* is the code word, *x* is the initial message and *h* is the generator 
 >
 > [RISE slides](https://www.dropbox.com/s/gt3bsjy7yw5fmse/Convolutional_codes.slides.html?dl=0)
 
+Actually, the encoding procedure can be represented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
 
+> Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html):
+>
+> [Trellis diagram and shift-registers](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis1.jpg)
+>
+> [State diagram (compact form of the Trellis)](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis2.jpg)
+>
+> [Tail bits (termination of the Trellis)](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis3.jpg)
 
 ## Decoding
-[Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
+[Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
 
