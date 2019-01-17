@@ -21,6 +21,11 @@
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
 >Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)).
 
+> NOTE THAT:
+>
+> All of the math operations should be done by modulo 2.
+
+
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
 
 Moreover, the following classification can be applied:
@@ -42,13 +47,21 @@ Not so much different in BER performance:
 
 However, this type of CC is implemented in Turbo convolutional codes due to interleaving properties.
 
-The name of convolutional codes directly relates to the convolution: encoding can be done via this math routine.
+The name of convolutional codes directly relates to the discrete [convolution](https://en.wikipedia.org/wiki/Convolution): encoding can be done via this math routine.
 
-> See more in our Puthon tutorial:
+![formula](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/convformula.png)
+
+Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. For example, for the (7, \[177, 133\]) structure the branches are:
+
+![branches](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png)
+
+> See the example of encoding based on the shift-registers in our Puthon tutorial:
 >
 > [Jupyter notebook](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
 >
 > [RISE slides](https://www.dropbox.com/s/gt3bsjy7yw5fmse/Convolutional_codes.slides.html?dl=0)
+
+
 
 ## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
