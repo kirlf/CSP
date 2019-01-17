@@ -49,11 +49,11 @@ However, this type of CC is implemented in Turbo convolutional codes due to inte
 
 The name of convolutional codes directly relates to the discrete [convolution](https://en.wikipedia.org/wiki/Convolution): encoding can be done via this math routine.
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/convformula.png" alt="formula" weight="300"/>
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/convformula.png" alt="formula" width="300"/>
 
 Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. For example, for the (7, \[177, 133\]) structure the branches are:
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" weight="300"/>
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" width="300"/>
 
 > See the example of encoding based on the shift-registers in our Puthon tutorial:
 >
