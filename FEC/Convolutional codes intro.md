@@ -21,7 +21,7 @@
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
 >Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)).
 
-> NOTE THAT:
+> **NOTE THAT**:
 >
 > All of the math operations should be done by modulo 2.
 
