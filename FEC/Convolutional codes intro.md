@@ -51,7 +51,7 @@ The name of convolutional codes directly relates to the discrete [convolution](h
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/convformula.png" alt="formula" width="400"/>
 
-Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. For example, for the (7, \[177, 133\]) structure the branches are:
+Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. [For example](http://web.mit.edu/6.02/www/f2010/handouts/lectures/L8.pdf), for the (7, \[177, 133\]) structure the branches are:
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" width="400"/>
 
