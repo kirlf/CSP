@@ -217,3 +217,12 @@ ylabel('Bit Error Rate')
 >Fig. 1.2.2. Convolutional codes with 1/2 and 3/4 code rates (and constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
 
 The 2 dB difference can be noted. Actually, it is the price for the higher data rate.
+
+
+## Suggested literature:
+
+1. Modestino, J., and Shou Mui. "Convolutional code performance in the Rician fading channel." IEEE Transactions on Communications 24.6 (1976): 592-606.
+
+2. Chen, Yuh-Long, and Che-Ho Wei. "Performance evaluation of convolutional codes with MPSK on Rician fading channels." IEE Proceedings F-Communications, Radar and Signal Processing. Vol. 134. No. 2. IET, 1987.
+
+
