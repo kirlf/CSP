@@ -95,7 +95,6 @@ for n = 1:length(EbNoVec)
 end
 
 %% Theoretical curves
-trellis = poly2trellis(7,[171 133]);
 spect = distspec(trellis, 7);
 soft_bertool = bercoding(EbNoVec,'conv','soft',1/2,spect); % BER bound
 
@@ -192,7 +191,6 @@ for n = 1:length(EbNoVec)
 end
 
 %% Theoretical curves
-trellis = poly2trellis(7,[171 133]);
 spect = distspec(trellis, 7);
 soft_bertool = bercoding(EbNoVec,'conv','soft',1/2,spect); % BER bound
 
