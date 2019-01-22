@@ -76,13 +76,9 @@ for n = 1:length(EbNoVec)
         'DecisionMethod', 'Approximate log-likelihood ratio',...
         'VarianceSource', 'Property', 'Variance', noiseVar);
         rxDataSoft = step(demods, rxSig);
-        reset(demods);
     
         % Viterbi decode the demodulated data
         dataSoft = step(decoders, rxDataSoft);
-        
-        %reset(decoderh);
-        reset(decoders);
         
         % Calculate the number of bit errors in the frame. Adjust for the
         % decoding delay, which is equal to the traceback depth.
@@ -122,6 +118,8 @@ So, the curves are sufficiently matched. Let us continue to use considered model
 
 The options *'PuncturePatternSource'* should be defined as *'Property'* and *'PuncturePattern'* should be specified in the **ConvolutionalEncoder** and **ViterbiDecoder** blocks to apply the puncturing.
 
+> Parameters were selected according to [Punctured Convolutional Coding](https://uk.mathworks.com/help/comm/ug/punctured-convolutional-coding-1.html) MathWorks example.
+
 MATLAB simulation:
 
 ``` octave
@@ -129,15 +127,15 @@ clear; close all; clc
 rng default
 M = 4;                 % Modulation order
 k = log2(M);            % Bits per symbol
-EbNoVec = (0:15)';       % Eb/No values (dB)
+EbNoVec = (0:8)';       % Eb/No values (dB)
 numSymPerFrame = 300000;   % Number of QAM symbols per frame
 
-modul = comm.RectangularQAMModulator(M, 'BitInput', true);
+modul = comm.PSKModulator(M, 'BitInput', true);
 berEstSoft = zeros(size(EbNoVec)); 
 
 
 trellis = poly2trellis(7,[171 133]);
-tbl = 32;
+tbl = 96;
 rate = 3/4;
 
 spect = distspec(trellis);
@@ -162,7 +160,6 @@ for n = 1:length(EbNoVec)
         
         % Convolutionally encode the data
         dataEnc = step(encoders, dataIn);
-        reset(encoders);
 
         % QAM modulate
         txSig = step(modul, dataEnc);
@@ -173,17 +170,13 @@ for n = 1:length(EbNoVec)
         % Demodulate the noisy signal using hard decision (bit) and
         % soft decision (approximate LLR) approaches.
         
-        demods = comm.RectangularQAMDemodulator(M, 'BitOutput', true, ...
+        demods = comm.PSKDemodulator(M, 'BitOutput', true, ...
         'DecisionMethod', 'Approximate log-likelihood ratio', 'VarianceSource', 'Property', 'Variance', noiseVar);
         rxDataSoft = step(demods, rxSig);
-        reset(demods);
     
         % Viterbi decode the demodulated data
         dataSoft = step(decoders, rxDataSoft);
-        
-        %reset(decoderh);
-        reset(decoders);
-        
+               
         % Calculate the number of bit errors in the frame. Adjust for the
         % decoding delay, which is equal to the traceback depth.
         numErrsInFrameSoft = biterr(dataIn(1:end-tbl), dataSoft(tbl+1:end));
@@ -199,13 +192,12 @@ for n = 1:length(EbNoVec)
 end
 
 %% Theoretical curves
-EbNoVec = (0:8)';
 trellis = poly2trellis(7,[171 133]);
 spect = distspec(trellis, 7);
 soft_bertool = bercoding(EbNoVec,'conv','soft',1/2,spect); % BER bound
 
 figure(1)
-semilogy(EbNoVec, soft_bertool.','-o',EbNoVec,berEstSoft(1:9).','-o', 'LineWidth', 1.5)
+semilogy(EbNoVec, soft_bertool.','-o',EbNoVec,berEstSoft.','-o', 'LineWidth', 1.5)
 grid on
 hold on
 legend('1/2 (theory)','3/4 (simulation)','location','best')
@@ -216,7 +208,7 @@ ylabel('Bit Error Rate')
 ![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
 >Fig. 1.2.2. Convolutional codes with 1/2 and 3/4 code rates (and constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
 
-The 2 dB difference can be noted. Actually, it is the price for the higher data rate.
+The 1 dB difference can be noted. Actually, it is the price for the higher data rate.
 
 
 ## Suggested literature:
