@@ -11,7 +11,7 @@
     
     1.3. [Extensions of the convolutional codes idea](https://github.com/kirlf/CSP/blob/master/FEC/Conv%20codes%20idea%20extensions.md)
     
-    1.4. [Python tutorial: Convolutional encoder](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
+    1.4. [Python tutorial: Convolutional encoder](https://nbviewer.jupyter.org/format/slides/gist/kirlf/a70a3e65b24c1c80db5874b7d4c0f184#/)
 
 # Introduction
 
