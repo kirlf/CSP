@@ -1,5 +1,3 @@
-# Convolutional codes basics
-
 ### Summary
 1. Convolutional codes
 
