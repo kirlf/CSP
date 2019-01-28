@@ -5,6 +5,8 @@ Different topics and materials.
 I. Channel coding
 
 II. MIMO technology
+1. MATLAB tutorials:
+* [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
 
 III. Different topics
 1. Information theory
