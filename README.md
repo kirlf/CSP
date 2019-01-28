@@ -9,6 +9,7 @@ II. MIMO technology
 * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
 2. Python tutorials:
 * [MIMO channel capacity](https://nbviewer.jupyter.org/gist/kirlf/84bf4b04bed6af648c34316ee178d3ea)
+* [Multi-User MIMO](https://nbviewer.jupyter.org/gist/kirlf/08e5d74cbd80d8b51f7554c344a33d60)
 
 III. Different topics
 1. Information theory
