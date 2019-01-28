@@ -7,6 +7,8 @@ I. Channel coding
 II. MIMO technology
 1. MATLAB tutorials:
 * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
+2. Python tutorials:
+* [MIMO channel capacity](https://nbviewer.jupyter.org/gist/kirlf/84bf4b04bed6af648c34316ee178d3ea)
 
 III. Different topics
 1. Information theory
