@@ -50,7 +50,7 @@ frame = zeros(frame_len, 1); %memory allocation
 pilot_pointer = 1; % pointer (not C pointer) to an index in the pilots vector - just a modeling tric
 inf_pointer = 1; % pointer (not C pointer) to an index in the message vector - just a modeling tric
 
-% C-style of the frame generation
+% "C-style" of the frame generation
 for i = 1:length(frame)
     if (i ~= 1) && (i ~= 2) && (i ~= (length(frame)/2)) && (i ~= length(frame)) && (i ~= (length(frame)-1)) 
     % we know exactly where nulls should be and therefore we permit insertion into these positions
@@ -74,4 +74,4 @@ for i = 1:length(frame)
     end
 end
 % So, maybe, it's interesting to know how something can be done in classical way, 
-% however more resonable solution is using of the certain programming language opportunaties   
+% however more reasonable solution is using of the certain programming language opportunaties   
