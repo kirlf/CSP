@@ -117,7 +117,7 @@ frame(inf_ind) = info_symbols
 
 Isn't it magic? I believe, this part of the tutorial will be useful for your research projects.
 
-## Suggested literature and links
+## Suggested literature
 
 \[1\] [Prof. Dr.-Ing. habil. Andreas Mitschele-Thiel's lectures](https://www.tu-ilmenau.de/en/integrated-communication-systems-group/teaching/master-studies/?lecture_id=27)
 
