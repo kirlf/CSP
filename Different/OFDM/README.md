@@ -35,7 +35,7 @@ Let us predefine our techinical task. Assume that we have:
 * fixed number of subcarriers, 
 * fixed length of the OFDM frame and 
 * we should to add one null to the middle and couples of nulls to the begining and the end of the frame;
-* information symbols are modulated by pi/4-QPSK \( or 4-QAM \). 
+* information symbols are modulated by QPSK \( or 4-QAM \). 
 
 Fortunatelly, syntax of MatLab is not so difficult for understanding and there is no necessity to explain it for a long time. Briefly, we can note that :
 
@@ -72,9 +72,47 @@ end
 Ok, we have defined number of information symbols, nulls and have calculated number of pilots. However, indexes \(positions\) of subcariers and pilots haven't been defined yet. Of course, for simple examples it works to define that explisetly:
 
 ```Octave
+% Assume that we have strictly defined positions of subcarriers in the frame:
+inf_ind = [4;5;7;8;10;11;13;14;18;19;21;22;24;25;27;29]; 
+```
+
+However, for the real projects we have to use frames with a lot of elements \(256 , 512 e.t.c.\) and therefore more useful to construct index vectors automaticaly.
+
+```Octave
 inf_ind_1 = (floor(linspace(4,14,num_inf_ind/2))).'; 
 inf_ind_2 = (floor(linspace(18,29,num_inf_ind/2))).';
 inf_ind = [inf_ind_1;inf_ind_2]; % simple concatenation
 ```
-However, for the real projects we have to use frames with a lot of elements \(256 , 512 e.t.c.\) and therefore more useful to construct index vectors automaticaly.
 
+For pilots we use other MatLab features:
+
+```Octave
+inf_and_nulls = union(inf_ind,nulls); %concatenation and ascending sorting
+pilot_indexes = setdiff(1:frame_len,inf_and_nulls); %numbers in range from 1 to frame length 
+% that don't overlape with inf_and_nulls vector
+```
+
+After that we will use several linear algebra tricks. If it is difficult to imagine procedures by reading the code, you can use paper and test samples (I use this old-fashioned approach very often).
+
+```Octave
+%% Pilots vector
+% it should be very convinient to insert pilots if we prepare before "long-vector"
+
+pilots = [1;j;-1;-j]; % pilots vector - actually, prototype
+pilots_len_psudo = floor(num_pilots/length(pilots)); % floor rounds value to lower integer
+% - now we know how many full pilots vectors OFDM-frame consists
+
+mat_1 = pilots*ones(1,pilots_len_psudo); % rank-one matrix - linear algebra trick
+resh = reshape(mat_1,pilots_len_psudo*length(pilots),1); % vectorization - linear algebra trick
+
+tail_len = frame_len  - num_inf_ind - length(nulls) - length(pilots)*pilots_len_psudo; 
+tail = pilots(1:tail_len); % "tail" of pilots vector
+vec_pilots = [resh;tail]; % completed pilots vector that frame consists
+
+%% Frame construction
+frame = zeros(frame_len,1);
+frame(pilot_indexes) = vec_pilots;
+frame(inf_ind) = info_symbols
+```
+
+Isn't it magic? I believe, this part of the tutorial will be useful for your research projects.
