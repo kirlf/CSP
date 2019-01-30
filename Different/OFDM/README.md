@@ -53,12 +53,14 @@ We guess more fruitful to see it in the example. Click the **Create new script**
 clear all; close all; clc
 
 M = 4; % e.g. QPSK 
-bits = log2(M); % bits per modulation symbol
-
-frame_len = 32; % the length of our OFDM frame
-message = randi([0 1], 16*bits, 1); % binary information symbols
 num_inf_ind = 16; % number of subcarriers (information symbols, actually) in the frame
+frame_len = 32; % the length of our OFDM frame
+
 num_pilots = frame_len - num_inf_ind - 5; % number of pilots
+nulls = [1,2,frame_len/2,frame_len-1,frame_len]; %indexes of nulls
+
+message = randi([0 M-1], num_inf_ind, 1); % binary information symbols
+
 pilots = [1;j;-1;-j]; % what kind of pilots we use
 nulls = [1,2,frame_len/2,frame_len-1,frame_len]; %indexes of nulls
 
@@ -97,8 +99,6 @@ After that we will use several linear algebra tricks. If it is difficult to imag
 ```Octave
 %% Pilots vector
 % it should be very convinient to insert pilots if we prepare before "long-vector"
-
-pilots = [1;j;-1;-j]; % pilots vector - actually, prototype
 pilots_len_psudo = floor(num_pilots/length(pilots)); % floor rounds value to lower integer
 % - now we know how many full pilots vectors OFDM-frame consists
 
@@ -124,25 +124,3 @@ Isn't it magic? I believe, this part of the tutorial will be useful for your res
 \[2\]Kwak, Y., Sabbaghian, M., Smida, B., & Tarokh, V. \(2011, January\). Low peak to average power ratio Turbo Block QPSK coded OFDM. In Consumer Communications and Networking Conference \(CCNC\), 2011 IEEE \(pp. 637-641\). IEEE.
 
 \[3\] Lin, Jia-Chin. "Least-squares channel estimation for mobile OFDM communication on time-varying frequency-selective fading channels." IEEE Transactions on Vehicular Technology 57.6 \(2008\): 3538-3550.
-
-\[4\] [MathWorks: Digital Signal Processing](https://ch.mathworks.com/solutions/dsp.html)
-
-\[5\] [https://docs.python.org/2.3/whatsnew/section-enumerate.html](https://docs.python.org/2.3/whatsnew/section-enumerate.html)
-
-\[6\] [Pandas](http://pandas.pydata.org/pandas-docs/stable/)
-
-\[7\] [NumPy](http://www.numpy.org/)
-
-\[8\] [SciPy](https://www.scipy.org/)
-
-\[9\] [GNURadio](https://github.com/gnuradio/gnuradio/blob/master/gr-digital/python/digital/qpsk.py)
-
-\[10\] [CommPy](https://github.com/veeresht/CommPy)
-
-\[11\] Materials in Russian:
-
-[http://www.wireless-e.ru/articles/wifi/2006\_3\_14.php](http://www.wireless-e.ru/articles/wifi/2006_3_14.php)
-
-[https://yadi.sk/i/x8s5jfz03QvpmV](https://yadi.sk/i/x8s5jfz03QvpmV)
-
-[https://yadi.sk/i/fQwF9QTi3Qvpre](https://yadi.sk/i/fQwF9QTi3Qvpre)
