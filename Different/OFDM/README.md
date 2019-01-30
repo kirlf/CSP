@@ -121,6 +121,6 @@ Isn't it magic? I believe, this part of the tutorial will be useful for your res
 
 \[1\] [Prof. Dr.-Ing. habil. Andreas Mitschele-Thiel's lectures](https://www.tu-ilmenau.de/en/integrated-communication-systems-group/teaching/master-studies/?lecture_id=27)
 
-\[2\]Kwak, Y., Sabbaghian, M., Smida, B., & Tarokh, V. \(2011, January\). Low peak to average power ratio Turbo Block QPSK coded OFDM. In Consumer Communications and Networking Conference \(CCNC\), 2011 IEEE \(pp. 637-641\). IEEE.
+\[2\] Kwak, Y., Sabbaghian, M., Smida, B., & Tarokh, V. \(2011, January\). Low peak to average power ratio Turbo Block QPSK coded OFDM. In Consumer Communications and Networking Conference \(CCNC\), 2011 IEEE \(pp. 637-641\). IEEE.
 
 \[3\] Lin, Jia-Chin. "Least-squares channel estimation for mobile OFDM communication on time-varying frequency-selective fading channels." IEEE Transactions on Vehicular Technology 57.6 \(2008\): 3538-3550.
