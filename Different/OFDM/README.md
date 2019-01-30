@@ -13,7 +13,7 @@ This tutorial aims to show the opportunities of modeling without different **GUI
 
 The author does not deny that for certain purposes it is more convenient to use the  **Simulink**, however, he is deeply convinced that the solutions made with the help of programming languages are more manageable, faster \(in terms of speed of processing\) and elegant.
 
-The way of modeling of the **OFDM **signal generator based on the MATLAB language features will be presented in this tutorial. 
+The way of modeling of the **OFDM** signal generator based on the MATLAB language features will be presented in this tutorial. 
 This approach will rely entirely on MATLAB's matrices magic and if after that you will still consider Simulink as a simpler solution - [*well, nobody is perfect*](https://www.youtube.com/watch?v=CYUfPTeE0DM).
 
 So, all the words are said, tune in to a serious mood, let's go!
