@@ -35,14 +35,14 @@ Let us predefine our techinical task. Assume that we have:
 * fixed number of subcarriers, 
 * fixed length of the OFDM frame and 
 * we should to add one null to the middle and couples of nulls to the begining and the end of the frame;
-* information symbols are modulated by pi/4-QPSK \( or QAM-4 - see more in [this section](https://vladimirfadeev.gitbooks.io/ofdm-frame-generator-tutorial/content/appendix.html)\). 
+* information symbols are modulated by pi/4-QPSK \( or 4-QAM \). 
 
 Fortunatelly, syntax of MatLab is not so difficult for understanding and there is no necessity to explain it for a long time. Briefly, we can note that :
 
 * comments can be added after '%' symbol, 
 * semicolon \(';'\) in the end of the row \(line\) is not necessary and only doesn't allow displaying of the result,
 * tabulation is also not necessary, but it always is a good taste, 
-* indexes in MatLab begin from **1** \(unlike **Python **or **C **where indexec begin from **0**\);
+* indexes in MatLab begin from **1** \(unlike **Python** or **C** where indexec begin from **0**\);
 * needed help you can obtain via **F1** hotkey or from the [official MathWorks site](https://ch.mathworks.com/solutions/dsp.html).
 
 ## Modeling
