@@ -74,7 +74,6 @@ Ok, we have defined number of information symbols, nulls and have calculated num
 ```Octave
 inf_ind_1 = (floor(linspace(4,14,num_inf_ind/2))).'; 
 inf_ind_2 = (floor(linspace(18,29,num_inf_ind/2))).';
-
 inf_ind = [inf_ind_1;inf_ind_2]; % simple concatenation
 ```
 However, for the real projects we have to use frames with a lot of elements \(256 , 512 e.t.c.\) and therefore more useful to construct index vectors automaticaly.
