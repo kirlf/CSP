@@ -28,9 +28,9 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 
 > Additionally, you can learn more by IEEE standarts and papers \(e.g. [this](http://ieeexplore.ieee.org/document/5766559/) and [this](http://ieeexplore.ieee.org/document/4459272/) - God, bless Alexandra Elbakyan!\).
 
-![FrGen](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/frame_gen.png)
-
 We should mention that we don't consider cyclic prefix and preamble in this work, because we believe that to add this items to your research projects wont be a difficult task  after this tutorial.
+
+![FrGen](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/frame_gen.png)
 
 Let us predefine our techinical task. Assume that we have:
 
