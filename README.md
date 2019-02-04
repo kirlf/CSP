@@ -14,7 +14,7 @@ I. [Channel coding](https://github.com/kirlf/CSP/tree/master/FEC)
     
     1.4. [Python tutorial: Convolutional encoder](https://nbviewer.jupyter.org/format/slides/gist/kirlf/a70a3e65b24c1c80db5874b7d4c0f184#/)
 
-II. MIMO technology
+II. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 1. MATLAB tutorials:
     * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/gist/kirlf/9587c6859db08e5e813b0650f97c7344)
