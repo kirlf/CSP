@@ -2,7 +2,7 @@
 
 To decrease frequency selective fading impacts Space-Time coding techniques are used in conjunction with frequency separation, e.g. with OFDM.
 
-It increases dimensions of considered model and therefore requires new methods and solutions, e.g. tensor based analysis \[1\].
+It increases dimensions of considered model and therefore requires new methods and solutions, e.g. **tensor based** analysis \[1\].
 
 ![OFDM](https://raw.githubusercontent.com/kirlf/CSP/master/MIMO/assets/MIMO-OFDM.png)
 
