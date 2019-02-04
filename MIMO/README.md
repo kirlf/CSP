@@ -15,7 +15,7 @@ This work is prepared for students of MS-CSP (Communication and Signal Processin
 
 Small information about me:
 
-My name is Vladimimir Fadeev, I was born in 1993 in Naberezhnye Chelny (Russia), graduated school in 2011 and Bachelor programm (with honors) in KNRTU-KAI named after A.N. Tupolev (Communication technologies and Systems - IRET-RTS). In 2015 I entered the Master program in GRIAT (MS-CSP) and received my M.Sc. degree in 2017.
+My name is Vladimir Fadeev, I was born in 1993 in Naberezhnye Chelny (Russia), graduated school in 2011 and Bachelor programm (with honors) in KNRTU-KAI named after A.N. Tupolev (Communication technologies and Systems - IRET-RTS). In 2015 I entered the Master program in GRIAT (MS-CSP) and received my M.Sc. degree in 2017.
 
 MIMO technologies is the one of the subjects in 2-nd term and it was special honor for us that lecturer was Dr.-Ing. Martin Haardt (TU Ilmenau). Unfortunatelly, I was seriously ill during the second part of the course (last 1.5 weeks)... So, I've passed exam only the second time and, frankly speaking, with not so high score.
 
