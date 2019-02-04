@@ -24,6 +24,7 @@ However, I've decided to solve (at least, for myself) all of the unclear items t
 So, results of my speciefic hobby you can estimate reading this repository. Hopefully, they are apprehensible and usefull.
 
 Have a nice reading, good day, nice week and good luck!
+
 M.Sc. Vladimir Fadeev
 
 ![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
