@@ -23,6 +23,7 @@ II. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
     * [Multi-User MIMO](https://nbviewer.jupyter.org/gist/kirlf/08e5d74cbd80d8b51f7554c344a33d60)
 3. Self-education:
     * [Spatial correlation (tasks)](https://github.com/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
+    * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
 
 III. Different topics
 1. Information theory
