@@ -4,15 +4,8 @@ Different topics and materials.
 
 I. [Channel coding](https://github.com/kirlf/CSP/tree/master/FEC)
 
-1. Convolutional codes
-
-    1.1. [Introduction](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
-    
-    1.2. [Modeling in MatLab](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md)
-    
-    1.3. [Extensions of the convolutional codes idea](https://github.com/kirlf/CSP/blob/master/FEC/Conv%20codes%20idea%20extensions.md)
-    
-    1.4. [Python tutorial: Convolutional encoder](https://nbviewer.jupyter.org/format/slides/gist/kirlf/a70a3e65b24c1c80db5874b7d4c0f184#/)
+1. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
+2. LDPC
 
 II. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 1. MATLAB tutorials:
