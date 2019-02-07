@@ -31,6 +31,7 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 **Short history of the frequency selective fading mitigation techniques**: 
 
 1. 2G: frequency hopping
+
 ![freqhop](http://www.teletopix.org/wp-content/uploads/2012/12/gsm-base-frequency-hopping.jpg)
 >[TELETOPIX.ORG](http://www.teletopix.org/gsm/slow-and-fast-frequency-hopping-in-gsm/)
 
@@ -38,8 +39,8 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 ![spr](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/spreading.png)
 
 3. 4G: Ortogonal Frequency Division Multiplexing (OFDM)
+
 ![ofdmbas](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png)
-![ofdmbas2](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/ofdmbasics.png)
 
 What is the difference beatwen **OFDM** and **OFDMA**?
 
