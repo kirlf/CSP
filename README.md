@@ -19,10 +19,10 @@ II. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
 
 III. Different topics
-1. Information theory
-    * [Huffman codes tutorial](https://nbviewer.jupyter.org/format/slides/gist/kirlf/622edd619c29e6374c124a2914a242ea#/)
-2. Signal processing
+1. Modeling basics
+    * [OFDM frame generator (MATLAB tutorial)](https://github.com/kirlf/CSP/tree/master/Different/OFDM)
+2. Digital Signal Processing
     * [Fast Fourier Transform and its applications (rus)](https://nbviewer.jupyter.org/gist/kirlf/71a2e16e406cd8ccff983bfd55a97a84)
     * [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
-3. Wireless communications
-    * [OFDM frame generator (MATLAB tutorial)](https://github.com/kirlf/CSP/tree/master/Different/OFDM)
+3. Information theory aspects
+    * [Huffman codes tutorial](https://nbviewer.jupyter.org/format/slides/gist/kirlf/622edd619c29e6374c124a2914a242ea#/)
