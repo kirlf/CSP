@@ -28,6 +28,31 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 
 > Additionally, you can learn more by IEEE standarts and papers \(e.g. [this](http://ieeexplore.ieee.org/document/5766559/) and [this](http://ieeexplore.ieee.org/document/4459272/) - God, bless Alexandra Elbakyan!\).
 
+**Short history of the frequency selective fading mitigation techniques**: 
+
+![multipath](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/multipath.png)
+
+1. 2G: frequency hopping
+![freqhop](http://www.teletopix.org/wp-content/uploads/2012/12/gsm-base-frequency-hopping.jpg)
+>[TELETOPIX.ORG](http://www.teletopix.org/gsm/slow-and-fast-frequency-hopping-in-gsm/)
+
+2. 3G: spread spectrum
+![spr](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/spreading.png)
+![rake](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/rake.png)
+![macrodiv](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/macrodiv.png)
+
+3. 4G: Ortogonal Frequency Division Multiplexing (OFDM)
+![ofdmbas](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png)
+![ofdmbas2](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/ofdmbasics.png)
+
+What is the difference beatwen **OFDM** and **OFDMA**?
+
+![ofdm-a](https://i.postimg.cc/T3TR4FQP/ofdm-vs-ofdma-trucks-4.jpg)
+>[https://postimg.cc/bsFcG67X](https://postimg.cc/bsFcG67X)
+
+
+## Technical task
+
 We should mention that we don't consider cyclic prefix and preamble in this work, because we believe that to add this items to your research projects wont be a difficult task  after this tutorial.
 
 ![FrGen](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/frame_gen.png)
