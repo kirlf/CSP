@@ -30,16 +30,12 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 
 **Short history of the frequency selective fading mitigation techniques**: 
 
-![multipath](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/multipath.png)
-
 1. 2G: frequency hopping
 ![freqhop](http://www.teletopix.org/wp-content/uploads/2012/12/gsm-base-frequency-hopping.jpg)
 >[TELETOPIX.ORG](http://www.teletopix.org/gsm/slow-and-fast-frequency-hopping-in-gsm/)
 
 2. 3G: spread spectrum
 ![spr](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/spreading.png)
-![rake](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/rake.png)
-![macrodiv](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/macrodiv.png)
 
 3. 4G: Ortogonal Frequency Division Multiplexing (OFDM)
 ![ofdmbas](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png)
