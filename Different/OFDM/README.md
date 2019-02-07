@@ -36,11 +36,11 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 >[TELETOPIX.ORG](http://www.teletopix.org/gsm/slow-and-fast-frequency-hopping-in-gsm/)
 
 2. 3G: spread spectrum
-![spr](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/spreading.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/spreading.png" width="600"/>
 
 3. 4G: Ortogonal Frequency Division Multiplexing (OFDM)
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png" width="400"/>
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png" width="600"/>
 
 What is the difference beatwen **OFDM** and **OFDMA**?
 
