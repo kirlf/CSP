@@ -40,7 +40,7 @@ Before we start I would recomend you to learn basic stuff about OFDM and its app
 
 3. 4G: Ortogonal Frequency Division Multiplexing (OFDM)
 
-![ofdmbas](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/cdma-ofdma.png" width="400"/>
 
 What is the difference beatwen **OFDM** and **OFDMA**?
 
