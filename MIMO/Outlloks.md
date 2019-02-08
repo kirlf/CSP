@@ -28,7 +28,7 @@ See the [following link](https://www.tu-ilmenau.de/en/integrated-communication-s
 
 ## Virtual MIMO (hybrid with the satellites)
 
-The hybrid schemes of terestrial and space communications may be also considered as an idea [3-5].
+The hybrid schemes of terestrial and space communications may be also considered as an idea [3-6].
 
 ![satellites](https://raw.githubusercontent.com/kirlf/CSP/master/MIMO/assets/Cooperativeeng.png)
 
@@ -44,3 +44,5 @@ The hybrid schemes of terestrial and space communications may be also considered
 4. Pérez-Neira, A. I., Ibars, C., Serra, J., Del Coso, A., Gómez-Vilardebó, J., Caus, M., & Liolis, K. P. (2011). MIMO channel modeling and transmission techniques for multi-satellite and hybrid satellite–terrestrial mobile networks. Physical Communication, 4(2), 127-139.
 
 5. Kyröläinen, J., Hulkkonen, A., Ylitalo, J., Byman, A., Shankar, B., Arapoglou, P. D., & Grotz, J. (2014). Applicability of MIMO to satellite communications. International Journal of Satellite Communications and Networking, 32(4), 343-357.
+
+6. Arapoglou, P. D., Liolis, K., Bertinelli, M., Panagopoulos, A., Cottis, P., & De Gaudenzi, R. (2011). MIMO over satellite: A review. IEEE communications surveys & tutorials, 13(1), 27-51.
