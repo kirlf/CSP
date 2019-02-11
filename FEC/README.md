@@ -69,3 +69,10 @@ Seems little bit tricky, however it really works in real systems. On the receive
 ### Reference
 
 [1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+
+### Afterwords
+
+The following Wikipedia articles were contributed based on this page:
+* [Error correction code](https://en.wikipedia.org/wiki/Error_correction_code)
+* [Code rate](https://en.wikipedia.org/wiki/Code_rate)
+* [Puncturing](https://en.wikipedia.org/wiki/Puncturing)
