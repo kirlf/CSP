@@ -177,4 +177,8 @@ The MATLAB modeling of the transmission of the encoded message is presented belo
 
 \[5\] Нгок Д. К. Исследование методов поиска оптимальных сверточных и перфорированных сверточных кодов : дис. – Диссертация на соискание ученой степени кандидата технических наук. СПб.: ЛЭТИ, 2014.
 
+### Afterwords
+
+The following Wikipedia articles were contributed based on this page:
+* [Convolutional code](https://en.wikipedia.org/wiki/Convolutional_code)
 
