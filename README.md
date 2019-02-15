@@ -1,6 +1,6 @@
 # Communication and Signal Processing 
 
-Different topics and materials. 
+Different topics and materials about CSP. 
 
 I. [Channel coding](https://github.com/kirlf/CSP/tree/master/FEC)
 
