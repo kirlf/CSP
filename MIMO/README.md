@@ -30,3 +30,9 @@ M.Sc. Vladimir Fadeev
 
 ![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
 > *Fig.1. [SISO, SIMO, MISO and MIMO schemes](https://www.welotec.com/de/lte-mimo-antennen).*
+
+## Afterwords
+The following Wikipedia articles were contributed based on these materials:
+* [MIMO](https://en.wikipedia.org/wiki/MIMO)
+* [Multi-user MIMO](https://en.wikipedia.org/wiki/Multi-user_MIMO)
+* [Spatial correlation](https://en.wikipedia.org/wiki/Spatial_correlation#Mathematical_description)
