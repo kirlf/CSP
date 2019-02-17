@@ -24,5 +24,5 @@ III. Different topics
 2. Digital Signal Processing
     * [Fast Fourier Transform and its applications (rus)](https://nbviewer.jupyter.org/gist/kirlf/71a2e16e406cd8ccff983bfd55a97a84)
     * [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
-3. Information theory aspects
+3. Information theory and coding aspects
     * [Huffman codes tutorial](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
