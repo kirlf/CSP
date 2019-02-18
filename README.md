@@ -30,8 +30,7 @@ This material was prepared as:
     * [Fast Fourier Transform and its applications (rus)](https://nbviewer.jupyter.org/gist/kirlf/71a2e16e406cd8ccff983bfd55a97a84)
 
 This material was prepared especially for the [Advanced Digital Signal Processing](http://e.kai.ru/%D0%B3%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82-%D0%BD%D0%BE%D0%B2%D1%8B%D1%85-%D1%82%D0%B5/) subject (in discussion now). 
- 
-   * [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
+    * [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
 This material was prepared as a self-taining in python modeling. The results are the part of the contribution to the [Phased Antenna Arrays(rus)](https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B0) 
 Wikipedia article.
