@@ -23,8 +23,8 @@ III. Different topics
     * [OFDM frame generator (MATLAB tutorial)](https://github.com/kirlf/CSP/tree/master/Different/OFDM)
     
 This material was prepared as: 
-   1) self-training in scripts writing;
-   2) a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
+   - self-training in scripts writing;
+   - a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
 
 2. Digital Signal Processing
     * [Fast Fourier Transform and its applications (rus)](https://nbviewer.jupyter.org/gist/kirlf/71a2e16e406cd8ccff983bfd55a97a84)
