@@ -38,7 +38,7 @@ Minimum distance between all of the code words is named **Hamming distance** in 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
 ## Classification
-Firstly, the channel codes can be classified by error detection and error correction capabilities:
+Firstly, the channel codes can be classified by error detection and [error correction](https://en.wikipedia.org/wiki/Error_correction_code) capabilities:
 ![class1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/harq.png)
 
 Secondly, they can be classified as block and continious codes:
