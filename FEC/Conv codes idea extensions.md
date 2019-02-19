@@ -124,8 +124,3 @@ Another interesting application of the channel codes are the quantum communicati
 \[5\] Djordjevic, Ivan. Quantum information processing and quantum error correction: an engineering approach. Academic press, 2012.
 
 \[6\] Lidar, Daniel A., and Todd A. Brun, eds. Quantum error correction. Cambridge University Press, 2013.
-
-### Afterwords
-
-The following Wikipedia articles were contributed based on this page:
-* [Reed–Solomon error correction](https://en.wikipedia.org/wiki/Reed–Solomon_error_correction)
