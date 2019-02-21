@@ -4,7 +4,7 @@
     * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
 2. Python tutorials:
-    * [MIMO channel capacity](https://nbviewer.jupyter.org/gist/kirlf/84bf4b04bed6af648c34316ee178d3ea)
+    * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
     * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 3. Self-education:
     * [Spatial correlation (tasks)](https://github.com/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
