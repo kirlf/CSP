@@ -5,7 +5,7 @@
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/gist/kirlf/9587c6859db08e5e813b0650f97c7344)
 2. Python tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/gist/kirlf/84bf4b04bed6af648c34316ee178d3ea)
-    * [Multi-User MIMO](https://nbviewer.jupyter.org/gist/kirlf/08e5d74cbd80d8b51f7554c344a33d60)
+    * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 3. Self-education:
     * [Spatial correlation (tasks)](https://github.com/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
