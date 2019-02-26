@@ -46,7 +46,7 @@ Redundancy of the channel coding schemes influences (decreases) bit rate. Actual
 To change the code rate (k/n) of the block code dimensions of the Generator matrix can be changed:
 ![blockcoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png)
 
-To change the coderate of the continuous code, e.g. convolutional code, **puncturing** procedure is frequently used:
+To change the coderate of the continuous code, e.g. [convolutional code](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md), **puncturing** procedure is frequently used:
 
 ![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
 
