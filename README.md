@@ -20,15 +20,11 @@ This material was prepared as:
    - self-training in scripts writing;
    - a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
    
-2. [Channel coding basics](https://github.com/kirlf/CSP/tree/master/FEC)
-
-This was prepared based on the lesson slides.
-
-3. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
+2. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
 
 Basics and MATLAB modelig examples.
 
-4. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
+3. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
 
 This material was prepared as a self-taining in python modeling. The results are the part of the contribution to the [Phased Antenna Arrays(rus)](https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B0) 
