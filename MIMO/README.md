@@ -7,8 +7,11 @@
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
     * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 3. Self-education:
-    * [Spatial correlation (tasks)](https://github.com/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
+    * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
+
+![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
+> *Fig.1. [SISO, SIMO, MISO and MIMO schemes](https://www.welotec.com/de/lte-mimo-antennen).*
 
 # Preface
 
@@ -28,5 +31,4 @@ Have a nice reading, good day, nice week and good luck!
 
 M.Sc. Vladimir Fadeev
 
-![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
-> *Fig.1. [SISO, SIMO, MISO and MIMO schemes](https://www.welotec.com/de/lte-mimo-antennen).*
+
