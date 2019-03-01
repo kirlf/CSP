@@ -81,7 +81,7 @@ Turbo covolutional decoders use **MAP** (maximum a posteriori probability) algor
 
 > Fig. 1.3.5. Code-Block Error Rate performance of the LTE Turbo codes. Source: ["Parallel Concatenated Convolutional Coding: Turbo Codes"(MathWorks)](https://www.mathworks.com/help/comm/examples/parallel-concatenated-convolutional-coding-turbo-codes.html) 
 
-One of the most popular alternative of the Turbo convolutional codes is the class of the Low Density Parity Check (LDPC) codes.
+One of the most popular alternative of the Turbo convolutional codes is the class of the [Low Density Parity Check (LDPC)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb) codes.
 
 
 ## References
