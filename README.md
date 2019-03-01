@@ -20,11 +20,11 @@ This material was prepared as:
    - self-training in scripts writing;
    - a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
    
-2. [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
+2. [Convolutional codes basics](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
 
 Basics and MATLAB modelig examples.
 
-3. [LDPC codes](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb)
+3. [LDPC codes (with Python example)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb)
 
 This was developed based on my Advanced Research project materials.
 
