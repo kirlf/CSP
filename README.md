@@ -10,7 +10,7 @@ I. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
     * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 3. Self-education:
-    * [Spatial correlation (tasks)](https://github.com/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
+    * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
 
 II. Different topics
