@@ -27,5 +27,5 @@ Basics and MATLAB modelig examples.
 3. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
 
-This material was prepared as a self-taining in python modeling. The results are the part of the contribution to the [Phased Antenna Arrays(rus)](https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B0) 
+This material was prepared as a self-taining in python modeling. The results are the part of the contribution to the [Phased Antenna Arrays (rus)](https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B0) 
 Wikipedia article.
