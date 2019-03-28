@@ -30,4 +30,4 @@ This was developed based on my Advanced Research project materials.
 
 4. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
-This material was prepared as a self-taining in python modeling.
+This material was prepared as a self-training in python modeling.
