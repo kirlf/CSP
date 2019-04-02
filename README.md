@@ -26,6 +26,6 @@ This material was prepared as:
    - self-training in scripts writing;
    - a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
 
-2.[Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
+2. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
-3.[Periodogram (python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
+3. [Periodogram (python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
