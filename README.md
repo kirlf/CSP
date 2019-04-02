@@ -28,4 +28,4 @@ This material was prepared as:
 
 2.[Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
-This material was prepared as a self-training in python modeling.
+3.[Periodogram (python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
