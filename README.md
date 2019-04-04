@@ -23,7 +23,5 @@ III. Different topics
 1. [OFDM frame generator (MATLAB tutorial)](https://github.com/kirlf/CSP/tree/master/Different/OFDM)
     
 > This material was prepared as a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
-
-2. [Adaptive Antenna Arrays (rus)](https://nbviewer.jupyter.org/gist/kirlf/1b70de0ef1b9cdf3c00c317920e8d252)
     
-3. [Periodogram (python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
+2. [Periodogram (python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
