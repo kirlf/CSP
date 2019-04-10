@@ -1,4 +1,5 @@
 # MIMO technology basics
+## M.Sc. Vladimir Fadeev
 
 ## Summary
 
