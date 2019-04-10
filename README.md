@@ -24,6 +24,6 @@ III. Different topics
     
 > This material was prepared as a demonstration of the fact that modeling in MATLAB is not much more complicated than modeling in Simulink.
 
-2. [Huffman codes basics](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
+2. [Huffman codes basics (with python example)](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
     
 3. [Periodogram (small python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
