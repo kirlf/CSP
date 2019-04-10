@@ -51,12 +51,6 @@ Where *y* is the code word, *x* is the initial message and *h* is the generator 
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" width="400"/>
 
-> See the example of encoding based on the shift-registers in our Puthon tutorial:
->
-> [Jupyter notebook](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional_encoder.ipynb)
->
-> [RISE slides](https://www.dropbox.com/s/no7rbkjtc0b2ky4/Convolutional_codes.slides.html?dl=0)
-
 Actually, the encoding procedure can be represented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
 
 > Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html):
