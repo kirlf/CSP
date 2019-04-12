@@ -2,6 +2,8 @@
 
 Different topics and materials about CSP. 
 
+![](https://griat.kai.ru/documents/11766/5832734/GRIAT_Logo_small.png/b7879498-3575-4797-b725-f0e7eef9103e?t=1489845157157)
+
 1. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
 - MATLAB tutorials:
