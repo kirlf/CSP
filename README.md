@@ -6,15 +6,15 @@
 
 1. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
-- MATLAB tutorials:
+   - MATLAB tutorials:
     * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
 
-- Python tutorials:
+   - Python tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
     * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 
-- Self-education:
+   - Self-education:
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
 
