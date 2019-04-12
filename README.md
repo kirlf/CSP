@@ -35,4 +35,4 @@
 
    
     
-6. [Periodogram (small python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
+4. [Periodogram (small python example)](https://commons.wikimedia.org/wiki/File:Periodogram_windows.png)
