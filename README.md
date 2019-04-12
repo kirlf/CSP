@@ -25,6 +25,7 @@
 3. [Huffman codes basics (with python example)](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
 
 4. [Channel coding: main principles](https://github.com/kirlf/CSP/blob/master/FEC/README.md)
+* [Slides](https://speakerdeck.com/kirlf/channel-coding-schemes)
 
 5. [Convolutional codes basics (with MATLAB examples)](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
 
