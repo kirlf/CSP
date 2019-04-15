@@ -6,18 +6,8 @@
 
 1. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
-> These materials were preperaded as a feasible help for preparation to the 
-- MATLAB tutorials:
-    * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
-    * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
-
-- Python tutorials:
-    * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
-    * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
-
-- Self-education:
-    * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
-    * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
+> These materials were preperaded as a feasible help for preparation to the [prof. Martin Haardt's](http://www5.tu-ilmenau.de/nt/en/private_home/haardt/bio/index.html) "MIMO technology" course.
+Small lecures with MATLAB and python examples about [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb) and [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb) can be found via this link. Moreover, topics, such as [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb) and [Spatial correlation](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)? are considered as a self-education issues.
 
 2. [OFDM frame generator (MATLAB tutorial)](https://github.com/kirlf/CSP/tree/master/Different/OFDM)
     
