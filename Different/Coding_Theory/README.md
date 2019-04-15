@@ -1,4 +1,5 @@
 # Entropy and channel codes
+## M.Sc. Vladimir Fadeev
 
 [HOME](https://github.com/kirlf/CSP/blob/master/README.md)
 
