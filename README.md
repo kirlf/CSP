@@ -6,6 +6,7 @@
 
 1. [MIMO technology](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
+> These materials were preperaded as a feasible help for preparation to the 
 - MATLAB tutorials:
     * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
