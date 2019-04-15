@@ -31,7 +31,7 @@
 * [Channel coding: main principles](https://github.com/kirlf/CSP/blob/master/FEC/README.md)
    * [Slides](https://speakerdeck.com/kirlf/channel-coding-schemes)
 
-* [Convolutional codes basics (with MATLAB examples)](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
+* [Convolutional codes basics](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md) (with [MATLAB examples](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md))
 
    
     
