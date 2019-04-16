@@ -2,7 +2,7 @@
 ## M.Sc. Vladimir Fadeev, M.Sc. Zlata Fadeeva
 ### Kazan, 2019
 
-Small python examples of the Fast Fourier Transform 
+Small python examples of the Fast Fourier Transform apllying.
 
 ### FFT - basic example
 
