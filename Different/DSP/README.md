@@ -8,9 +8,9 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
 ### Content:
   * [Fast Fourier Transmorm et al. (python examples)](https://github.com/kirlf/CSP/blob/master/Different/DSP/FFT.md)
   
-** Bonus **:
+**Bonus**:
 
-[MUSIC](https://habr.com/ru/post/446674/)
+[MUSIC - MUltiple SIgnal Classification](https://habr.com/ru/post/446674/)
   
 ### Suggested literature:
   * Hayes, Monson H. [Statistical digital signal processing and modeling.](https://www.mathworks.com/matlabcentral/fileexchange/2183-statistical-digital-signal-processing-and-modeling?s_tid=prof_contriblnk) John Wiley & Sons, 2009.
