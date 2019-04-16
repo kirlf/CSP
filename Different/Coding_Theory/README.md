@@ -16,5 +16,8 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
   * [Convolutional codes basics](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md) (with [MATLAB examples](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md))
   
 **Bonus**:
+
+[Short review of modulation and coding schemes used in the small satellite systems](https://github.com/kirlf/cubesats/blob/master/fec.md)
+
 [LDPC codes (python tutorial)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb)
   
