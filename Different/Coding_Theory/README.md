@@ -11,6 +11,9 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
 * Entropy codes:
   * [Huffman codes basics (python tutorial)](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
 
+* Digital modulation
+ * [Slides](https://speakerdeck.com/kirlf/linear-modulation-schemes)(+ [self-cheking test](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/test-2-channel.pdf))
+
 * Channel coding:
   * [Main principles](https://github.com/kirlf/CSP/blob/master/FEC/README.md) (+ [slides](https://speakerdeck.com/kirlf/channel-coding-schemes) and [self-cheking test](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/test-2-channel.pdf))
   * [Convolutional codes basics](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md) (with [MATLAB examples](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md))
