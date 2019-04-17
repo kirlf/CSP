@@ -23,4 +23,5 @@ Small lectures with MATLAB and python examples about [Space-Time Codes (Alamouti
 
    * Salehi, M., and J. Proakis. "Digital communications." McGraw-Hill Education 31 (2007): 32.
    * Haykin, Simon S. Digital communications. New York: Wiley, 1988.
-   * Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005. 
+   * Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005.
+   * Sklar, Bernard. Digital communications: fundamentals and applications. 2001.
