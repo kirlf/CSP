@@ -9,7 +9,7 @@ I think there is no visitor to this page who would not hear about the MP3 standa
 How was the balance between size and quality found? If in brief, then:
 1. the application of filter banks (Filter banks);
 2. the application of the psycho-acoustic model (Psycoacoustic / Perceptual model) in the process of compression of non-information (irrelevance);
-3. Tthe use of efficient coding (Entropy coding) in the process of getting rid of redundancy.
+3. the use of [entropy coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md) in the process of getting rid of redundancy.
 
 <img src = "https://pp.userapi.com/c844720/v844720150/bcd72/80VaKOi-hI8.jpg" width = "700">
 
