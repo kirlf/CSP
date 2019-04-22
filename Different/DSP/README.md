@@ -7,7 +7,7 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
 
 ### Content:
   * [Fast Fourier Transform et al. (python examples)](https://github.com/kirlf/CSP/blob/master/Different/DSP/FFT.md)
-  * [Filter Banks (python examples)](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md)
+  * [Filter Banks (python example)](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md)
   
 **Bonus**:
 
