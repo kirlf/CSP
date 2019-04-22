@@ -42,7 +42,7 @@ plt.grid(True)
 plt.show()
 ```
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FFT.PNG" width="500" >
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FFT.PNG" width="600" >
 
 ### Gibs effect
 
@@ -78,7 +78,7 @@ plt.xlabel('Frequencies (Hz)')
 plt.show()
 ```
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/c9/FFT_py.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/FFT_py.png" width="600" >
 
 ### Periodogram - power spectrum estimation (with different windows)
 
