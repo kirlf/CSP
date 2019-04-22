@@ -122,7 +122,7 @@ plt.title('Periodogram')
 plt.grid(True)
 plt.show()
 ```
-![](https://upload.wikimedia.org/wikipedia/commons/5/58/Periodogram_windows.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Periodogram_windows.png" width="600" >
 
 ### Bartlett's method - averaged periodogram
 
