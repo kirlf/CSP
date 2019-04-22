@@ -169,8 +169,3 @@ plt.show()
 
 * [Filter Banks and Audio Coding](https://docviewer.yandex.ru/view/53198835/?*=DP70DW9fr34xVGKzc0e6JIeVai17InVybCI6InlhLWRpc2s6Ly8vZGlzay%2FQo9GH0LXQsdCwL9Cf0YDQvtC50LTQtdC90L3Ri9C5INC80LDRgtC10YDQuNCw0LsvR1JJQVQvSWxtZW5hdS9BdWRpb2NvZGluZy9Cb29rQXVkaW9Db2RpbmcucGRmIiwidGl0bGUiOiJCb29rQXVkaW9Db2RpbmcucGRmIiwidWlkIjoiNTMxOTg4MzUiLCJ5dSI6IjQyMDQ3NTkwNTE0OTQ0ODYxNzciLCJub2lmcmFtZSI6ZmFsc2UsInRzIjoxNTU1OTE5NzY5OTc1fQ%3D%3D) by Gerald Schuller and Karlheinz Brandenburg, 2018
 * Bosi, Marina, and Richard E. Goldberg. Introduction to digital audio coding and standards. Vol. 721. Springer Science & Business Media, 2012.
-* 
-
-
-
-
