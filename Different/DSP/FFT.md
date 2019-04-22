@@ -42,7 +42,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FFT.PNG)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FFT.PNG" width="500" >
 
 ### Gibs effect
 
