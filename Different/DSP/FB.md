@@ -48,7 +48,18 @@ In the process of applying parallel filters, we willy-nilly increase the number 
 
 ## Math description
 
+In the framework of this work, we will consider the method of MDCT (Modified Discret Cosine Transform):
+
 <p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20h_k(L-1-n)%20%3D%20h(n)cos%5Cleft(%5Cfrac%7B%5Cpi%7D%7BN%7D(k%2B0.5)(n%2B0.5-%5Cfrac%7BN%7D%7B2%7D)%5Cright)%20" alt=" h_k(L-1-n) = h(n)cos\left(\frac{\pi}{N}(k+0.5)(n+0.5-\frac{N}{2})\right) " /></p>
+
+where the index <img src="https://tex.s2cms.ru/svg/%20k%20" alt=" k " /> is the filter number from 0 to <img src="https://tex.s2cms.ru/svg/N-1" alt="N-1" /> (<img src="https://tex.s2cms.ru/svg/%20N%20" alt=" N " /> is the length of the filter), <img src="https://tex.s2cms.ru/svg/%20n%20" alt=" n " /> is the count number from 0 to <img src="https://tex.s2cms.ru/svg/%202N-1%20" alt=" 2N-1 " />, and <img src="https://tex.s2cms.ru/svg/%20h(n)%20" alt=" h(n) " /> is some window function. Note that the representation is given in the time domain. As a window function, select a sine window:
+
+
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20h(n)%20%3D%20sin%5Cleft(%5Cfrac%7B%5Cpi%7D%7BL%7D(n%2B0.5)%5Cright)%20" alt=" h(n) = sin\left(\frac{\pi}{L}(n+0.5)\right) " /></p>
+
+where <img src="https://tex.s2cms.ru/svg/%20L%20%3D%202N%20" alt=" L = 2N " /> is the window length.
+As a rule, the same mathematical functions are used for analysis and synthesis.
+
 
 ## MDCT modeling
 
