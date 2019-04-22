@@ -8,6 +8,14 @@ Small python examples of the Fast Fourier Transform aplying.
 
 ### FFT - basic example
 
+Briefly **[Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)** can be described as a signal that allows you to transmit a signal from the time domain to the frequency domain \(and vice versa when using the inverse Fourier transform \),
+
+[**Discrete Fourier Transform**](https://en.wikipedia.org/wiki/Discrete_Fourier_transform) (DFT) can be executed (simplified) as [Fourier Transform](https://habr.com/ru/post/196374/) over discrete signals.
+
+[**Fast Fourier Transform**](https://en.wikipedia.org/wiki/Fast_Fourier_transform) \(FFT\) is a method for calculating the results of the DFT time series \(discrete data samples\).
+
+The FFT calculates the DFT and gives exactly the same result. the most important difference is that the FFT is much faster.
+
 ``` python
 import numpy as np
 from scipy import signal
