@@ -23,7 +23,7 @@ Filters in this context are, as a rule, everyone who has experienced signal proc
 
 ## Restrictions
 
-You cannot select too many filters due to the pre-echo effect! [Pre-echo](https://pp.userapi.com/c845020/v845020283/b410a/6stmEn7NaXY.jpg)
+You cannot select too many filters due to the pre-echo effect ![](https://pp.userapi.com/c845020/v845020283/b410a/6stmEn7NaXY.jpg)
 - *reason: blocks too long (too many bands)*
 
 ## Types
