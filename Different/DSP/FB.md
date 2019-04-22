@@ -43,7 +43,6 @@ In the process of applying parallel filters, we willy-nilly increase the number 
 
 
 <img src="https://pp.userapi.com/c824603/v824603630/17a383/-bKRpCkWCoo.jpg" width="700">
-Up-sampling 
 <img src="https://pp.userapi.com/c824603/v824603630/17a38c/XUmXKfiDRdg.jpg" width="700">
 
 ## Math description
