@@ -120,8 +120,10 @@ After applying the convolution operation, the size of our input sequence will na
 Down-sampling:
 
 ``` python
-M = int(Analysis_Mat.shape[1] / N) #number of samles that sould be stay after downsampling
-cutmat = int(np.floor(M)*N) #number of rows that sould follow to downsampln block (cut rows that are not fold to N)
+# Number of samles that sould be stay after downsampling:
+M = int(Analysis_Mat.shape[1] / N) 
+# Number of rows that sould follow to downsampln block (cut rows that are not fold to N)
+cutmat = int(np.floor(M)*N) 
 
 Analysis_Mat_DS = np.zeros((N, M))
 Analysis_Mat = Analysis_Mat[:, :cutmat]
@@ -133,7 +135,7 @@ for k in range(N):
 Up-sampling:
 
 ``` python
-Analysis_Mat_US = np.zeros((N, Analysis_Mat_DS.shape[1]*N)) #skeleton for signal that should be after upsampling
+Analysis_Mat_US = np.zeros((N, Analysis_Mat_DS.shape[1]*N)) 
 for n in range(Analysis_Mat_DS.shape[1]):
     Analysis_Mat_US[:,0+N*n] = Analysis_Mat_DS[:, n]
 ```
@@ -142,7 +144,7 @@ Synthesis:
 
 ``` python
 R = L + Analysis_Mat_US.shape[1] - 1 #legth of signal (number o rows) that should be after convolution 
-Syntesis_Mat = np.zeros((N,R)) #skeleton for signal that should be after convolution 
+Syntesis_Mat = np.zeros((N,R))  
 G = (np.fliplr(H))/(N/2) #Synthesis matrix
 for k in range(N):
     Syntesis_Mat[k,:] = np.convolve(Analysis_Mat_US[k,:], G[k,:]) #convolution
