@@ -62,3 +62,22 @@ As a rule, the same mathematical functions are used for analysis and synthesis.
 
 ## MDCT modeling
 
+``` python
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+N = 128 # number of subbands
+L = 2*N # number of filters
+
+# Window function:
+
+h = np.zeros((L,1)) #skeleton for window function
+for n in range(2*N-1):
+    h[n] = np.sin((np.pi / (2 * N)) * (n + 0.5)) #window function
+    
+# Considered signal
+
+```
+
+
