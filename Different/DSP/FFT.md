@@ -82,6 +82,10 @@ plt.show()
 
 ### Periodogram - power spectrum estimation (with different windows)
 
+**Power** harmonics can also be evaluated. For this, the [**periodogram method**](https://en.wikipedia.org/wiki/Periodogram) can be considered as one of the simplest methods. In signal processing, the periodogram is an estimate of the spectral density of the signal, or the spectrum itself.
+
+The term was coined by Arthur Schuster in 1898. Today, the periodogram is an integral part of more complex methods. This is the most common tool for studying the amplitude and frequency characteristics of FIR filters and window functions. FFT spectrum analyzers are also implemented as a time series of periodograms.
+
 ``` python
 import numpy as np
 from scipy import signal
