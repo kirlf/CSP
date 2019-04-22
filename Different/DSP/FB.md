@@ -41,9 +41,9 @@ There are several methods for using a filter comb. Consider the two most famous:
 
 In the process of applying parallel filters, we willy-nilly increase the number of samples, and accordingly, the playback frequency and the size of the file being processed. In order to avoid such consequences, two mirror procedures are applied:
 
-1. Down-sampling
+
 <img src="https://pp.userapi.com/c824603/v824603630/17a383/-bKRpCkWCoo.jpg" width="700">
-2. Up-sampling 
+Up-sampling 
 <img src="https://pp.userapi.com/c824603/v824603630/17a38c/XUmXKfiDRdg.jpg" width="700">
 
 ## Math description
