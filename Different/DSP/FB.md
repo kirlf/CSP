@@ -103,7 +103,7 @@ plt.show()
 
 ![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FB1.png)
 
-Analysis
+Analysis:
 
 ``` python
 H = np.zeros((N,L)) #skeleton for analisis H matrix
