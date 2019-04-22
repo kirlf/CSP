@@ -2,6 +2,8 @@
 ## M.Sc. Vladimir Fadeev
 ### Kazan, 2019
 
+![](https://pm1.narvii.com/6921/04af66dea30c2a7d3a207a17d78f1a74fa93878br1-1500-937v2_hq.jpg)
+
 ## Introduction
 
 I think there is no visitor to this page who would not hear about the MP3 standard (MPEG-1 Layer III), so I don't see any sense in the long introduction. The format is known largely due to its compactness and rather good (in terms of indifferent to lossless formats) quality. Nowadays, it is very outdated, but it still exists in the players of some music lovers, and on online music sites (perhaps more now in the form of its reincarnation - the AAC format).
