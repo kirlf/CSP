@@ -2,7 +2,7 @@
 ## M.Sc. Vladimir Fadeev
 ### Kazan, 2019
 
-![](https://pm1.narvii.com/6921/04af66dea30c2a7d3a207a17d78f1a74fa93878br1-1500-937v2_hq.jpg)
+![](https://pp.userapi.com/c841327/v841327641/3a594/DYdMW9P5et0.jpg)
 
 ## Introduction
 
