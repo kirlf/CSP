@@ -4,6 +4,8 @@
 
 Small python examples of the Fast Fourier Transform aplying.
 
+![](https://hsto.org/getpro/habr/post_images/c2e/6c4/40f/c2e6c440f11f538840bf0c4931cb7b8b.jpg)
+
 ### FFT - basic example
 
 ``` python
