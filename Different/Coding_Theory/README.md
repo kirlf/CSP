@@ -20,7 +20,7 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
   
 **Bonus**:
 
-* [Short review of modulation and coding schemes used in the small satellite systems](https://github.com/kirlf/cubesats/blob/master/fec.md)
+* [Modulation and coding schemes in small satellite systems (short review)](https://github.com/kirlf/cubesats/blob/master/fec.md)
 
 * [LDPC codes (python tutorial)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb)
   
