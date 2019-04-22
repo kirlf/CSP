@@ -7,9 +7,9 @@
 I think there is no visitor to this page who would not hear about the MP3 standard (MPEG-1 Layer III), so I don't see any sense in the long introduction. The format is known largely due to its compactness and rather good (in terms of indifferent to lossless formats) quality. Nowadays, it is very outdated, but it still exists in the players of some music lovers, and on online music sites (perhaps more now in the form of its reincarnation - the AAC format).
 
 How was the balance between size and quality found? If in brief, then:
-1. this is the application of filter banks (Filter banks);
-2. this is the application of the psycho-acoustic model (Psycoacoustic / Perceptual model) in the process of compression of non-information (irrelevance);
-3. This is the use of efficient coding (Entropy coding) in the process of getting rid of redundancy.
+1. the application of filter banks (Filter banks);
+2. the application of the psycho-acoustic model (Psycoacoustic / Perceptual model) in the process of compression of non-information (irrelevance);
+3. Tthe use of efficient coding (Entropy coding) in the process of getting rid of redundancy.
 
 <img src = "https://pp.userapi.com/c844720/v844720150/bcd72/80VaKOi-hI8.jpg" width = "700">
 
