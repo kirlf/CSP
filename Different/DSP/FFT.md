@@ -44,7 +44,9 @@ plt.show()
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FFT.PNG" width="600" >
 
-### Gibs effect
+### Gibbs effect
+
+Lack or excess of the samples may lead to the [Gibbs phenomena](https://en.wikipedia.org/wiki/Gibbs_phenomenon).
 
 ``` python
 import numpy as np
