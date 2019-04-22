@@ -126,6 +126,11 @@ plt.show()
 
 ### Bartlett's method - averaged periodogram
 
+In the examples above, we considered the cases of the evaluation of the spectral characteristics of only one implementation. However, having on hand some array of experiments or a sequence long enough to divide it into some subsequences, we can apply one of the simplest methods of noise leveling - averaging.
+
+The periodogram averaging method - **the Bartlett method** - is a consistent estimate of the power spectrum.
+We also recommend that you familiarize yourself with the [**welch**] method (https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.signal.welch.html) of the **scipy** library.
+
 ``` python
 import numpy as np
 from scipy import signal
