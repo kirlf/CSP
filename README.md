@@ -25,7 +25,14 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
     
    > **Note that**: Topic about [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) is prepared as preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
 
-### Suggestions and comments
+### Suggested literature:
+
+   * Salehi, M., and J. Proakis. "Digital communications." McGraw-Hill Education 31 (2007): 32.
+   * Haykin, Simon S. Digital communications. New York: Wiley, 1988.
+   * Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005.
+   * Sklar, Bernard. Digital communications: fundamentals and applications. 2001.
+   
+### Comments and suggestions
 
 We'll be appreciate your **stars** because it is one of the brightest indicators of a good work!
 
@@ -33,9 +40,3 @@ You also can send your comments and suggestion by e-mail: vovenur@gmail.com
 
 The feedback is valuable for us!
 
-### Suggested literature:
-
-   * Salehi, M., and J. Proakis. "Digital communications." McGraw-Hill Education 31 (2007): 32.
-   * Haykin, Simon S. Digital communications. New York: Wiley, 1988.
-   * Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005.
-   * Sklar, Bernard. Digital communications: fundamentals and applications. 2001.
