@@ -25,6 +25,8 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
     
    > **Note that**: Topic about [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) is prepared as preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
 
+### Suggestions and comments
+
 We'll be appreciate your **stars** because it is one of the brightest indicators of a good work!
 
 You also can send your comments and suggestion by e-mail: vovenur@gmail.com
