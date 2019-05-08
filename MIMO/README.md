@@ -36,4 +36,4 @@ Have a nice reading, good day, nice week and good luck!
 M.Sc. Vladimir Fadeev
 
 ## Bonus
-- [Оцениваем пропускную способность MIMO канала (алгоритм Water-pouring прилагается)](https://habr.com/ru/post/448570/)
+- [MIMO capacity and Water-pouring algorithm (in Russian)](https://habr.com/ru/post/448570/)
