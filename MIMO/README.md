@@ -2,6 +2,8 @@
 ## M.Sc. Vladimir Fadeev
 [HOME](https://github.com/kirlf/CSP/blob/master/README.md)
 
+![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
+
 ## Summary
 
 1. MATLAB tutorials:
@@ -9,13 +11,9 @@
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
 2. Python tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
-    * [Multi-User MIMO](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/BlockDiagonalization.ipynb)
 3. Self-education:
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
-
-![MIMO](https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg)
-> *Fig.1. [SISO, SIMO, MISO and MIMO schemes](https://www.welotec.com/de/lte-mimo-antennen).*
 
 # Preface
 
