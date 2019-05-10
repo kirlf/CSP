@@ -33,5 +33,6 @@ Have a nice reading, good day, nice week and good luck!
 
 M.Sc. Vladimir Fadeev
 
-## Bonus
-- [MIMO capacity and Water-pouring algorithm (in Russian)](https://habr.com/ru/post/448570/)
+## Bonuses
+- [MIMO capacity and Water-pouring algorithm](https://habr.com/ru/post/448570/) (in Russian)
+- [MU-MIMO: Block Diagonalization](https://habr.com/ru/post/450948/) (in Russian)
