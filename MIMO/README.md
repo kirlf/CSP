@@ -6,12 +6,12 @@
 
 ## Summary
 
-1. MATLAB tutorials:
-    * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
-    * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
-2. Python tutorials:
+- Desirable background:
+   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
+- Tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
-3. Self-education:
+    * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
+- Self-education:
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
     * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
 
