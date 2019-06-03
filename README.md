@@ -9,7 +9,7 @@
 
 2. [Communication systems modeling](https://github.com/kirlf/CSP/blob/master/Different/modeling_navigation.md)
 
-3. [Coding theory](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
+3. [Modulation and Coding theory](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
  
 4. [Digital Signal Processing](https://github.com/kirlf/CSP/blob/master/Different/DSP/README.md)
 
