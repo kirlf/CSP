@@ -41,7 +41,7 @@ There are several methods for using a filter comb. Consider the two most famous:
 
 **Home task**: Explain what is the advantage of one method over another?
 
-## Down-sampling и Up-sampling
+## Down-sampling and Up-sampling
 
 In the process of applying parallel filters, we willy-nilly increase the number of samples, and accordingly, the playback frequency and the size of the file being processed. In order to avoid such consequences, two mirror procedures are applied:
 
