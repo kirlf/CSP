@@ -16,4 +16,5 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
 ### Suggested literature:
   * Hayes, Monson H. [Statistical digital signal processing and modeling.](https://www.mathworks.com/matlabcentral/fileexchange/2183-statistical-digital-signal-processing-and-modeling?s_tid=prof_contriblnk) John Wiley & Sons, 2009.
   * Unpingco, José. [Python for Signal Processing](https://electrovolt.ir/wp-content/uploads/2017/07/Python_For_Signal_Processing_ElectroVolt.ir_.pdf). Springer International Pu, 2016. (+ [IPython Notebooks](https://github.com/unpingco/Python-for-Signal-Processing))
+  * [Digital Signal Processing](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html) by [Prof. Dr.-Ing. Sascha Spors](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html)
   * Солонина А. И. Цифровая обработка сигналов. Моделирование в MATLAB. – БХВ-Петербург, 2008.
