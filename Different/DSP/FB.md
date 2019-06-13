@@ -71,7 +71,7 @@ As a rule, the same mathematical functions are used for analysis and synthesis.
 import numpy as np
 import matplotlib.pyplot as plt
 
-N = 128 # number of subbands
+N = 8 # number of subbands
 L = 2*N # number of filters
 
 # Window function:
@@ -82,7 +82,7 @@ for n in range(2*N-1):
     
 # Considered signal
 
-w = [30, 100, 50]
+w = [30, 100, 300]
 a = [1.1, .5, .1]
 x = 0
 
@@ -103,7 +103,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FB1.png)
+![](https://habrastorage.org/webt/8o/q-/pl/8oq-pluoy6zn53dsv1mpp2bx6zy.png)
 
 Analysis:
 
@@ -165,7 +165,9 @@ plt.grid(True)
 plt.show()
 ```
 
-![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/FB2.png)
+![](https://habrastorage.org/webt/wc/uw/5w/wcuw5w5b5xrmb142mt8yg9ijbog.png)
+
+Did additional harmonics appeare due to some mistake? Join the [discussion](https://dsp.stackexchange.com/questions/58822/why-do-additional-harmonics-arise-after-the-filter-bank).
 
 ## Is ideal reconstruction possible?
 
