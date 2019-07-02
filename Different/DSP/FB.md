@@ -15,29 +15,35 @@ How was the balance between size and quality found? If in brief, then:
 2. the application of the psycho-acoustic (perceptual) model in the process of compression of non-information (irrelevance);
 3. the use of [entropy coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md) in the process of getting rid of redundancy.
 
-<img src = "https://pp.userapi.com/c844720/v844720150/bcd72/80VaKOi-hI8.jpg" width = "700">
+<img src = "https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/codec_scheme.png" width = "700">
+
+*Fig. 1. Structure of perceptual Audio Coders*
 
 In this seminar, filter banks will be considered (see slides **02 Filterbanks1, NobleID** and **03 FilterBanks2** by this [link](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/)).
 
 ## Main idea
 
-In general, the idea can be described as follows: we have a line (comb, as they sometimes say) of parallel filters, each of which is consistently tuned to its own frequency. Frequencies are usually normalized from 0 to pi. Accordingly, the more filters we have at our disposal, the rarer (smoother) the transition step from frequency to frequency becomes, and therefore the more frequency variations we can analyze.
+In general, the idea can be described as follows: we have a line of parallel filters, which are consistently tuned to their own frequency. Frequencies are usually normalized from 0 to pi. Accordingly, the more filters we have at our disposal, the rarer (smoother) the transition step from frequency to frequency becomes, and therefore the more frequency variations we can analyze.
 
 Filters in this context are, as a rule, everyone who has experienced signal processing known Fourier converters in one form or another: [FFT](https://github.com/kirlf/CSP/blob/master/Different/DSP/FFT.md), [DCT-IV](https://www.tu-ilmenau.de/fileadmin/media/mt/lehre/ma_mt/audiocoding/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [MDCT](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/public/mt_ams/Audio_C.pl/aft/aft/aft_de/file/deal_ws2013_Noble/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [PQMF](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/Audio_Coding/Vorlesung/WS_2016-17/07_shl_PQMF_MPEG1-2BC_WS2016-17.pdf), etc.
 
 ## Restrictions
 
-You cannot select too many filters due to the pre-echo effect ![](https://pp.userapi.com/c845020/v845020283/b410a/6stmEn7NaXY.jpg)
-- *reason: blocks too long (too many bands)*
+You cannot select too many filters due to the pre-echo effect. 
+![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/preecho.PNG)
+
+*Fig. 2. In audio coding, Pre-echoes appear before transients. Reason: blocks too long (too many bands).*
 
 ## Types
 
 There are several methods for using a filter comb. Consider the two most famous:
-1. Direct application;
-<img src = "https://pp.userapi.com/c845523/v845523283/b5477/mN4VMQzDnkE.jpg" width = "700">
+1. Direct application
 
-2. Noble Identities.
-<img src = "https://pp.userapi.com/c849424/v849424283/3f6aa/FC571JKPJ80.jpg" width = "700">
+<img src = "https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/fb_scheme.PNG" width = "700">
+
+*Fig. 3. Block scheme of the direct implementation of Filter Banks.*
+
+2. [Noble Identities](https://www.tu-ilmenau.de/fileadmin/media/mt/lehre/ma_mt/audiocoding/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf)
 
 **Home task**: Explain what is the advantage of one method over another?
 
@@ -45,9 +51,17 @@ There are several methods for using a filter comb. Consider the two most famous:
 
 In the process of applying parallel filters, we willy-nilly increase the number of samples, and accordingly, the playback frequency and the size of the file being processed. In order to avoid such consequences, two mirror procedures are applied:
 
+1. The operation of "down-sampling" by factor N describes the process of keeping every N-th sample discarding the rest.
 
-<img src="https://pp.userapi.com/c824603/v824603630/17a383/-bKRpCkWCoo.jpg" width="700">
-<img src="https://pp.userapi.com/c824603/v824603630/17a38c/XUmXKfiDRdg.jpg" width="700">
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/downsampl.PNG" width="700">
+
+*Fig. 4. Down-sampling procedure illustration.*
+
+2. The operation of “up-sampling“ by factor N describes the insertion of N-1 zeros between every sample of the input. 
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/upsampl.PNG" width="700">
+
+*Fig. 5. Up-sampling procedure illustration.*
 
 ## Math description
 
@@ -171,7 +185,14 @@ Did additional harmonics appeare due to some mistake? Join the [discussion](http
 
 ## Is ideal reconstruction possible?
 
-![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/idealfilters.PNG)
+* Ideal filters are not realizable
+* In the time domain they would mean a convolution of our signal with a Sinc function
+* Sinc function is infinitely long and not causal, meaning it causes infinite delay
+* We can not simply use a DFT or FFT to obtain an ideal filter in the frequency domain either
+* Because the DFT also represents a filter bank, but a special type
+* Its equivalent filters are far from perfect filters (hence we cannot make ideal filters with it), not good enough for our purposes
+(audio coding and the ear), as we will see
+* Don‘t use your eye (looking at waveforms) to guess what the ear might be hearing (quite different processing)
 
 ## Suggested literature
 
