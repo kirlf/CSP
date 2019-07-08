@@ -1,4 +1,4 @@
-# Fast Fourier transform et al.
+# Fast Fourier transform and so on
 ## M.Sc. Vladimir Fadeev, M.Sc. Zlata Fadeeva
 ### Kazan, 2019
 
