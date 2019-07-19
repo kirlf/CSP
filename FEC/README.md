@@ -37,18 +37,24 @@ Redundancy of the channel coding schemes influences (decreases) bit rate. Actual
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nebitrate.png" alt="net" width="500"/>
 
+<details> 
+  <summary>How to change code rate of a block code?</summary>
 To change the code rate (k/n) of the block code dimensions of the Generator matrix can be changed:
-![blockcoderate](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/coderateblock.png" />
+</details>
 
-To change the coderate of the continuous code, e.g. [convolutional code](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md), **puncturing** procedure is frequently used:
+<details> 
+  <summary>How to change code rate of a continuous code?</summary>
+To change the coderate of the continuous code, e.g. convolutional code, puncturing procedure is frequently used:
 
 ![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
 
 Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
 
 > Implementation of the "puncturing" and "insert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
+</details>
 
-## History of FEC in mobile communications
+## A short history of channel codes in mobile communications
 
 ### 2G: GSM, GPRS, EDGE
 
@@ -65,7 +71,7 @@ Let us count main blocks:
 - **Interleaving** and **Deinterleaving** - code words separation increasing
 
 <details> 
-  <summary>*The illustration of the interleaving procedure idea.</summary>
+  <summary>The illustration of the interleaving procedure idea.</summary>
    To increase separation in time domain and avoid bursty destortions interleaving procedure is also frequently used:
    <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
 </details>
