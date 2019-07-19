@@ -2,41 +2,37 @@
 ## M.Sc. Vladimir Fadeev
 ### Kazan, 2019
 
-(in progress)
-
-![](https://pp.userapi.com/c841327/v841327641/3a594/DYdMW9P5et0.jpg)
-
 ## Introduction
 
-I think there is no visitor to this page who would not hear about the MP3 standard (MPEG-1 Layer III), so I don't see any sense in the long introduction. The format is known largely due to its compactness and rather good (in terms of indifferent to lossless formats) quality. Nowadays, it is very outdated, but it still exists in the players of some music lovers, and on online music sites (perhaps more now in the form of its reincarnation - the AAC format).
+I believe there is no visitor who would not hear about the MP3 standard (MPEG-1 Layer III), so I don't see any sense in the long introduction. The format is known largely due to its compactness and rather good quality (in terms of indifferent to lossless formats). Nowadays, it is very outdated, but it still exists in the players of some music lovers, and on online music sites (perhaps more now in the form of its reincarnation - the AAC format).
 
-How was the balance between size and quality found? If in brief, then:
-1. the application of filter banks;
-2. the application of the psycho-acoustic (perceptual) model in the process of compression of non-information (irrelevance);
-3. the use of [entropy coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md) in the process of getting rid of redundancy.
+How was the balance between size and quality found? In short:
+1. the application of filter banks
+2. the application of the psycho-acoustic (perceptual) model at the process of compression of non-information (irrelevance) data
+3. the use of [entropy coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md) at the process of getting rid of redundancy.
 
 <img src = "https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/codec_scheme.png" width = "700">
 
 *Fig. 1. Structure of perceptual Audio Coders*
 
-In this seminar, filter banks will be considered (see slides **02 Filterbanks1, NobleID** and **03 FilterBanks2** by this [link](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/)).
+In this tutorial, filter banks will be considered (see slides **02 Filterbanks1, NobleID** and **03 FilterBanks2**  (TU Ilmenau) via the following [link](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/)).
 
 ## Main idea
 
-In general, the idea can be described as follows: we have a line of parallel filters, which are consistently tuned to their own frequency. Frequencies are usually normalized from 0 to pi. Accordingly, the more filters we have at our disposal, the rarer (smoother) the transition step from frequency to frequency becomes, and therefore the more frequency variations we can analyze.
+In general, the main idea can be described as follows: we have a line of parallel filters, which are consistently tuned to their own frequency. Frequencies are usually normalized from 0 to pi. Accordingly, the more filters we have at our disposal, the rarer (smoother) the transition step from frequency to frequency becomes, and therefore more frequency variations can be analyzed.
 
-Filters in this context are, as a rule, everyone who has experienced signal processing known Fourier converters in one form or another: [FFT](https://github.com/kirlf/CSP/blob/master/Different/DSP/FFT.md), [DCT-IV](https://www.tu-ilmenau.de/fileadmin/media/mt/lehre/ma_mt/audiocoding/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [MDCT](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/public/mt_ams/Audio_C.pl/aft/aft/aft_de/file/deal_ws2013_Noble/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [PQMF](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/Audio_Coding/Vorlesung/WS_2016-17/07_shl_PQMF_MPEG1-2BC_WS2016-17.pdf), etc.
+Filters are Fourier converters in one form or another mostly: [FFT](https://github.com/kirlf/CSP/blob/master/Different/DSP/FFT.md), [DCT-IV](https://www.tu-ilmenau.de/fileadmin/media/mt/lehre/ma_mt/audiocoding/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [MDCT](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/public/mt_ams/Audio_C.pl/aft/aft/aft_de/file/deal_ws2013_Noble/Lecture_WS2013_14/04_shl_Filterbanks1_NobleID_WS2013-14.pdf), [PQMF](https://www.tu-ilmenau.de/fileadmin/public/mt_ams/Audio_Coding/Vorlesung/WS_2016-17/07_shl_PQMF_MPEG1-2BC_WS2016-17.pdf), etc.
 
 ## Restrictions
 
-You cannot select too many filters due to the pre-echo effect. 
+Too large number of filters cannot be selected due to the pre-echo effect. 
 ![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/preecho.PNG)
 
 *Fig. 2. In audio coding, Pre-echoes appear before transients. Reason: blocks too long (too many bands).*
 
 ## Types
 
-There are several methods for using a filter comb. Consider the two most famous:
+There are several methods for using a filter bank. Consider the most famous:
 1. Direct application
 
 <img src = "https://raw.githubusercontent.com/kirlf/CSP/master/Different/DSP/assets/fb_scheme.PNG" width = "700">
@@ -49,7 +45,7 @@ There are several methods for using a filter comb. Consider the two most famous:
 
 ## Down-sampling and Up-sampling
 
-In the process of applying parallel filters, we willy-nilly increase the number of samples, and accordingly, the playback frequency and the size of the file being processed. In order to avoid such consequences, two mirror procedures are applied:
+We willy-nilly increase the number of samples in the process of applying parallel filters, and therefore the playback frequency and the size of the file being increased. In order to avoid such consequences, two mirror procedures are applied:
 
 1. The operation of "down-sampling" by factor N describes the process of keeping every N-th sample discarding the rest.
 
@@ -65,7 +61,7 @@ In the process of applying parallel filters, we willy-nilly increase the number 
 
 ## Math description
 
-In the framework of this work, we will consider the method of MDCT (Modified Discret Cosine Transform):
+We will consider the method of MDCT (Modified Discret Cosine Transform) during this tutorial:
 
 <p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20h_k(L-1-n)%20%3D%20h(n)cos%5Cleft(%5Cfrac%7B%5Cpi%7D%7BN%7D(k%2B0.5)(n%2B0.5-%5Cfrac%7BN%7D%7B2%7D)%5Cright)%20" alt=" h_k(L-1-n) = h(n)cos\left(\frac{\pi}{N}(k+0.5)(n+0.5-\frac{N}{2})\right) " /></p>
 
