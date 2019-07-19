@@ -14,12 +14,6 @@ Actually, encoding algorithms **separate** code words adding redundancy (kind of
 
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
-To increase separation in time domain and avoid bursty destortions **interleaving** procedure is also frequently used:
-
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
-
-The most popular applications of the interleaving are concatenated codes (RSCC, Turbo codes etc.).
-
 ## Minimum distance
 Minimum distance between all of the code words is named **Hamming distance** in case of binary codes .
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp2.png" alt="examp2" width="400"/>
@@ -54,6 +48,40 @@ Seems little bit tricky, however it really works in real systems. On the receive
 
 > Implementation of the "puncturing" and "insert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
 
+## History of FEC in mobile communications
+
+### 2G: GSM, GPRS, EDGE
+
+Both error correction and error detection techniques are used in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)) (fig. 1).
+
+![](https://habrastorage.org/webt/fi/vt/rg/fivtrgot1jque5tipk_52ttp8rm.png)
+
+*Fig.1. Stages of channel coding in GSM [2]*
+
+Let us count main blocks:
+
+- **Block encoder** and **Parity check** - error detection part
+- **Convol. encoder** and **Convol. decoder** - error correction part
+- **Interleaving** and **Deinterleaving** - code words separation increasing
+
+<details> 
+  <summary>*The illustration of the interleaving procedure idea.</summary>
+   To increase separation in time domain and avoid bursty destortions interleaving procedure is also frequently used:
+   <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
+</details>
+
+The same picture in **GPRS** due to the same RAN (Radio Access Network).
+
+![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/gsm_gprs.PNG)
+
+*Fig. 2. The illustration of the GSM and GPRS network architectures. Source: https://www.tu-ilmenau.de/fileadmin/public/iks/files/lehre/UMTS/03_CCS-2G-ws18_19.pdf*
+
+The code rate 1/3 is used in EDGE [3]. 
+
 ### Reference
 
 [1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+
+[2] Eberspächer J. et al. GSM-architecture, protocols and services. – John Wiley & Sons, 2008. - p. 97
+
+[3] 3rd Generation Partnership Project (September 2012). ["3GGP TS45.001: Technical Specification Group GSM/EDGE Radio Access Network; Physical layer on the radio path; General description"](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2705). Retrieved 2013-07-20.
