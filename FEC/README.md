@@ -10,7 +10,7 @@ The main idea of the channel codes can be formulated as following thesises:
 ![mainidea](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECmainidea1.png)
 
 Actually, encoding algorithms **separate** code words adding redundancy (kind of **diversity** in time domain). 
-![examp1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/FECexamp1.png)
+![examp1](https://camo.githubusercontent.com/ef8ed6eaef070a7747b65dfcc16cbbffe319a000/68747470733a2f2f686162726173746f726167652e6f72672f776562742f6e372f6f342f62732f6e376f34627366375f68746c76313067736174632d796f6a6272712e706e67)
 
 As how much farther certain algorithm separates code words is so much stronger noise immunity.
 
@@ -21,10 +21,14 @@ Minimum distance between all of the code words is named **Hamming distance** in 
 As larger certain algorithm provides **dmin**  is so much stronger noise immunity [1, p.23].
 
 ## Classification
-Firstly, the channel codes can be classified by error detection and [error correction](https://en.wikipedia.org/wiki/Error_correction_code) capabilities:
-![class1](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/harq.png)
 
-Secondly, they can be classified as block and continious codes:
+Some classification is needed to talk about those or other implementations of the encoding and decoding algorithms.
+
+First, the channel codes:
+- can only [*detect*](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) the presence of errors
+- and they can also [*correct* errors](https://en.wikipedia.org/wiki/Error_correction_code).
+
+Secondly, codes can be classified as **block** and **continuous**:
 ![class2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png)
 
 To decode block codes the syndrome decoding is frequently used:
