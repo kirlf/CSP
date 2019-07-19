@@ -83,11 +83,15 @@ Let us count main blocks:
    <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
 </details>
 
-The same picture in **GPRS** due to the same RAN (Radio Access Network).
+<details>
+  <summary> The same picture in GPRS due to the same RAN (Radio Access Network). </summary>
+  
 
 ![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/gsm_gprs.PNG)
 
-*Fig. 2. The illustration of the GSM and GPRS network architectures. Source: https://www.tu-ilmenau.de/fileadmin/public/iks/files/lehre/UMTS/03_CCS-2G-ws18_19.pdf*
+*The illustration of the GSM and GPRS network architectures. Source: https://www.tu-ilmenau.de/fileadmin/public/iks/files/lehre/UMTS/03_CCS-2G-ws18_19.pdf*
+
+</details>
 
 The code rate 1/3 is used in EDGE [3]. 
 
