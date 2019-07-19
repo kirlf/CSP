@@ -53,13 +53,9 @@ Where *y* is the code word, *x* is the initial message and *h* is the generator 
 
 Actually, the encoding procedure can be represented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
 
-> Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html):
->
-> [Trellis diagram and shift-registers](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis1.jpg)
->
-> [State diagram (compact form of the Trellis)](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis2.jpg)
->
-> [Tail bits (termination of the Trellis)](https://github.com/kirlf/CSP/blob/master/FEC/assets/trellis3.jpg)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/trellis_illustration.png" width="600" />
+
+> Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
 
 ## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
