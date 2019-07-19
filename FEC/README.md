@@ -31,9 +31,12 @@ First, the channel codes:
 Secondly, codes can be classified as **block** and **continuous**:
 ![class2](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png)
 
-To decode block codes the syndrome decoding is frequently used:
+<details>
+  <summary>To decode block codes the syndrome decoding is frequently used. </summary>
 
 ![syndr](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syndrome.png)
+
+</details>
 
 ## Net bit rate
 Redundancy of the channel coding schemes influences (decreases) bit rate. Actually, it is the cost for the noiseless increasing.
