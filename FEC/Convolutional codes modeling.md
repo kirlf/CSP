@@ -1,14 +1,10 @@
-### Summary
+[HOME](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
 
-   1.1. [Introduction](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20intro.md)
-
-   1.2. Modeling in MatLab
+# Convolutional codes tutorial
     
-   1.3. [Extensions of the convolutional codes idea](https://github.com/kirlf/CSP/blob/master/FEC/Conv%20codes%20idea%20extensions.md)
-    
-# Introduction
+## Introduction
 
-## Encoding
+### Encoding
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous [error-correcting codes](https://github.com/kirlf/CSP/tree/master/FEC). They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
@@ -54,7 +50,7 @@ Actually, the encoding procedure can be represented as the work with the [Trelli
 
 > *Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
 
-## Decoding
+### Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
@@ -132,7 +128,7 @@ ylabel('Bit Error Rate')
 
 The MATLAB modeling of the transmission of the encoded message is presented below. 
 
-# Modeling in MatLab
+## Modeling in MatLab
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
 
 >**NOTE:** Corrections is done for **MatLab 2014a**.
