@@ -178,6 +178,10 @@ For example, comparison of Turbo, LDPC and Polar codes can be obtained by the [f
 
 ### Quantum applications:
 
+<img src="https://quics.umd.edu/sites/quics.umd.edu/files//styles/medium/public/QuICS%20main_0.png?itok=inDiutej" width="500" />
+
+*Source: https://quics.umd.edu/news/quics-brings-200-scientists-umd-quantum-error-correction-conference*
+
 Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC.
 
 - Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
