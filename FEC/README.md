@@ -141,3 +141,31 @@ Turbo convolutional codes are still used in air interface of the 4G networks.
 \[6\] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
 
 \[7\] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
+
+
+## Suggested literature
+
+### Turbo convolutional codes:
+- Battail, Gérard. "A conceptual framework for understanding turbo codes." IEEE Journal on Selected Areas in Communications 16.2 (1998): 245-254.
+
+- Brejza, Matthew F., et al. "20 years of turbo coding and energy-aware design guidelines for energy-constrained wireless applications." IEEE Communications Surveys & Tutorials 18.1 (2016): 8-28.
+
+- [3GPP LTE Turbo Reference Design](https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/an/an505.pdf)
+
+- Garzón-Bohórquez, Ronald, Charbel Abdel Nour, and Catherine Douillard. "Improving Turbo codes for 5G with parity puncture-constrained interleavers." Turbo Codes and Iterative Information Processing (ISTC), 2016 9th International Symposium on. IEEE, 2016.
+
+### Quantum applications:
+
+Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC.
+
+- Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
+
+- Lai, Ching-Yi, Min-Hsiu Hsieh, and Hsiao-feng Lu. "On the MacWilliams identity for classical and quantum convolutional codes." IEEE Transactions on Communications 64.8 (2016): 3148-3159.
+
+- Poulin, David, Jean-Pierre Tillich, and Harold Ollivier. "Quantum serial turbo codes." IEEE Transactions on Information Theory 55.6 (2009): 2776-2798.
+
+- Wilde, Mark M., Min-Hsiu Hsieh, and Zunaira Babar. "Entanglement-assisted quantum turbo codes." IEEE Transactions on Information Theory 60.2 (2014): 1203-1222.
+
+- Djordjevic, Ivan. Quantum information processing and quantum error correction: an engineering approach. Academic press, 2012.
+
+- Lidar, Daniel A., and Todd A. Brun, eds. Quantum error correction. Cambridge University Press, 2013.
