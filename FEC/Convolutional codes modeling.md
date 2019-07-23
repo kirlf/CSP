@@ -48,10 +48,14 @@ Actually, the encoding procedure can be represented as the work with the [Trelli
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/trellis_illustration.png" width="600" />
 
-> *Good illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
+> *Nice illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
 
 ### Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
+
+![](https://i.pinimg.com/originals/ba/80/a3/ba80a3399d8a1b2ddc61dbb4ec37c513.jpg)
+
+*Andrew J. Viterbi*
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
 
