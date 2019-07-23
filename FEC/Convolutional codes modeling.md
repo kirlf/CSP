@@ -1,7 +1,8 @@
+# Convolutional codes tutorial
+## M. Sc. Vladimir Fadeev
+
 [HOME](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
 
-# Convolutional codes tutorial
-    
 ## Introduction
 
 ### Encoding
