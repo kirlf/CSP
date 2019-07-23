@@ -136,7 +136,9 @@ candidate for Control Plane FEC
 - LDPC codes are considered as the most appropriate
 candidate for User Plane FEC
 
+Nice instrument for BER/FER comparisons is developed by [aff3ct project](https://github.com/aff3ct/aff3ct).
 
+For example, comparison of Turbo, LDPC and Polar codes can be obtained by the [following link](http://aff3ct.github.io/comparator.html?curve1=3c345dc&curve8=eeac520&curve0=bca27f1&curve7=37f704e&xaxis=Eb%2FN0&yaxes=BER%2CFER).
 
 ### Reference
 
