@@ -63,7 +63,7 @@ Seems little bit tricky, however it really works in real systems. On the receive
 > Implementation of the "puncturing" and "insert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
 </details>
 
-## A short history of channel codes in mobile communications
+## A short history of channel codes in mobile communications (physical layer)
 
 ### 2G: GSM, GPRS, EDGE
 
