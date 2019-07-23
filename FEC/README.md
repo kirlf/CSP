@@ -126,6 +126,18 @@ Turbo convolutional codes are still used in air interface of the 4G networks.
 
 > Very interesting research can be found also in [\[7\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
 
+### 5G: candidates
+
+According to "3GPP RAN1 meeting #87 final report". 3GPP. Retrieved 31 August 2017.:
+
+- Polar codes are considered as the most appropriate
+candidate for Control Plane FEC
+
+- LDPC codes are considered as the most appropriate
+candidate for User Plane FEC
+
+
+
 ### Reference
 
 [1] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
