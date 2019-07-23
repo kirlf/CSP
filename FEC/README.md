@@ -124,7 +124,9 @@ Turbo convolutional codes are still used in air interface of the 4G networks.
 
 *Fig. 5. Code-Block Error Rate performance of the LTE Turbo codes. Source: ["Parallel Concatenated Convolutional Coding: Turbo Codes"(MathWorks)](https://www.mathworks.com/help/comm/examples/parallel-concatenated-convolutional-coding-turbo-codes.html)*
 
-> Very interesting research can be found also in [\[7\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
+Turbo codes can be compared with other powerful coding schemes, e.g. LDPC. In one hand, BER performance of Turbo codes is influenced by low codes limitations.[1, p.614] LDPC codes have no limitations of minimum distance,[1, p.653] that indirectly means that LDPC codes may be more efficient on relatively large code rates (e.g. 3/4, 5/6, 7/8) than Turbo codes. However, LDPC codes are not the complete replacement: Turbo codes are the best solution at the lower code rates (e.g. 1/6, 1/3, 1/2).[7]
+
+> Very interesting research can be found also in [\[8\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
 
 ### 5G: candidates
 
@@ -150,11 +152,13 @@ For example, comparison of Turbo, LDPC and Polar codes can be obtained by the [f
 
 [4] Halonen, Timo, Javier Romero, and Juan Melero, eds. GSM, GPRS and EDGE performance: evolution towards 3G/UMTS. John Wiley & Sons, 2004.
 
-\[5\] Bahl, Lalit, et al. "Optimal decoding of linear codes for minimizing symbol error rate (corresp.)." IEEE Transactions on information theory 20.2 (1974): 284-287.
+[5] Bahl, Lalit, et al. "Optimal decoding of linear codes for minimizing symbol error rate (corresp.)." IEEE Transactions on information theory 20.2 (1974): 284-287.
 
-\[6\] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
+[6] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
 
-\[7\] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
+[7] Andrews, Kenneth S., et al. "The development of turbo and LDPC codes for deep-space applications." Proceedings of the IEEE 95.11 (2007): 2142-2156.
+
+[8] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
 
 
 ## Suggested literature
