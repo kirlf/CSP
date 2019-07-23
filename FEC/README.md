@@ -89,7 +89,42 @@ Let us count main blocks:
 
 The convolutional codes are still used in EDGE, but with the code rate 1/3 \[3\].
 
+![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/EDGE_conv.PNG)
 
+*Fig. 2. EGPRS coding and puncturing example (MCS-9: uncoded 8-PSK, two RLC blocks per 20 ms) \[4, p.50\]*
+
+Actually, this air interface is used even in early releases of 3G networks.
+
+### 3G: WCDMA-UMTS
+
+The EDGE radio is used until Release 7.
+
+![](https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/rel5_fec.PNG)
+
+*Fig. 3. Channel coding and interleaving on the control channels. aGERAN Rel’5 terminology is used. This corresponds to a full-rate TCH \[4, p.430]*
+
+Since Release 7 [EGPRS2](https://www.mpirical.com/glossary/egprs2-enhanced-general-packet-radio-service-phase-2) is used. This includes [**Turbo convolutional codes**](http://www.scholarpedia.org/article/Turbo_code).
+
+The structure of the encoder can be represented as:
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/TurboEncoder.png" alt="TurboEncoder" width="700"/>
+
+*Fig. 4. Block scheme of Turbo convolutional encoder.*
+
+Information in the input of the encoder is processed by blocks (chunks), the length of the block directly influences BER performance.
+
+Turbo covolutional decoders use **MAP** (maximum a posteriori probability) algorithms unlike convolutional codes. For example, classical  **BCJR** (Bahl, Cocke, Jelinek and Raviv)\[5\]. More simple implementations such as **Log-MAP**, **MAX-Log-MAP** or **SOVA** of Turbo convolutional decoder are also exist \[6\]. 
+
+
+### 4G: LTE, LTE-A
+
+Turbo convolutional codes are still used in air interface of the 4G networks.
+
+![Turbo](https://www.mathworks.com/help/examples/comm_product/win64/commpccc_04.png)
+
+*Fig. 5. Code-Block Error Rate performance of the LTE Turbo codes. Source: ["Parallel Concatenated Convolutional Coding: Turbo Codes"(MathWorks)](https://www.mathworks.com/help/comm/examples/parallel-concatenated-convolutional-coding-turbo-codes.html)*
+
+> Very interesting research can be found also in [\[7\]](https://publik.tuwien.ac.at/files/publik_262129.pdf) where capabilities of Turbo convolutional, LDPC and Polar codes are considered.
 
 ### Reference
 
@@ -98,3 +133,11 @@ The convolutional codes are still used in EDGE, but with the code rate 1/3 \[3\]
 [2] Eberspächer J. et al. GSM-architecture, protocols and services. – John Wiley & Sons, 2008. - p. 97
 
 [3] 3rd Generation Partnership Project (September 2012). ["3GGP TS45.001: Technical Specification Group GSM/EDGE Radio Access Network; Physical layer on the radio path; General description"](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2705). Retrieved 2013-07-20.
+
+[4] Halonen, Timo, Javier Romero, and Juan Melero, eds. GSM, GPRS and EDGE performance: evolution towards 3G/UMTS. John Wiley & Sons, 2004.
+
+\[5\] Bahl, Lalit, et al. "Optimal decoding of linear codes for minimizing symbol error rate (corresp.)." IEEE Transactions on information theory 20.2 (1974): 284-287.
+
+\[6\] Chatzigeorgiou, Ioannis Ap, and Clare Hall. Performance analysis and design of punctured turbo codes. Diss. Ph. D. dissertation, University of Cambridge, Cambridge, England, 2006.
+
+\[7\] Tahir, Bashar, Stefan Schwarz, and Markus Rupp. "BER comparison between Convolutional, Turbo, LDPC, and Polar codes." Telecommunications (ICT), 2017 24th International Conference on. IEEE, 2017.
