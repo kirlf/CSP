@@ -75,13 +75,7 @@ Let us count main blocks:
 
 - **Block encoder** and **Parity check** - error detection part
 - **Convol. encoder** and **Convol. decoder** - error correction part
-- **Interleaving** and **Deinterleaving** - code words separation increasing
-
-<details> 
-  <summary>The illustration of the interleaving procedure idea.</summary>
-   To increase separation in time domain and avoid bursty destortions interleaving procedure is also frequently used:
-   <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/interleaving1.png" width="700"/>
-</details>
+- [**Interleaving** and **Deinterleaving**](https://upload.wikimedia.org/wikipedia/commons/6/62/Interleaving1.png) - code words separation increasing in time domain and to avoid bursty destortions
 
 <details>
   <summary> The same picture in GPRS due to the same RAN (Radio Access Network). </summary>
@@ -93,7 +87,9 @@ Let us count main blocks:
 
 </details>
 
-The code rate 1/3 is used in EDGE [3]. 
+The convolutional codes are still used in EDGE, but with the code rate 1/3 \[3\].
+
+
 
 ### Reference
 
