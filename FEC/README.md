@@ -1,4 +1,4 @@
-# Channel codes
+# Channel codes in mobile communications
 
 ## Main idea
 The main idea of the channel codes can be formulated as following thesises:
@@ -64,6 +64,8 @@ Seems little bit tricky, however it really works in real systems. On the receive
 ## A short history of channel codes in mobile communications
 
 ### 2G: GSM, GPRS, EDGE
+
+- See also: [**Convolutional codes tutorial**](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md)
 
 Both error correction and error detection techniques are used in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)) (fig. 1).
 
