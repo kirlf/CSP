@@ -11,8 +11,8 @@ Following materials are prepared by us especially for the ["Advanced Digital Sig
   
 **Bonuses**:
 
-  * [MUSIC - MUltiple SIgnal Classification (in Russian)](https://habr.com/ru/post/446674/)
-  * [Optimal linear filters](https://habr.com/ru/post/455497/)
+  * [MUSIC - MUltiple SIgnal Classification](https://habr.com/ru/post/446674/) (in Russian)
+  * [Optimal linear filters](https://habr.com/ru/post/455497/) (in Russian)
   
 ### Suggested literature:
   * Hayes, Monson H. [Statistical digital signal processing and modeling.](https://www.mathworks.com/matlabcentral/fileexchange/2183-statistical-digital-signal-processing-and-modeling?s_tid=prof_contriblnk) John Wiley & Sons, 2009.
