@@ -14,7 +14,7 @@ They are also included in [deep-space communication standartd](https://ipnpr.jpl
 Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, 4G and modern space communication systems.
 
 
-### Encoding
+## Encoding
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous [error-correcting codes](https://github.com/kirlf/CSP/tree/master/FEC). They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
@@ -60,7 +60,7 @@ Actually, the encoding procedure can be represented as the work with the [Trelli
 
 > *Nice illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
 
-### Decoding
+## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
 
 ![](https://i.pinimg.com/originals/ba/80/a3/ba80a3399d8a1b2ddc61dbb4ec37c513.jpg)
