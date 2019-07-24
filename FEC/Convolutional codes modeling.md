@@ -5,11 +5,11 @@
 
 ## Motivation
 
-- See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
-
 Convolutional codes are the part of the mobile communication systems, such as [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7).
 
 They are also included in [deep-space communication standartd](https://ipnpr.jpl.nasa.gov/progress_report/42-63/63H.PDF) in concatenation with Reed-Solomon codes. 
+
+> See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
 
 Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, 4G and modern space communication systems.
 
