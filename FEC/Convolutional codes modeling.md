@@ -236,7 +236,15 @@ So, the curves are sufficiently matched. Let us continue to use considered model
 
 ## Punctured convolutional codes
 
-The options *'PuncturePatternSource'* should be defined as *'Property'* and *'PuncturePattern'* should be specified in the **ConvolutionalEncoder** and **ViterbiDecoder** blocks to apply the puncturing.
+To change the coderate of the continuous code, e.g. convolutional code, puncturing procedure is frequently used:
+
+![punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/punct.png)
+
+Seems little bit tricky, however it really works in real systems. On the receiver side nulls are inserted according to puncturing pattern usually ("depuncturing" or "insert zeros").
+
+> Implementation of the "puncturing" and "insert zeros" functions in python 3.5 can be obtained by the [following link](https://github.com/kirlf/CSP/blob/master/FEC/functions/Puncturing-Depuncturing.ipynb)
+
+The options *'PuncturePatternSource'* should be defined as *'Property'* and *'PuncturePattern'* should be specified in the **ConvolutionalEncoder** and **ViterbiDecoder** blocks to apply the puncturing in MatLab.
 
 > Parameters were selected according to [Punctured Convolutional Coding](https://uk.mathworks.com/help/comm/ug/punctured-convolutional-coding-1.html) MathWorks example.
 
