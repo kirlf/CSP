@@ -3,7 +3,16 @@
 
 [HOME](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
 
-## Introduction
+## Motivation
+
+- See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
+
+Convolutional codes are the part of the mobile communication systems, such as [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7).
+
+They are also included in [deep-space communication standartd](https://ipnpr.jpl.nasa.gov/progress_report/42-63/63H.PDF) in concatenation with Reed-Solomon codes. 
+
+Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, 4G and modern space communication systems.
+
 
 ### Encoding
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are kind of continuous [error-correcting codes](https://github.com/kirlf/CSP/tree/master/FEC). They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
