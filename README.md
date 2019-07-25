@@ -12,7 +12,7 @@
 3. [Digital Signal Processing](https://github.com/kirlf/CSP/blob/master/Different/DSP/README.md)
 
 **Bonus**:
-- [OFDM frame generator](https://github.com/kirlf/CSP/blob/master/Different/OFDM/README.md) (MATLAB tutorial - the rirst of prepared)
+- [OFDM frame generator](https://github.com/kirlf/CSP/blob/master/Different/OFDM/README.md) (MATLAB tutorial - the first of prepared)
     
 **Note that**: 
 
