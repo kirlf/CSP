@@ -5,8 +5,8 @@
 
 **Additional teaching materials for the Communication and Signal Processing (CSP) major of German-Russian Institute of Advanced Technologies (GRIAT).** 
 
-1. [Information and Coding Theory](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
-2. [MIMO Communications](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
+1. [Information Theory and Coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
+2. [Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 3. [Digital Signal Processing](https://github.com/kirlf/CSP/blob/master/Different/DSP/README.md)
 
 **Bonus**:
