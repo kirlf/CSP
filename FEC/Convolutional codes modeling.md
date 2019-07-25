@@ -56,9 +56,15 @@ Where *y* is the code word, *x* is the initial message and *h* is the generator 
 
 Actually, the encoding procedure can be represented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
 
+<details>
+  <summary> Nice illustrations by M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer </summary>
+
+Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf
+    
+ 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/trellis_illustration.png" width="600" />
 
-> *Nice illustrations by [M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html). Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien/script.pdf*
+</details>
 
 ## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
@@ -68,6 +74,9 @@ Actually, the encoding procedure can be represented as the work with the [Trelli
 *Andrew J. Viterbi*
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
+
+<details>
+  <summary> MATLAB script. </summary>
 
 ``` octave
 clear all 
@@ -89,11 +98,16 @@ grid on
 xlabel('Eb/No (dB)') 
 ylabel('Bit Error Rate') 
 ```
+</details>
+
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
 
 >Fig. 1.1.4. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
 Moreover, if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
+
+<details>
+    <summary> MATLAB script. </summary>
 
 ``` octave
 clear all 
@@ -136,6 +150,8 @@ grid on
 xlabel('Eb/No (dB)') 
 ylabel('Bit Error Rate') 
 ```
+</details>
+
 ![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
 
 >Fig. 1.1.5. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
@@ -159,6 +175,9 @@ The main structural blocks for the simulation:
 
 Theoretical values are generated via the **bertool** GUI.
 
+<details>
+  <summary> MATLAB script. </summary>
+  
 ``` octave
 clear; close all; clc
 rng default
@@ -235,7 +254,8 @@ grid
 xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate')
 ```
-
+</details>
+    
 ![Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)](https://raw.githubusercontent.com/kirlf/communication_stuff/master/FEC/assets/Soft%20conv.png
 ).
 >Fig. 1.2.1. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)
@@ -257,7 +277,8 @@ The options *'PuncturePatternSource'* should be defined as *'Property'* and *'Pu
 
 > Parameters were selected according to [Punctured Convolutional Coding](https://uk.mathworks.com/help/comm/ug/punctured-convolutional-coding-1.html) MathWorks example.
 
-MATLAB simulation:
+<details>
+  <summary> MATLAB script. </summary>
 
 ``` octave
 clear; close all; clc
@@ -341,6 +362,8 @@ grid on
 xlabel('Eb/No (dB)')
 ylabel('Bit Error Rate')
 ```
+</details>
+
 ![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
 >Fig. 1.2.2. Convolutional codes with 1/2 and 3/4 code rates (constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
 
