@@ -37,3 +37,4 @@ M.Sc. Vladimir Fadeev
 - [MIMO capacity and Water-pouring algorithm](https://habr.com/ru/post/448570/) (in Russian)
 - [MU-MIMO: Block Diagonalization](https://habr.com/ru/post/450948/) (in Russian)
 - [MIMO spatial diversity: Alamouti, DET et cetera](https://habr.com/ru/post/452494/) (in Russian)
+- [MIMO fading channels and Kronecker model](https://habr.com/ru/post/447172/) (in Russian)
