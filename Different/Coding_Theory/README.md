@@ -14,7 +14,6 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
 * Channel coding:
   * [Main principles](https://github.com/kirlf/CSP/blob/master/FEC/README.md) (+ [slides](https://speakerdeck.com/kirlf/channel-coding-schemes) and [self-cheking test](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/test-2-channel.pdf))
   * [Convolutional codes tutorial](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md)
-  * [LDPC codes (python tutorial)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb) 
    
 * Entropy codes:
   * [Huffman codes basics (python tutorial)](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)
@@ -22,3 +21,6 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
  > The last topic is prepared also as preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
  
  We are suggesting you to spend some time for learning of these materials anyway. It may help you to understand faster some of the topics of S.S. Sedov's and [Marko Hennhofer's](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html) courses. Hence, you can spend more time to your **scientific researches**. 
+ 
+ **Extra**:
+ - [LDPC codes (python tutorial)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/FEC/LDPC.ipynb) 
