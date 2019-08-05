@@ -26,7 +26,12 @@
   * [Digital Signal Processing](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html) by [Prof. Dr.-Ing. Sascha Spors](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html)
   * Солонина А. И. Цифровая обработка сигналов. Моделирование в MATLAB. – БХВ-Петербург, 2008.
   * ["Цифровая обработка сигналов"](https://github.com/capitanov/dsp-theory) курс Александра Капитанова 
-   
+
+### List of additional popular-science articles (in Russian):
+
+ - [MUSIC: MUltiple SIgnal Classification](https://habr.com/ru/post/446674/)
+ - [Optimal linear filters: Steepest descent and Adaptive filters](https://habr.com/ru/post/455497/)
+
 ### Comments and suggestions
 
 We'll be appreciate your **stars** because it is one of the brightest indicators of a good work!
@@ -34,8 +39,3 @@ We'll be appreciate your **stars** because it is one of the brightest indicators
 You also can send your comments and suggestion by e-mail: vovenur@gmail.com
 
 The feedback is valuable for us!
-
-### List of additional popular-science articles (in Russian):
-
- - [MUSIC: MUltiple SIgnal Classification](https://habr.com/ru/post/446674/)
- - [Optimal linear filters: Steepest descent and Adaptive filters](https://habr.com/ru/post/455497/)
