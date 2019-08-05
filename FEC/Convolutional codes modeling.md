@@ -15,7 +15,9 @@ Moreover, the convolutional codes are the part of the [Turbo convolutional codes
 
 
 ## Encoding
-Convolutional codes are kind of <u>continuous error-correcting codes</u>. They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
+Convolutional codes are kind of **continuous error-correcting codes**. 
+
+They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
 ![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
 >Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)).
