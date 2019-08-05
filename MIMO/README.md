@@ -13,7 +13,7 @@
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
 - Self-education:
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
-    * [MIMO in future standards (short review)](https://github.com/kirlf/CSP/blob/master/MIMO/Outlloks.md)
+
 
 # Preface
 
