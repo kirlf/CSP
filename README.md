@@ -7,9 +7,8 @@
 
 1. [Information Theory and Coding](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
 2. [Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
-3. [Digital Signal Processing](https://github.com/kirlf/CSP/blob/master/Different/DSP/README.md)
 
-**Bonus**:
+**Bonuses**:
 - [OFDM frame generator](https://github.com/kirlf/CSP/blob/master/Different/OFDM/README.md) (MATLAB tutorial - the first of prepared)
 - [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) (Python tutorial): this (in assotiation with [Huffman codes](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)) is a preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
 
@@ -36,3 +35,7 @@ You also can send your comments and suggestion by e-mail: vovenur@gmail.com
 
 The feedback is valuable for us!
 
+### List of additional popular-science articles (in Russian):
+
+ - [MUSIC: MUltiple SIgnal Classification](https://habr.com/ru/post/446674/)
+ - [Optimal linear filters: Steepest descent and Adaptive filters](https://habr.com/ru/post/455497/)
