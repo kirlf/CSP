@@ -17,11 +17,11 @@ Moreover, the convolutional codes are the part of the [Turbo convolutional codes
 ## Encoding
 Convolutional codes are kind of **continuous [error-correcting codes](https://en.wikipedia.org/wiki/Error_correction_code)**. 
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png" width="700" />
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png" width="800" />
 
 They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
 
-![shiftregs](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png)
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png" width="600" />
 >Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)). All of the math operations should be done by modulo 2.
 
 In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
