@@ -66,7 +66,7 @@ Fortunatelly, syntax of MatLab is not so difficult for understanding and there i
 * comments can be added after '%' symbol, 
 * semicolon \(';'\) in the end of the row \(line\) is not necessary and only doesn't allow displaying of the result,
 * tabulation is also not necessary, but it always is a good taste, 
-* indexes in MatLab begin from **1** \(unlike **Python** or **C** where indexec begin from **0**\);
+* indexes in MatLab begin from **1** \(unlike **Python** or **C** where indeces begin from **0**\);
 * needed help you can obtain via **F1** hotkey or from the [official MathWorks site](https://ch.mathworks.com/solutions/dsp.html).
 
 ## Modeling
