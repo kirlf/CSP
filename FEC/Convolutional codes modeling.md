@@ -1,5 +1,6 @@
 # Convolutional codes tutorial
 ### M. Sc. Vladimir Fadeev
+#### Kazan, 2019
 
 ## Motivation
 
