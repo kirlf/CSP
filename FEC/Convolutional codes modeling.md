@@ -1,17 +1,30 @@
 # Convolutional codes tutorial
-## M. Sc. Vladimir Fadeev
-
-[HOME](https://github.com/kirlf/CSP/blob/master/Different/Coding_Theory/README.md)
+### M. Sc. Vladimir Fadeev
 
 ## Motivation
 
-Convolutional codes are the part of the mobile communication systems, such as [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7).
+Before we start, let us shortly describe why this topic should be learned.
+
+Convolutional codes are the part of most of the mobile communication systems. For example, they are implemented in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7) \[1\], \[2, p. 430\].
+
+<img src="https://habrastorage.org/webt/fi/vt/rg/fivtrgot1jque5tipk_52ttp8rm.png" width="650" />
+
+*Fig.1. Stages of channel coding in GSM \[3, p. 97\]. **Block encoder** and **Parity check** - error detection part. **Convol. encoder** and **Convol. decoder** - error correction part. [**Interleaving** and **Deinterleaving**](https://upload.wikimedia.org/wikipedia/commons/6/62/Interleaving1.png) - code words separation increasing in time domain and to avoid bursty destortions.* 
 
 They are also included in [deep-space communication standartd](https://ipnpr.jpl.nasa.gov/progress_report/42-63/63H.PDF) in concatenation with Reed-Solomon codes. 
 
 > See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
 
-Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, 4G and modern space communication systems.
+Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, [4G](https://www.mathworks.com/help/comm/examples/parallel-concatenated-convolutional-coding-turbo-codes.html?searchHighlight=turbo%20codes&s_tid=doc_srchtitle) and modern space communication systems.
+
+![](http://www.scholarpedia.org/w/images/thumb/2/25/Turbocode_fig4_v2.jpg/450px-Turbocode_fig4_v2.jpg)
+
+*Fig.2. A turbo code with component codes 13, 15. Source: http://www.scholarpedia.org/article/Turbo_codes . Turbo codes get their name
+because the decoder uses feedback, like a turbo engine.*
+
+In other words, basics of convolutional codes are the **key** for understanding of the main ideas of the forward error correction in mobile communications. 
+
+> You can also read more about convolutional codes and Turbo caodes (and other error detection and error correction schemes) in the corresponding teaching [slides by Atlanta RF company](https://www.atlantarf.com/Error_Control.php). 
 
 
 ## Encoding
@@ -19,24 +32,16 @@ Convolutional codes are kind of **continuous [error-correcting codes](https://en
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png" width="800" />
 
-They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation, e.g.:
-
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png" width="600" />
-
->Fig. 1.1.1. Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)). All of the math operations should be done by modulo 2.
-
-In practice, polynomial structures are selected from the reference books. Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
-
 Moreover, the following classification can be applied:
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png" alt="SysNonSys" width="600"/>
 
-Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[1, p. 508\].
+Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[4, p. 508\].
 
 Additionally, convolutional codes can be devided into two groups: recursive and non-recursive:
 
 ![recnonrec](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrec.png)
 
-> Fig. 1.1.2. Two state recurcive (a) and nonrecursive (b) encoder \[2\].
+> Fig. 1.1.2. Two state recurcive (a) and nonrecursive (b) encoder \[5\].
 
 Not so much different in BER performance:
 
@@ -54,7 +59,19 @@ Where *y* is the code word, *x* is the initial message and *h* is the generator 
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" width="400"/>
 
-Actually, the encoding procedure can be represented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
+<details>
+  <summary> They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation. </summary>
+ 
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png" width="600" />
+
+*Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)). All of the math operations should be done by modulo 2.*
+</details>
+
+Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
+
+> Use reference books to select polynomial with required code rate. 
+
+In practice, the encoding procedure can be implemented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
 
 <details>
   <summary> Nice illustrations by M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer </summary>
@@ -65,6 +82,7 @@ Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/Different/assets/trellis_illustration.png" width="600" />
 
 </details>
+
 
 ## Decoding
 [Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
@@ -371,9 +389,15 @@ The 1 dB difference can be noted. Actually, it is the price for the higher data 
 
 ### References
 
-\[1\] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+\[1\] 3rd Generation Partnership Project (September 2012). "3GGP TS45.001: Technical Specification Group GSM/EDGE Radio Access Network; Physical layer on the radio path; General description". Retrieved 2013-07-20.
 
-\[2\] Benedetto, Sergio, and Guido Montorsi. "Role of recursive convolutional codes in turbo codes." Electronics Letters 31.11 (1995): 858-859.
+\[2\] Halonen, Timo, Javier Romero, and Juan Melero, eds. GSM, GPRS and EDGE performance: evolution towards 3G/UMTS. John Wiley & Sons, 2004.
+
+\[3\] Eberspächer J. et al. GSM-architecture, protocols and services. – John Wiley & Sons, 2008.
+
+\[4\] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+
+\[5\] Benedetto, Sergio, and Guido Montorsi. "Role of recursive convolutional codes in turbo codes." Electronics Letters 31.11 (1995): 858-859.
 
 ### Suggested literature
 
