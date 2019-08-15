@@ -33,8 +33,13 @@ Convolutional codes are kind of **continuous [error-correcting codes](https://en
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png" width="800" />
 
-Moreover, the following classification can be applied:
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png" alt="SysNonSys" width="600"/>
+Moreover, convolutional codes can be:
+- systematic: information bits are not changed after encoding
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/systematic.PNG" width="200" />
+
+- non-systematic: information bits can be changed
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/nonsystematic.PNG" width="200" />
 
 Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[5, p. 508\].
 
@@ -58,7 +63,7 @@ Searching of the optimal structure of the convolutional codes is the scientific 
 
 > Use reference books to select polynomial with required code rate. 
 
-In practice, the encoding procedure can be implemented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions beatween the some predefined states with the predefined outputs.
+In practice, the encoding procedure can be implemented as the work with the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) that simplifies all of the routines to the transactions between the some predefined states with the predefined outputs.
 
 <details>
   <summary> Nice illustrations by M. Sc. Dipl.-Ing. (FH) Marko Hennhöfer </summary>
