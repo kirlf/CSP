@@ -29,9 +29,7 @@ In other words, basics of convolutional codes are the **key** for understanding 
 
 
 ## Encoding
-Convolutional codes are kind of **continuous [error-correcting codes](https://en.wikipedia.org/wiki/Error_correction_code)**. 
-
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/BlockCont.png" width="800" />
+Convolutional codes are kind of **[continuous error-correcting codes](https://en.wikipedia.org/wiki/Error_correction_code#Types_of_ECC)**. 
 
 Moreover, convolutional codes can be:
 - systematic: information bits are not changed after encoding
@@ -45,19 +43,70 @@ Non-systematic convolutional codes are more popular due to better noise immunity
 
 The name of convolutional codes directly relates to the discrete [convolution](https://en.wikipedia.org/wiki/Convolution): encoding can be done via this math routine.
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/convformula.png" alt="formula" width="400"/>
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20y%5Ej%5Bi%5D%20%3D%20%5Csum_%7Bk%3D0%7D%5E%7BL-1%7D%20x%5Bi-k%5Dh%5Ej%5Bk%5D%20%3D%20(x*h%5Ej)%5Bi%5D" alt=" y^j[i] = \sum_{k=0}^{L-1} x[i-k]h^j[k] = (x*h^j)[i]" /></p>
 
-Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. [For example](http://web.mit.edu/6.02/www/f2010/handouts/lectures/L8.pdf), for the (7, \[177, 133\]) structure the branches are:
+Where *y* is the code word, *x* is the initial message and *h* is the generator branch, *L* is the constrain length, *j* is the number of branch and *i* is the number of message bit that should be encoded. [For example](http://web.mit.edu/6.02/www/f2010/handouts/lectures/L8.pdf), for the (7, \[171, 133\]) structure (used in Deep-space standard) the branches are:
 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/gensexamp.png" alt="branches" width="400"/>
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20h%5E1%20%3D%20171_o%20%3D%20%5B1111001%5D_b" alt=" h^1 = 171_o = [1111001]_b" /></p>
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/%20h%5E2%20%3D%20133_o%20%3D%20%5B1011011%5D_b" alt=" h^2 = 133_o = [1011011]_b" /></p>
+
+They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation. 
+ 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Conv_code_177_133.png/800px-Conv_code_177_133.png" width="600" />
+
+*Fif. 3. Example of shift-register structure. All of the math operations should be done by modulo 2.*
+
+if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
 
 <details>
-  <summary> They can be easily described via the polynomial structure, that can be also mapped into the shift-registers representation. </summary>
- 
-<img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/shift_regs.png" width="600" />
+    <summary> MATLAB script. </summary>
 
-*Example of shift-register structure (m1 and m2 are the constrain lengths (memory length)). All of the math operations should be done by modulo 2.*
+``` octave
+clear all 
+close all 
+clc 
+
+EbNo = 0:7; 
+lens = 5:9; 
+gens = [[35 23]; [51 73]; [171 133]; [371 247]; [753 561]]; 
+
+for g = 1:length(gens) 
+    spect = distspec(poly2trellis(lens(g), gens(g,:)),lens(g)) 
+    ber_soft(:, g) = bercoding(EbNo,'conv','soft',1/2,spect); 
+    ber_hard(:, g) = bercoding(EbNo,'conv','hard',1/2,spect); 
+end 
+ber_u = berawgn(EbNo,'psk',4,'nondiff').'; 
+
+ber1 = [ber_soft ber_u]; 
+ber2 = [ber_hard ber_u]; 
+
+figure(1) 
+semilogy(EbNo, ber1,'LineWidth', 1.5) 
+hold on 
+legend('Soft (5,[35 23])',... 
+'Soft (6,[51 73])','Soft (7,[171 133])',... 
+'Soft (8,[371 247])','Soft (9,[753 561])',... 
+'Uncoded','location','best') 
+grid on 
+xlabel('Eb/No (dB)') 
+ylabel('Bit Error Rate') 
+
+figure(2) 
+semilogy(EbNo, ber2,'LineWidth', 1.5) 
+hold on 
+legend('Hard (5,[35 23])',... 
+'Hard (6,[51 73])','Hard (7,[171 133])',... 
+'Hard (8,[371 247])','Hard (9,[753 561])',... 
+'Uncoded','location','best') 
+grid on 
+xlabel('Eb/No (dB)') 
+ylabel('Bit Error Rate') 
+```
 </details>
+
+![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
+
+*Fig. 4. Comparison of the different structures of the convolutional codes (QPSK, AWGN).*
 
 Searching of the optimal structure of the convolutional codes is the scientific research item. This relates to the chance to construct [catastrophic](https://www.mathworks.com/help/comm/ref/iscatastrophic.html) convolutional code.  
 
@@ -114,57 +163,6 @@ ylabel('Bit Error Rate')
 
 >Fig. 1.1.4. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
 
-Moreover, if you choose the larger constrain length (use more delaying memory blocks), your encoder (and decoder) becomes more sophisticated (exponentially). However, coding algorithm becomes more strong (more available combinations, code words), hence, the length of the constrain length influences you BER performance. 
-
-<details>
-    <summary> MATLAB script. </summary>
-
-``` octave
-clear all 
-close all 
-clc 
-
-EbNo = 0:7; 
-lens = 5:9; 
-gens = [[35 23]; [51 73]; [171 133]; [371 247]; [753 561]]; 
-
-for g = 1:length(gens) 
-    spect = distspec(poly2trellis(lens(g), gens(g,:)),lens(g)) 
-    ber_soft(:, g) = bercoding(EbNo,'conv','soft',1/2,spect); 
-    ber_hard(:, g) = bercoding(EbNo,'conv','hard',1/2,spect); 
-end 
-ber_u = berawgn(EbNo,'psk',4,'nondiff').'; 
-
-ber1 = [ber_soft ber_u]; 
-ber2 = [ber_hard ber_u]; 
-
-figure(1) 
-semilogy(EbNo, ber1,'LineWidth', 1.5) 
-hold on 
-legend('Soft (5,[35 23])',... 
-'Soft (6,[51 73])','Soft (7,[171 133])',... 
-'Soft (8,[371 247])','Soft (9,[753 561])',... 
-'Uncoded','location','best') 
-grid on 
-xlabel('Eb/No (dB)') 
-ylabel('Bit Error Rate') 
-
-figure(2) 
-semilogy(EbNo, ber2,'LineWidth', 1.5) 
-hold on 
-legend('Hard (5,[35 23])',... 
-'Hard (6,[51 73])','Hard (7,[171 133])',... 
-'Hard (8,[371 247])','Hard (9,[753 561])',... 
-'Uncoded','location','best') 
-grid on 
-xlabel('Eb/No (dB)') 
-ylabel('Bit Error Rate') 
-```
-</details>
-
-![lens](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/lenss.png)
-
->Fig. 1.1.5. Comparison of the different structures of the convolutional codes (QPSK, AWGN).
 
 The MATLAB modeling of the transmission of the encoded message is presented below. 
 
