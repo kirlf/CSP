@@ -126,11 +126,7 @@ Source: http://www5.tu-ilmenau.de/nt/de/teachings/vorlesungen/itsc_master/folien
 
 
 ## Decoding
-[Viterbi algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
-
-![](https://i.pinimg.com/originals/ba/80/a3/ba80a3399d8a1b2ddc61dbb4ec37c513.jpg)
-
-*Andrew J. Viterbi*
+[The algorithm](http://www.scholarpedia.org/article/Viterbi_algorithm) named after [*Andrew J. Viterbi*](https://i.pinimg.com/originals/ba/80/a3/ba80a3399d8a1b2ddc61dbb4ec37c513.jpg) (one of the **MLE** – Maximum Likelihood Estimation -  algorithms) is usually used for decoding. Viterbi algorithm also use the [Trellis structures](https://www.gaussianwaves.com/tag/trellis-diagram/) for the decoding. 
 
 Convolutional **decoders** can make either **hard** or **soft** decision. What does it mean? That means differrent type of encoders' inputs: zeros and ones (hard descision) or [log-likelihood ratios](https://www.mathworks.com/help/comm/ug/digital-modulation.html#brc6yjx) (soft descision). The soft descion is more preferable due to BER (bit-error ratio) performance:
 
@@ -161,7 +157,7 @@ ylabel('Bit Error Rate')
 
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
 
->Fig. 1.1.4. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).
+*Fig. 5. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).*
 
 
 The MATLAB modeling of the transmission of the encoded message is presented below. 
@@ -266,7 +262,7 @@ ylabel('Bit Error Rate')
     
 ![Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)](https://raw.githubusercontent.com/kirlf/communication_stuff/master/FEC/assets/Soft%20conv.png
 ).
->Fig. 1.2.1. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)
+*Fig. 6. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)*
 
 
 So, the curves are sufficiently matched. Let us continue to use considered model.
@@ -373,7 +369,7 @@ ylabel('Bit Error Rate')
 </details>
 
 ![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
->Fig. 1.2.2. Convolutional codes with 1/2 and 3/4 code rates (constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)
+*Fig. 7. Convolutional codes with 1/2 and 3/4 code rates (constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)*
 
 The 1 dB difference can be noted. Actually, it is the price for the higher data rate.
 
