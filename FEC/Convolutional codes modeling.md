@@ -4,6 +4,8 @@
 
 ## Motivation
 
+> See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
+
 Before we start, let us shortly describe why this topic should be learned.
 
 Convolutional codes are the part of most of the mobile communication systems. For example, they are implemented in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7) \[1\], \[2, p. 430\].
@@ -13,8 +15,6 @@ Convolutional codes are the part of most of the mobile communication systems. Fo
 *Fig.1. Stages of channel coding in GSM \[3, p. 97\]. **Block encoder** and **Parity check** - error detection part. **Convol. encoder** and **Convol. decoder** - error correction part. [**Interleaving** and **Deinterleaving**](https://upload.wikimedia.org/wikipedia/commons/6/62/Interleaving1.png) - code words separation increasing in time domain and to avoid bursty destortions.* 
 
 They are also included in [deep-space communication standartd](https://ipnpr.jpl.nasa.gov/progress_report/42-63/63H.PDF) in concatenation with Reed-Solomon codes. 
-
-> See also: [Survey of modulation and coding schemes for application in CubeSat systems (afterwords)](https://github.com/kirlf/cubesats/blob/master/fec.md)
 
 Moreover, the convolutional codes are the part of the [Turbo convolutional codes](http://www.scholarpedia.org/article/Turbo_codes) that are used in 3G, [4G](https://www.mathworks.com/help/comm/examples/parallel-concatenated-convolutional-coding-turbo-codes.html?searchHighlight=turbo%20codes&s_tid=doc_srchtitle) and modern space communication systems.
 
