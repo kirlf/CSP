@@ -21,7 +21,7 @@ Moreover, the convolutional codes are the part of the [Turbo convolutional codes
 ![](http://www.scholarpedia.org/w/images/thumb/2/25/Turbocode_fig4_v2.jpg/450px-Turbocode_fig4_v2.jpg)
 
 *Fig.2. A turbo code with component codes 13, 15. Source: http://www.scholarpedia.org/article/Turbo_codes . Turbo codes get their name
-because the decoder uses feedback, like a turbo engine.*
+because the decoder uses feedback, like a turbo engine. Permutation means the same as the interleaving. C1 and C2 are recursive convolutional codes. Recursive and non-recursive convolutional codes [are not so much different in BER performance](https://en.wikipedia.org/wiki/File:Recnonrecber.png), however, recursive type of is implemented in Turbo convolutional codes due to better interleaving properties \[4\].*
 
 In other words, basics of convolutional codes are the **key** for understanding of the main ideas of the forward error correction in mobile communications. 
 
@@ -36,21 +36,7 @@ Convolutional codes are kind of **continuous [error-correcting codes](https://en
 Moreover, the following classification can be applied:
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/syst-nonsyst.png" alt="SysNonSys" width="600"/>
 
-Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[4, p. 508\].
-
-Additionally, convolutional codes can be devided into two groups: recursive and non-recursive:
-
-![recnonrec](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrec.png)
-
-> Fig. 1.1.2. Two state recurcive (a) and nonrecursive (b) encoder \[5\].
-
-Not so much different in BER performance:
-
-![recBER](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/recnonrecber.png)
-
-> Fig. 1.1.3. BER performance of recursive and non-recursive codes. 
-
-However, this type of CC is implemented in Turbo convolutional codes due to interleaving properties.
+Non-systematic convolutional codes are more popular due to better noise immunity. It relates to the [**free distance**](  https://www.mathworks.com/help/comm/ug/bit-error-rate-ber.html#brck0zf) of the convolutional code \[5, p. 508\].
 
 The name of convolutional codes directly relates to the discrete [convolution](https://en.wikipedia.org/wiki/Convolution): encoding can be done via this math routine.
 
@@ -396,9 +382,11 @@ The 1 dB difference can be noted. Actually, it is the price for the higher data 
 
 \[3\] Eberspächer J. et al. GSM-architecture, protocols and services. – John Wiley & Sons, 2008.
 
-\[4\] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+\[4\] Benedetto, Sergio, and Guido Montorsi. "Role of recursive convolutional codes in turbo codes." Electronics Letters 31.11 (1995): 858-859.
 
-\[5\] Benedetto, Sergio, and Guido Montorsi. "Role of recursive convolutional codes in turbo codes." Electronics Letters 31.11 (1995): 858-859.
+\[5\] Moon, Todd K. "Error correction coding." Mathematical Methods and Algorithms. Jhon Wiley and Son (2005).
+
+
 
 ### Suggested literature
 
