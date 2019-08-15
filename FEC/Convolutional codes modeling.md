@@ -157,10 +157,18 @@ ylabel('Bit Error Rate')
 
 ![hardsoft](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/softhard.png)
 
-*Fig. 5. Comparison of QPSK with and without convolutional codes (7, [175 133]) (AWGN).*
+*Fig. 5. Comparison of QPSK with and without convolutional codes (7, [171 133]) (AWGN).*
 
+Another important option of the Viterbi decoder is the **traceback depth**. This parameter means decoder memory and relates to the Trellis structures. The traceback depth is typicaly selected arroding to [these hints]:
 
-The MATLAB modeling of the transmission of the encoded message is presented below. 
+- A rate 1/2 code has a Traceback depth of *5(k – 1)*.
+- A rate 2/3 code has a Traceback depth of *7.5(k – 1)*.
+- A rate 3/4 code has a Traceback depth of *10(k – 1)*.
+- A rate 5/6 code has a Traceback depth of *15(k – 1)*.
+
+where *k* is the constraint length. 
+
+The shortlist of the required theory is completed. The MATLAB modeling of the transmission of the encoded message is presented below. 
 
 ## Modeling in MatLab
 This code is developed by example of description of [**convenc**](https://de.mathworks.com/help/comm/ref/convenc.html) MatLab function. 
@@ -262,6 +270,7 @@ ylabel('Bit Error Rate')
     
 ![Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)](https://raw.githubusercontent.com/kirlf/communication_stuff/master/FEC/assets/Soft%20conv.png
 ).
+
 *Fig. 6. Convolutional codes with 1/2 code rate and constrain length 7 (Soft descision, 4-QAM / QPSK / OQPSK)*
 
 
@@ -369,6 +378,7 @@ ylabel('Bit Error Rate')
 </details>
 
 ![Punct](https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/Soft34.png). 
+
 *Fig. 7. Convolutional codes with 1/2 and 3/4 code rates (constrain length 7, Soft descision, 4-QAM / QPSK / OQPSK)*
 
 The 1 dB difference can be noted. Actually, it is the price for the higher data rate.
@@ -389,6 +399,8 @@ The 1 dB difference can be noted. Actually, it is the price for the higher data 
 
 ### Suggested literature
 
+#### Convolutional codes
+
 - Francis, Michael. "Viterbi Decoder Block Decoding-Trellis Termination and Tail Biting." Xilinx XAPP551 v2. 0, DD (2005): 1-21.
 
 - Chen, Qingchun, Wai Ho Mow, and Pingzhi Fan. "Some new results on recursive convolutional codes and their applications." Information Theory Workshop, 2006. ITW'06 Chengdu. IEEE. IEEE, 2006.
@@ -401,6 +413,37 @@ The 1 dB difference can be noted. Actually, it is the price for the higher data 
 
 - Chen, Yuh-Long, and Che-Ho Wei. "Performance evaluation of convolutional codes with MPSK on Rician fading channels." IEE Proceedings F-Communications, Radar and Signal Processing. Vol. 134. No. 2. IET, 1987.
 
+#### Turbo convolutional codes
+
+- Battail, Gérard. "A conceptual framework for understanding turbo codes." IEEE Journal on Selected Areas in Communications 16.2 (1998): 245-254.
+
+- Brejza, Matthew F., et al. "20 years of turbo coding and energy-aware design guidelines for energy-constrained wireless applications." IEEE Communications Surveys & Tutorials 18.1 (2016): 8-28.
+
+- [3GPP LTE Turbo Reference Design](https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/an/an505.pdf)
+
+- Garzón-Bohórquez, Ronald, Charbel Abdel Nour, and Catherine Douillard. "Improving Turbo codes for 5G with parity puncture-constrained interleavers." Turbo Codes and Iterative Information Processing (ISTC), 2016 9th International Symposium on. IEEE, 2016.
+
+#### Quantum applications:
+
+<img src="https://quics.umd.edu/sites/quics.umd.edu/files//styles/medium/public/QuICS%20main_0.png?itok=inDiutej" width="300" />
+
+*Source: https://quics.umd.edu/news/quics-brings-200-scientists-umd-quantum-error-correction-conference*
+
+Another interesting application of the channel codes are the quantum communications. Note that, rules of quantum world influence coding theory. For example, recursive quantum CC are catastrophic and  quantum Turbo CC outperforms even quantum LDPC.
+
+- Houshmand, Monireh, and Mark M. Wilde. "Recursive quantum convolutional encoders are catastrophic: A simple proof." IEEE Transactions on Information Theory 59.10 (2013): 6724-6731.
+
+- Lai, Ching-Yi, Min-Hsiu Hsieh, and Hsiao-feng Lu. "On the MacWilliams identity for classical and quantum convolutional codes." IEEE Transactions on Communications 64.8 (2016): 3148-3159.
+
+- Poulin, David, Jean-Pierre Tillich, and Harold Ollivier. "Quantum serial turbo codes." IEEE Transactions on Information Theory 55.6 (2009): 2776-2798.
+
+- Wilde, Mark M., Min-Hsiu Hsieh, and Zunaira Babar. "Entanglement-assisted quantum turbo codes." IEEE Transactions on Information Theory 60.2 (2014): 1203-1222.
+
+- Djordjevic, Ivan. Quantum information processing and quantum error correction: an engineering approach. Academic press, 2012.
+
+- Lidar, Daniel A., and Todd A. Brun, eds. Quantum error correction. Cambridge University Press, 2013.
+
+
 ### Suggested literature (in Russian):
 
 - Хлынов, А. А. "ИССЛЕДОВАНИЕ ПРИНЦИПОВ РЕАЛИЗАЦИИ LDPC КОДЕКА НА ПЛИС." Фундаментальные проблемы радиоэлектронного приборостроения 12.6 (2012): 150-156.
@@ -412,6 +455,8 @@ The 1 dB difference can be noted. Actually, it is the price for the higher data 
 - Колесник В. Д., Полтырев Г. Ш. Курс теории информации. – " Наука," Глав. ред. физико-математической лит-ры, 1982.
 
 - Нгок Д. К. Исследование методов поиска оптимальных сверточных и перфорированных сверточных кодов : дис. – Диссертация на соискание ученой степени кандидата технических наук. СПб.: ЛЭТИ, 2014.
+
+
 
 ### Afterwords
 
