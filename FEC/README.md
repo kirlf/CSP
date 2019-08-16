@@ -13,12 +13,12 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
 
 * Channel coding:
   * [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md) (MatLab tutorial)
-
-See also some basic stuff in [contributed by us channel coding idea description](https://github.com/veeresht/CommPy/tree/master/commpy/channelcoding) in CommPy open-source project.
    
 * Entropy codes:
   * [Huffman codes basics](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/) (python tutorial)
-  
+
+See also some basic stuff in [contributed by us channel coding idea description](https://github.com/veeresht/CommPy/tree/master/commpy/channelcoding) in CommPy open-source project.
+
  The last topic is prepared also as preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
  
  We are suggesting you to spend some time for learning of these materials anyway. It may help you to understand faster some of the topics of S.S. Sedov's and [Marko Hennhofer's](http://www5.tu-ilmenau.de/nt/de/private_home/hennhoefer/index.html) courses. Hence, you can spend more time to your **scientific researches**. 
