@@ -8,7 +8,7 @@
 
 Before we start, let us shortly describe why this topic should be learned.
 
-Convolutional codes are the part of most of the mobile communication systems. For example, they are implemented in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7) \[1\], \[2, p. 430\].
+Convolutional codes are the part of many wireless communication systems. For example, they are implemented in [**GSM**](http://www.scholarpedia.org/article/Global_system_for_mobile_communications_(GSM)), GPRS, EDGE and 3G networks (until Release 7) \[1\], \[2, p. 430\].
 
 <img src="https://habrastorage.org/webt/fi/vt/rg/fivtrgot1jque5tipk_52ttp8rm.png" width="650" />
 
@@ -31,7 +31,7 @@ In other words, basics of convolutional codes are the **key** for understanding 
 ## Encoding
 Convolutional codes are kind of **[continuous error-correcting codes](https://en.wikipedia.org/wiki/Error_correction_code#Types_of_ECC)**. 
 
-Moreover, convolutional codes can be:
+Besides, convolutional codes can be:
 - systematic: information bits are not changed after encoding
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/FEC/assets/systematic.PNG" width="200" />
 
