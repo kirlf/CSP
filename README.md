@@ -9,7 +9,6 @@
 2. [Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
 **Bonuses**:
-- [OFDM frame generator](https://github.com/kirlf/CSP/blob/master/Different/OFDM/README.md) (MATLAB tutorial - the first of prepared)
 - [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) (Python tutorial): 
   - this (in assotiation with [Huffman codes](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)) is a preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
 
