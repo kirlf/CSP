@@ -10,7 +10,6 @@ Following materials were prepared by us especially for Module 2 ("Basics of effe
 
 * Digital modulation
   * [Basics of linear digital modulations](https://speakerdeck.com/kirlf/linear-digital-modulations) (slides)
-  * [OFDM frame generator](https://github.com/kirlf/CSP/blob/master/Different/OFDM/README.md) (MATLAB tutorial - the first of prepared)
 
 * Channel coding:
   * [Convolutional codes](https://github.com/kirlf/CSP/blob/master/FEC/Convolutional%20codes%20modeling.md) (MatLab tutorial)
