@@ -5,8 +5,23 @@
 
 **Additional teaching materials for the [Communication and Signal Processing (CSP)](https://griat.kai.ru/communications-and-signal-processing) major of German-Russian Institute of Advanced Technologies (GRIAT).** 
 
+Content:
+
 1. [Information Theory and Coding](https://github.com/kirlf/CSP/blob/master/FEC/README.md)
+
+    - Linear Digital modulations
+
+    - Convolutional codes (tutorial)
+
+    - Huffman codes (tutorial)
+
 2. [Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
+
+    - Flat fading channel
+
+    - MIMO capacity
+
+    - Space-time Codes
 
 **Bonuses**:
 - [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) (Python tutorial): 
