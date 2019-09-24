@@ -7,7 +7,7 @@
 ## Summary
 
 - Desirable background:
-   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/gist/kirlf/4328eb389b3ddc9a0c350eaed468f870)
+   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb)
 - Tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb)
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb)
