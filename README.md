@@ -23,10 +23,6 @@ Content:
 
     - Space-time Codes
 
-**Bonuses**:
-- [Filter banks](https://github.com/kirlf/CSP/blob/master/Different/DSP/FB.md) (Python tutorial): 
-  - this (in assotiation with [Huffman codes](https://nbviewer.jupyter.org/format/slides/gist/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71/Huffman%20codes.ipynb#/)) is a preparation before [Audio Coding](https://www.tu-ilmenau.de/mt/lehrveranstaltungen/lehre-fuer-master-mt/audio-coding/) subject.
-
 ### Suggested literature
 
 #### Communications:
@@ -40,12 +36,6 @@ Content:
   * Unpingco, José. [Python for Signal Processing](https://electrovolt.ir/wp-content/uploads/2017/07/Python_For_Signal_Processing_ElectroVolt.ir_.pdf). Springer International Pu, 2016. (+ [IPython Notebooks](https://github.com/unpingco/Python-for-Signal-Processing))
   * [Digital Signal Processing](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html) by [Prof. Dr.-Ing. Sascha Spors](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html)
   * Солонина А. И. Цифровая обработка сигналов. Моделирование в MATLAB. – БХВ-Петербург, 2008.
-  * ["Цифровая обработка сигналов"](https://github.com/capitanov/dsp-theory) курс Александра Капитанова 
-
-### List of additional popular-science articles (in Russian):
-
- - [MUSIC: MUltiple SIgnal Classification](https://habr.com/ru/post/446674/)
- - [Optimal linear filters: Steepest descent and Adaptive filters](https://habr.com/ru/post/455497/)
 
 ### Comments and suggestions
 
