@@ -5,7 +5,7 @@
 
 **Additional teaching materials for the [Communication and Signal Processing (CSP)](https://griat.kai.ru/communications-and-signal-processing) major of German-Russian Institute of Advanced Technologies (GRIAT).** 
 
-Content:
+### Content
 
 1. [Information Theory and Coding](https://github.com/kirlf/CSP/blob/master/FEC/README.md)
 
