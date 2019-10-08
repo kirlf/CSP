@@ -39,7 +39,7 @@ So, the results of my specific hobby you can estimate reading this repository. H
 
     -  Gibalina, Z. S., Fadeev, V. A., Korsukova, K. A., Hennhöfer, M., & Haardt, M. (2018, July). [Estimation of capabilities of cooperative CubeSat systems based on Alamouti transmission scheme.](http://www5.tu-ilmenau.de/nt/generic/paper_pdfs/08456940.pdf) In 2018 Systems of Signal Synchronization, Generating and Processing in Telecommunications (SYNCHROINFO) (pp. 1-6). IEEE.
 
-2. Popular science articles (in Russian)
+2. Popular science articles (in Russian):
 
     - [MU-MIMO: Block Diagonalization](https://habr.com/ru/post/450948/)
     - [MIMO fading channels and Kronecker model](https://habr.com/ru/post/447172/)
