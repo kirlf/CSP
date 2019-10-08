@@ -60,6 +60,7 @@ MIMO is a part of the **LTE/LTE-A** standard and therefore is used in real mobil
 Moreover, the evolution of the MIMO - Massive MIMO is a part of the **5G** networks. This fact means scientific interest, and science is impossible without basics.
 
 <img src="https://www.mwrf.com/sites/mwrf.com/files/1018_40P_Fig3.png" width="600" />
+
 > [Realizing 5G Sub-6-GHz Massive MIMO Using GaN](https://www.mwrf.com/semiconductors/realizing-5g-sub-6-ghz-massive-mimo-using-gan)
 
 Additionally, MIMO topic is a good opportunity to train your **linear algebra** skills!
