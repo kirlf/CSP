@@ -7,15 +7,7 @@
 
 ### Content
 
-1. [Information Theory and Coding](https://github.com/kirlf/CSP/blob/master/FEC/README.md)
-
-    - Linear Digital modulations
-
-    - Convolutional codes (tutorial)
-
-    - Huffman codes (tutorial)
-
-2. [Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
+[Mobile Communications: MIMO](https://github.com/kirlf/CSP/blob/master/MIMO/README.md)
 
     - Flat fading channel
 
