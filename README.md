@@ -7,9 +7,9 @@
 
 
 # MIMO technology basics
-## M.Sc. Vladimir Fadeev
+### M.Sc. Vladimir Fadeev
 
-<img src="https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg" width="600" />
+<img src="https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg" width="800" />
 
 ## Summary
 
@@ -22,7 +22,7 @@
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
 
 
-# Preface
+## Preface
 
 This work is prepared for students of MS-CSP (Communication and Signal Processing) program (GRIAT) primarily. However, everyone who is interested in considered topics is welcome!
 
@@ -58,7 +58,7 @@ So, the results of my specific hobby you can estimate reading this repository. H
     - Vladimir Fadeev (2019). Alamouti over Rician flat fading channel (https://www.mathworks.com/matlabcentral/fileexchange/70557-alamouti-over-rician-flat-fading-channel), MATLAB Central File Exchange. Retrieved October 7, 2019.
 
 
-# Motivation
+## Motivation
 
 Why should you learn MIMO technology basics?
 
@@ -72,7 +72,7 @@ Moreover, the evolution of the MIMO - Massive MIMO is a part of the **5G** netwo
 
 Additionally, MIMO topic is a good opportunity to train your **linear algebra** skills!
 
-# Suggested literature
+## Suggested literature
 
 #### Communications:
    * Salehi, M., and J. Proakis. "Digital communications." McGraw-Hill Education 31 (2007): 32.
@@ -86,7 +86,7 @@ Additionally, MIMO topic is a good opportunity to train your **linear algebra** 
   * [Digital Signal Processing](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html) by [Prof. Dr.-Ing. Sascha Spors](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html)
   * Солонина А. И. Цифровая обработка сигналов. Моделирование в MATLAB. – БХВ-Петербург, 2008.
 
-### Comments and suggestions
+## Comments and suggestions
 
 We'll be appreciate your **stars** because it is one of the brightest indicators of a good work!
 
