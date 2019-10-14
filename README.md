@@ -35,7 +35,7 @@ Unfortunately, I was seriously ill during the second part of the course (last 1.
 
 However, I've decided to solve all of the unclear items that we've considered during the course (at least, for myself). It became my hobby for some time. I've come back to different basic aspects of MIMO technology, again and again, searching answers in **books**, **papers**, **lecture notes** and **discussions with radio engineers**, until the most of basic items became clear for me.
 
-So, the results of my specific hobby you can estimate reading this repository. Hopefully, they are apprehensible and useful.
+So, you can estimate the results of my specific hobby reading materials of this repository. Hopefully, they are apprehensible and useful.
 
 **List of the published by us materials related to MIMO topic**:
 
