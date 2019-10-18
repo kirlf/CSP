@@ -1,9 +1,6 @@
 # Communication and Signal Processing: MIMO
 ### M.Sc. Vladimir Fadeev
 
-![](https://griat.kai.ru/documents/11766/5832734/GRIAT_Logo_small.png/b7879498-3575-4797-b725-f0e7eef9103e?t=1489845157157)
-
-
 **Additional teaching materials for the [Communication and Signal Processing (CSP)](https://griat.kai.ru/communications-and-signal-processing) major of German-Russian Institute of Advanced Technologies (GRIAT): Multiple Input Multiple Output (MIMO) technology.**
 
 <img src="https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg" width="800" />
