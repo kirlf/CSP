@@ -8,7 +8,7 @@
 ## Summary
 
 - Desirable background:
-   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb)
+   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb) (+ MIMO fading channels (in [Russian](https://habr.com/ru/post/447172/)))
 - Tutorials:
     * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb) (+ in [Russian](https://habr.com/ru/post/448570/))
     * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb) (+ about DET in [Russian](https://habr.com/ru/post/452494/))
@@ -43,7 +43,6 @@ So, you can estimate the results of my specific hobby reading materials of this 
 2. Popular science articles (in Russian):
 
     - [MU-MIMO: Block Diagonalization](https://habr.com/ru/post/450948/)
-    - [MIMO fading channels and Kronecker model](https://habr.com/ru/post/447172/)
 
 3. MATLAB simulations:
 
