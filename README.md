@@ -8,15 +8,12 @@
 ## Summary
 
 - Desirable background:
-   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb) (+ MIMO fading channels (in [Russian](https://habr.com/ru/post/447172/)))
+   * [Rician flat fading (SISO)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb) 
 - Tutorials:
-    * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb) (+ in [Russian](https://habr.com/ru/post/448570/))
-    * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb) (+ about DET in [Russian](https://habr.com/ru/post/452494/))
+    * [MIMO channel capacity](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/MIMO%20Capacity.ipynb) 
+    * [Space-Time Codes (Alamouti)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Alamouti.ipynb) 
 - Self-education:
     * [Spatial correlation (tasks)](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/Spatial_Correlation.ipynb)
-- See also:
-    *  [MU-MIMO: Block Diagonalization](https://habr.com/ru/post/450948/) (in Russian)
-
 
 
 ## Preface
@@ -56,6 +53,15 @@ Additionally, MIMO topic is a good opportunity to train your **linear algebra** 
    * Haykin, Simon S. Digital communications. New York: Wiley, 1988.
    * Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005.
    * Sklar, Bernard. Digital communications: fundamentals and applications. 2001.
+
+## See also
+
+The work on this project inspired me to write several popular science articles in my native language. Probably, it can be also helpful for someone:
+   
+   * [Оцениваем пропускную способность MIMO канала (алгоритм Water-pouring прилагается)](https://habr.com/ru/post/448570/)
+   * [MU-MIMO: один из алгоритмов реализации](https://habr.com/ru/post/450948/)
+   * [MIMO spatial diversity: Аламоути, DET и прочее пространственное разнесение](https://habr.com/ru/post/452494/)
+   * [Почти самый простой MIMO канал с замираниями (модель Кронекера прилагается)](https://habr.com/ru/post/447172/)
 
 ## Comments and feedback
 
