@@ -18,25 +18,13 @@
 
 ## Preface
 
-This work is prepared for students of MS-CSP (Communication and Signal Processing) program (GRIAT) primarily. However, everyone who is interested in considered topics is welcome!
-
-### About me and my experience in MIMO
-
-My name is Vladimir Fadeev. I was born in 1993 in Naberezhnye Chelny (Russia), graduated school in 2011 and Bachelor program (with honours) in KNRTU-KAI named after A.N. Tupolev (Communication technologies and Systems - IRET-RTS). In 2015 I entered the Master program in GRIAT (MS-CSP) and received my M.Sc. degree in 2017.
-
-MIMO technology is one of the subjects in 2-nd term of the MS-CSP (GRIAT) program. It was a special honour for us that lecturer is [Dr.-Ing. Martin Haardt](https://scholar.google.de/citations?user=h8MtCjsAAAAJ&hl=de) (TU Ilmenau). 
-
-Unfortunately, I was seriously ill during the second part of the course (last 1.5 weeks)... So, I've passed the exam only the second time, frankly speaking.
-
-However, I've decided to solve all of the unclear items that we've considered during the course (at least, for myself). It became my hobby for some time. I've come back to different basic aspects of MIMO technology, again and again, searching answers in **books**, **papers**, **lecture notes** and **discussions with radio engineers**, until the most of basic items became clear for me.
-
-So, you can estimate the results of my specific hobby reading materials of this repository. Hopefully, they are apprehensible and useful.
+This work is prepared for students of **MS-CSP** (**C**ommunication and **S**ignal **P**rocessing) program (GRIAT) primarily. However, everyone who is interested in considered topics is welcome!
 
 ## Motivation
 
 Why should you learn MIMO technology basics?
 
-MIMO is a part of the **LTE/LTE-A** standard and therefore is used in real mobile networks.
+MIMO is a part of the most of modern wireless communication standards. For example, this is implemented in **LTE/LTE-A** networks and in Wi-Fi devices since **802.11n** (Wi-Fi 4).
 
 Moreover, the evolution of the MIMO - Massive MIMO is a part of the **5G** networks. This fact means scientific interest, and science is impossible without basics.
 
