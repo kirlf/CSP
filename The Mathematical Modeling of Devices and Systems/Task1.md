@@ -8,7 +8,7 @@
 
 # Introduction
 
-The modeling of communication systems is important point of your study and research work. This training task consider OFDM modulation scheme as an example.
+The modeling of communication systems is important part of your study and research work. This training task consider OFDM modulation scheme as an example.
 
 ![](https://www.qorvo.com/-/media/images/qorvopublic/blog/2017/80211ax/ofdm-vs-ofdma-trucks_4.jpg?la=en&hash=BF9CF410721AB0FF30BA400B34AEFAEC4F8ABC76)
 
