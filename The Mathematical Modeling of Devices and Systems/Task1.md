@@ -89,7 +89,7 @@ Answer the following questions:
 5. How can be random integer values generated in MATLAB?
 6. How many bits per symbol in 16-QAM? How many in QPSK?
 7. What kind of modulation scheme has better bit-error ratio performance: QPSK or 16-QAM? BPSK or QPSK? BPSK or 64-QAM? What property determines this?
-8. What is basic array-like type of the NumPy moodule?
+8. What is the basic array-like type of the NumPy module?
 9. What are the analogs of `linspace`, `union`, `setdiff`, `reshape` in NumPy?
 
 
