@@ -1,10 +1,26 @@
-# Task 1: OFDM frame generator (MATLAB)
+# Task 1: Read and learn (MATLAB, NumPy)
 
 **Tutor**: M.Sc. Vladimir Fadeev
 
 **Feedback**: VAFadeev@kai.ru / vladimir_fad1993 (Telegram)
 
-**Form of reports**: PDF file. 
+**Form of reports**: PDF file.
+
+# Introduction
+
+The modeling of communication systems is important point of your study and research work. This training task consider OFDM modulation scheme as an example.
+
+![](https://www.qorvo.com/-/media/images/qorvopublic/blog/2017/80211ax/ofdm-vs-ofdma-trucks_4.jpg?la=en&hash=BF9CF410721AB0FF30BA400B34AEFAEC4F8ABC76)
+
+*Fig. 1. OFDM and OFDMA concepts illustration. Source: https://www.qorvo.com/design-hub/blog/80211ax-5-things-to-know* 
+
+The transmitter part of the OFDM based system can be modeled according to the figure 2.
+
+![](https://habrastorage.org/getpro/habr/post_images/129/5f3/278/1295f327898f65e98bb1499772dc0b87.png)
+
+*Fig. 2. Block scheme of the OFDM based trasmitter.*
+
+Your task today is to learn how to model **OFDM frame generator**.
 
 # Task
  
@@ -73,6 +89,8 @@ Answer the following questions:
 5. How can be random integer values generated in MATLAB?
 6. How many bits per symbol in 16-QAM? How many in QPSK?
 7. What kind of modulation scheme has better bit-error ratio performance: QPSK or 16-QAM? BPSK or QPSK? BPSK or 64-QAM? What property determines this?
+8. What is basic array-like type of the NumPy moodule?
+9. What are the analogs of `linspace`, `union`, `setdiff`, `reshape` in NumPy?
 
 
 #### Hints
@@ -82,4 +100,6 @@ https://speakerdeck.com/kirlf/linear-digital-modulations
 
 2. Use the official MATLAB documentation from MathWorks.com (and Google) to obtain information about this programming language.
 
-2. Use MatLab or Octave (e.g. https://octave-online.net/) to run the code.
+3. Use the official NumPy documentation from https://numpy.org/doc/stable/ to obtain more information about this library.
+
+4. You can use also Octave (e.g. https://octave-online.net/) to run MATLAB code.
