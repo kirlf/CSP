@@ -2,9 +2,11 @@
 ### M.Sc. Vladimir Fadeev
 #### Kazan, 2020
 
-**Summary**
+### Summary
 - [Task 1](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task1.md): Read and learn (MATLAB, NumPy) - OFDM frame generator
+- [Task 2](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task2.md): Write and learn (MatLab) - Communication system modeling
 
+![](https://image.freepik.com/free-photo/digital-stock-market-trading-background_35241-35.jpg)
 
 Hello, everyone!
 
