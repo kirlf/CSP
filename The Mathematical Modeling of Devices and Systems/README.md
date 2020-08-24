@@ -3,6 +3,8 @@
 #### Kazan, 2020
 
 **Summary**
+- [Task 1](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task1.md): Read and learn (MATLAB, NumPy) - OFDM frame generator
+
 
 Hello, everyone!
 
