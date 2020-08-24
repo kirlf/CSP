@@ -1,7 +1,6 @@
-<img src="https://griat.kai.ru/documents/10181/10477277/%D0%BB%D0%BE%D0%B3%D0%BE+%D0%93%D0%A0%D0%98%D0%9D%D0%A2+%D0%9F%D0%9D%D0%93+-+%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png/ca3c1892-ab3a-41a3-a779-b9e7d7378a9f?t=1550126883140" width="500" />
+<img src="https://griat.kai.ru/documents/10181/10477277/%D0%BB%D0%BE%D0%B3%D0%BE+%D0%93%D0%A0%D0%98%D0%9D%D0%A2+%D0%9F%D0%9D%D0%93+-+%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png/ca3c1892-ab3a-41a3-a779-b9e7d7378a9f?t=1550126883140" width="600" />
 
-# The Mathematical Modeling of 
-# Devices and Systems (practice)
+# The Mathematical Modeling of Devices and Systems (practice)
 ### M.Sc. Vladimir Fadeev
 #### Kazan, 2020
 
