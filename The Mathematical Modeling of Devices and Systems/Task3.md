@@ -135,4 +135,4 @@ Good luck!
 ### Hints
 
 - Download [Anaconda](https://www.anaconda.com/) to work with Jupyter notebooks. 
-- Or use online solutions (e.g. https://jupyter.org/try), but remember that their can interrupt the session (save your results periodically). 
+- Or use online solutions (e.g. https://jupyter.org/try), but remember that they can interrupt the session (save your results periodically). 
