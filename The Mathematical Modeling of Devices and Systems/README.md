@@ -9,7 +9,7 @@
 - [Task 2](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task2.md): Write and learn (MatLab) - Communication system modeling
 - [Task 3](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task3.md): Write and learn (Python, NumPy) - Poisson process approximation.
 
-![](https://image.freepik.com/free-photo/digital-stock-market-trading-background_35241-35.jpg)
+### Preface
 
 Hello, everyone!
 
