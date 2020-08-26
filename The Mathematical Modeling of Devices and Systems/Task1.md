@@ -16,7 +16,7 @@ The transmitter part of the OFDM based system can be modeled according to the fi
 
 ![](https://habrastorage.org/getpro/habr/post_images/129/5f3/278/1295f327898f65e98bb1499772dc0b87.png)
 
-*Fig. 2. Block scheme of the OFDM based trasmitter.*
+*Fig. 2. Block scheme of the OFDM based transmitter.*
 
 Your task today is to learn how to model **OFDM frame generator**.
 
