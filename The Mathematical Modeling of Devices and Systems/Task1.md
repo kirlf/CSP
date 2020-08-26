@@ -2,8 +2,6 @@
 
 **Tutor**: M.Sc. Vladimir Fadeev
 
-**Feedback**: VAFadeev@kai.ru / vladimir_fad1993 (Telegram)
-
 **Form of reports**: PDF file.
 
 # Introduction
