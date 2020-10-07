@@ -3,7 +3,7 @@
 
 **Additional teaching materials for the [Communication and Signal Processing (CSP)](https://griat.kai.ru/communications-and-signal-processing) major of German-Russian Institute of Advanced Technologies (GRIAT): Multiple Input Multiple Output (MIMO) technology.**
 
-<img src="https://www.welotec.com/files/CMS%20Landingpages/lte-mimo-antennen.jpg" width="800" />
+![](https://habrastorage.org/webt/1p/1j/7t/1p1j7tpczw6es1rnah6ij0dlujo.png)
 
 ## Summary
 
