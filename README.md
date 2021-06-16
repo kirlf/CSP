@@ -51,6 +51,12 @@ The work on this project inspired me to write several popular science articles i
    * [MIMO spatial diversity: Аламоути, DET и прочее пространственное разнесение](https://habr.com/ru/post/452494/)
    * [Почти самый простой MIMO канал с замираниями (модель Кронекера прилагается)](https://habr.com/ru/post/447172/)
 
+And several matherials about adaptive and array signal processing:
+   * [Adaptive beamforming](https://gist.github.com/kirlf/afa2ac6fc0acb93edb7984c9bb1d6e63) (Python 3 source code)
+   * [Adaptive filters](https://gist.github.com/kirlf/8e77cc17b7b1be4e35dbf651ff82f759) (Python 3 / MATLAB source codes)
+   * [Моделируем алгоритм MUSIC для задач определения направления прихода электромагнитной волны](https://habr.com/ru/post/446674/)
+   * [Оптимальная линейная фильтрация: от метода градиентного спуска до адаптивных фильтров](https://habr.com/ru/post/455497/)
+
 ## Comments and feedback
 
 I'll be appreciate your **stars** because in my oppinion this is one of the brightest indicators of a good work!
